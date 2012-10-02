@@ -1,0 +1,31 @@
+#set ( $selectedItem = "admin" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<script type="text/javascript">
+     $(document).ready(function(){
+	    $("ol").addClass("hidden").show("slow");
+	 });
+</script> 
+
+<div id="primaryContent_2columns">
+	<div id="columnA_2columns">
+		
+		<h3>#springMessage("eval.list.title")</h3>
+
+		<p>
+			#springMessage("eval.list.text")
+		</p>
+		
+		<ol>
+		 #foreach($eval in ${model.evals})	
+			<li>
+				${eval.User.Login} - ${eval.Text.Title} 
+			</li>	
+		 #end 	
+		</ol>
+	</div>
+</div>
+
+#parse("/WEB-INF/velocity/parts/submenu.vm")
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

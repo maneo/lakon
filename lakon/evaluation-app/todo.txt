@@ -1,0 +1,7 @@
+TODO
+- conf.properties  testowe -- plik powinien  nazywac sie inaczej, zeby classloadery nie poglupialy. 
+                           -- plik powinien zawierac wszystkie ustawienia testowe.
+
+
+TODO HISTORY
+0.4 ---------------

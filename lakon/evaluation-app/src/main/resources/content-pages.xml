@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="introduction"><![CDATA[
+<p>
+ Strona, na której się obecnie znajdujesz to część mojej <b>pracy magisterskiej</b>. 
+ Zajmuję się w niej <b>automatycznym tworzeniem streszczeń</b> tekstów 
+ napisanych w języku polskim. Celem tego eksperymentu jest 
+ przygotowanie zbioru streszczeń, z 
+ którym mógłbym porównać wyniki działania mojego programu. Niestety nie jestem
+ w stanie przygotować takiego obiektywnego zbioru samodzielnie, dlatego właśnie
+ chciałbym prosić o pomoc.
+</p>
+<p> 
+ Po <b>zalogowaniu</b>, w sekcji <a href="evaluation.html">"Ocena jakości"</a> dostępne są 
+ teksty artykułów.  Długości artykułów są zróźnicowane od około 10 do 60 zdań. 
+ Udział w eksperymencie  polega na stworzeniu streszczeń dla przygotowanych przeze mnie 
+ tekstów. Dołożyłem wszelkich starań, aby uprościć proces tworzenia takiego (pseudo)
+ streszczenia. Należy zapoznać się z przedstawionym tekstem, następnie wybrać 
+ najważniejsze (w Twojej opini) zdania. Wyboru dokonuję się poprzez najechanie na 
+ zdanie kursorem  myszki i kliknięcie. Jeżeli chcemy zrezygnować z wybranego już zdania, 
+ klikamy na nie ponownie.  
+</p>
+<p>
+Więcej informacji na temat mojej pracy możesz znaleźć w 
+sekcji <a href="project-info.html">Informacje o projekcie</a>. 
+W przypadku jakichkolwiek wątpliwości proszę o 
+<a href="mailto:lakon_eval@tlen.pl")">kontakt.</a> 
+</p>
+]]></entry>
+<entry key="selection"><![CDATA[
+<p>
+  Aby rozpocząć tworzenie streszczenia należy <b>po uprzednim zalogowaniu</b> przejść 
+  do sekcji <a href="evaluation.html">Ocena jakości</a>. Tworzenie streszczenia
+  przebiega  następująco. Przeczytaj przedstawiony tekst, następnie wybierz
+  n zdań (informacja o tym ile zdań należy wybrać widnieje po prawej stronie). 
+  Zdania te powinny zawierać najistotniejsze (według Ciebie) informacje.
+  W każdej chwili możesz zobaczyć jak będzie wyglądało tworzone  
+  streszczenie (link <b>"Podgląd"</b>).  Do streszczenia wybieramy
+  tylko zdania z wnętrza akapitów, nie można wybierać tytułów paragrafów.
+  Po wybraniu najważniejszych  zdań <b>"Zatwierdź streszczenie"</b>.
+  <br/>
+  <img src="images/help/eval-sele-boxes.gif" alt="Wybór najważniejszych zdań." />
+  <br/>
+  <img src="images/help/eval-menu-boxes.gif" alt="Menu w sekcji Tworzenie jakości." />
+</p>
+]]></entry>
+<entry key="about"><![CDATA[
+<p>
+<b>Pierwsze prace</b> dotyczące automatycznego (komputerowego) streszczania tekstów zostały
+opublikowane pod koniec lat pięćdziesiątych XX wieku. Mimo, iż moc obliczeniowa 
+współczesnych komputerów wielokrotnie przewyższa możliwości stosowanych wtedy 
+maszyn, wciąż wiele problemów związanych komputerowym tworzeniem streszczeń pozostało
+bez rozwiązania. Stosowane metody można podzielić na trzy grupy: metody statystyczne 
+(zwane też heurystycznymi) metody pogłębione - korzystające z dodatkowej wiedzy np.
+tezaurusa oraz metody korzystające z głębokiej analizy tekstu.  
+</p>
+<p>
+<b>Większość algorytmów statystycznych</b> sprowadza się do wyboru najważniejszych zdań 
+z tekstu. Różnice między tymi metodami dotyczą <b>sposobu oceniania
+"ważności" zdań</b>. Metody heurystyczne nie analizują znaczenia zdań - to czy dane zdanie 
+zawiera ważne informację oceniane jest za pomocą czynników takich jak: częstość 
+występujących w nim wyrazów, pozycji danego zdania w tekście, obecności w zdaniu pewnych
+zwrotów (np. "W sumie" albo "Podsumowując") lub słów z tytułu.  Najprostszym automatycznie
+generowanym streszczeniem może być wybór pierwszych n zdań z tekstu. 
+</p>
+<p>
+<b>Tworząc streszczenie</b> w taki sposób może się zdarzyć, że w wyniku 
+otrzymamy zdania, które nie będą ze sobą logicznie powiązane. Czytanie takiego tekstu
+może być więc trudniejsze niz w przypadku streszczenia zredagowanego przez 
+człowieka. Istnieją jednak zastosowania, gdy konieczne jest przetworzenie ogromnej
+ilości danych. Stosując automatyczne streszczenia, możemy znacznie obniżyć koszt dostępu
+do interesującej nas informacji. <b>W takim podejściu najistotniejsze jest zachowanie
+jak największej ilości informacji zawartych w pierwotnym tekście przy jednoczesnym
+zmniejszeniu jego rozmiaru</b>. 
+</p>
+<p>
+<b>Najistotniejsze wady</b> metod heurystycznych.
+Nie tworzą one tekstu - wybierają gotowe fragmenty.
+Nie mają wiedzy o właściwym znaczeniu, w jakim został użyty w tekście wyraz,
+są bezradne wobec związków między zdaniowych. 
+Mając na uwadzę te problemy stworzono bardziej
+zaawansowane sposoby na tworzenie automatycznych streszczeń. Algorytmy te, dzięki
+dostarczeniu dodatkowej wiedzy są w stanie <b>poprawnie rozpoznawać właściwe 
+znaczenie wyrazów</b>, wyznaczać grupy słów odpowiadające poruszanym w tekście tematom.
+Rozwiązuje to tylko część problemów, jednak napisanie programu, który
+byłby w stanie stworzyć kompletny model struktury składniowej tekstu, następnie 
+przeprowadzić analizę związków znaczeniowych między poszczególnym jednostkami 
+składniowymi jest bardzo trudne. Poczyniono jednak takie próby, stworzone
+rozwiązania operują w ramach pewnych określonych dziedzin, jak na przykład analiza 
+aktów prawnych czy tworzenie podsumowań raportów medycznych. 
+</p>
+<p>
+<b>W ramach mojej pracy</b> zamierzam stworzyć narzędzia umożliwiającego tworzenie
+automatycznych streszczeń dla tekstów napisanych w języku polskim.  
+Niniejsza strona jest częścią eksperymentu, którego celem jest stworzenie
+zbioru streszczeń, na podstawie którego będe w stanie dokonać oceny jakości 
+wyników działania mojego programu. Bardzo dziękuję za pomoc. 
+</p>
+Adam Dudczak (lakon_eval [at] tlen.pl)
+]]></entry>
+</properties>

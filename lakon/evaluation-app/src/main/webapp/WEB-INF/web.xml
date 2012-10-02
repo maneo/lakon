@@ -1,0 +1,94 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<!--  Filters  -->
+
+
+	<filter>
+		<filter-name>requestEncodingFilter</filter-name>
+
+		<filter-class>
+			org.springframework.web.filter.CharacterEncodingFilter
+		</filter-class>
+
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>Simple access control filter</filter-name>
+		<filter-class>
+			org.grejpfrut.evaluation.utils.AuthenticationFilter
+		</filter-class>
+		
+		<init-param>
+			<param-name>login.form.page.url</param-name>
+			<param-value>index.html</param-value>
+		</init-param>
+		<init-param>
+			<param-name>all</param-name>
+			<param-value>index.html,project-info.html,activate.html,registration.html,error.html</param-value>
+		</init-param>
+		<init-param>
+			<param-name>normal</param-name>
+			<param-value>evaluation.html,logout.html</param-value>
+		</init-param>
+		<init-param>
+			<param-name>admin</param-name>
+			<param-value>evaluations.html,articles.html,users.html,user.html,article.html</param-value>
+		</init-param>
+	</filter>
+	
+	<!--  Filters mapping  -->
+
+	<filter-mapping>
+		<filter-name>Simple access control filter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+
+	<filter-mapping>
+		<filter-name>requestEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+    <!--  Servlets and servlet mappings  -->
+   
+	<servlet>
+		<servlet-name>evaluation-app</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>evaluation-app</servlet-name>
+		<url-pattern>*.html</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Other stuff : welcome files and error pages -->
+	
+    <session-config>
+      <session-timeout>60</session-timeout>    <!-- 30 minutes -->
+    </session-config>
+	
+	<welcome-file-list>
+		<welcome-file>/index.html</welcome-file>
+	</welcome-file-list>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error.html</location>
+	</error-page>
+	<error-page>
+		<error-code>403</error-code>
+		<location>/index.html</location>
+	</error-page>
+
+</web-app>

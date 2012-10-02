@@ -1,0 +1,2 @@
+1. wyeksportowac zaleznosci do repo na grejpfrucie (mozliwe razem z pluginami do mavena)
+2. sprawdzic potem ktore z repozytoriow sa potrzebne

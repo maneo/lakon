@@ -1,0 +1,24 @@
+<div id="menu">
+	<ul>
+		<li>
+			<a href="index.html" #if('login' == $!{selectedItem} )class="active" #end >
+					#springMessage("menu.item.login")
+			</a>
+		</li>
+		<li>
+			<a href="project-info.html" #if('about' == $!{selectedItem} )class="active" #end >
+					#springMessage("menu.item.about")
+			</a>
+		</li>
+		<li>
+			<a href="evaluation.html" #if( 'evaluation' == $!{selectedItem} )class="active" #end >
+					#springMessage("menu.item.evaluation")
+			</a>
+		</li>
+		##<li>
+		##	<a href="evaluations.html" #if($selectedItem == 'admin' )class="active" #end >
+		##			#springMessage("menu.item.admin")
+		##	</a>
+		##</li>
+	</ul>
+</div>

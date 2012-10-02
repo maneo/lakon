@@ -1,0 +1,1560 @@
+min treshold is :0.0050
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,4 	
+6	0,14 	0,14 	
+7	0,55 	0,45 	
+8	0,67 	0,67 	
+9	0,18 	0,27 	
+10	0,5 	0,5 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,33 	
+2	0,33 	0,33 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,36 	
+6	0,11 	0,11 	
+7	0,37 	0,32 	
+8	0,75 	0,75 	
+9	0,22 	0,22 	
+10	0,47 	0,47 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,5 	0,5 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,5 	
+6	0,14 	0,14 	
+7	0,64 	0,55 	
+8	1 	1 	
+9	0,36 	0,36 	
+10	0,67 	0,67 	
+
+min treshold is :0.01
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,4 	
+6	0,14 	0,14 	
+7	0,55 	0,45 	
+8	0,67 	0,67 	
+9	0,18 	0,45 	
+10	0,5 	0,5 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,33 	
+2	0,33 	0,33 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,11 	0,11 	
+7	0,37 	0,32 	
+8	0,75 	0,75 	
+9	0,22 	0,39 	
+10	0,47 	0,41 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,5 	0,5 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,14 	0,14 	
+7	0,64 	0,55 	
+8	1 	1 	
+9	0,36 	0,64 	
+10	0,67 	0,58 	
+
+min treshold is :0.015
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,4 	
+6	0,14 	0,14 	
+7	0,55 	0,45 	
+8	0,67 	0,67 	
+9	0,18 	0,45 	
+10	0,5 	0,5 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,33 	
+2	0,33 	0,33 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,36 	
+6	0,11 	0,11 	
+7	0,37 	0,37 	
+8	0,75 	0,75 	
+9	0,22 	0,39 	
+10	0,47 	0,41 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,5 	0,5 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,5 	
+6	0,14 	0,14 	
+7	0,64 	0,64 	
+8	1 	1 	
+9	0,36 	0,64 	
+10	0,67 	0,58 	
+
+min treshold is :0.02
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,4 	
+6	0,14 	0,43 	
+7	0,55 	0,45 	
+8	0,67 	0,67 	
+9	0,18 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,17 	
+2	0,33 	0,33 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,36 	
+6	0,11 	0,44 	
+7	0,37 	0,37 	
+8	0,75 	0,75 	
+9	0,22 	0,39 	
+10	0,47 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,5 	0,5 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,5 	
+6	0,14 	0,57 	
+7	0,64 	0,64 	
+8	1 	1 	
+9	0,36 	0,64 	
+10	0,67 	0,33 	
+
+min treshold is :0.025
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,3 	0,4 	
+6	0,14 	0,43 	
+7	0,45 	0,45 	
+8	0,67 	0,33 	
+9	0,27 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,17 	
+2	0,33 	0,33 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,29 	0,36 	
+6	0,11 	0,44 	
+7	0,32 	0,37 	
+8	0,75 	0,5 	
+9	0,22 	0,39 	
+10	0,47 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,5 	0,5 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,4 	0,5 	
+6	0,14 	0,57 	
+7	0,55 	0,64 	
+8	1 	0,67 	
+9	0,36 	0,64 	
+10	0,67 	0,33 	
+
+min treshold is :0.030000000000000002
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,25 	0,25 	
+3	0,5 	0,25 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,14 	0,43 	
+7	0,45 	0,36 	
+8	0,67 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,17 	
+2	0,33 	0,5 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,33 	0,44 	
+7	0,32 	0,32 	
+8	0,75 	0,75 	
+9	0,33 	0,39 	
+10	0,47 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,2 	
+2	0,5 	0,75 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,43 	0,57 	
+7	0,55 	0,55 	
+8	1 	1 	
+9	0,55 	0,64 	
+10	0,67 	0,33 	
+
+min treshold is :0.035
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,25 	
+4	0,4 	0,4 	
+5	0,3 	0,3 	
+6	0,14 	0,43 	
+7	0,45 	0,36 	
+8	0,67 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,33 	
+2	0,33 	0,5 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,21 	0,29 	
+6	0,33 	0,44 	
+7	0,32 	0,32 	
+8	0,75 	0,75 	
+9	0,33 	0,39 	
+10	0,47 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,5 	0,75 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,3 	0,4 	
+6	0,43 	0,57 	
+7	0,55 	0,55 	
+8	1 	1 	
+9	0,55 	0,64 	
+10	0,67 	0,33 	
+
+min treshold is :0.04
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,25 	0,25 	
+3	0,25 	0,25 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,14 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,33 	
+2	0,5 	0,5 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,29 	0,29 	
+6	0,11 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,75 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,4 	
+2	0,75 	0,75 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,4 	0,4 	
+6	0,14 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	1 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.045
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,25 	0,25 	
+3	0,25 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,14 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,33 	
+2	0,5 	0,17 	
+3	0,43 	0,57 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,11 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,75 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,75 	0,25 	
+3	0,75 	1 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,14 	0,57 	
+7	0,64 	0,55 	
+8	1 	1 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.049999999999999996
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,25 	0,25 	
+3	0,25 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,33 	
+2	0,5 	0,17 	
+3	0,43 	0,57 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,75 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,75 	0,25 	
+3	0,75 	1 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	1 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.05499999999999999
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,25 	0,25 	
+3	0,25 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,33 	
+2	0,5 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,75 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.05999999999999999
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,33 	
+2	0,33 	0,17 	
+3	0,57 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,25 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,5 	0,25 	
+3	1 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,33 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.06499999999999999
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,4 	0,6 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,4 	0,6 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.06999999999999999
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.075
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.08
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,67 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,75 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	1 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.085
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.09000000000000001
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,25 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,33 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.09500000000000001
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.10000000000000002
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+min treshold is :0.10500000000000002
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.11000000000000003
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.11500000000000003
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.12000000000000004
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.12500000000000003
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,75 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,57 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	1 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.13000000000000003
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,75 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,57 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	1 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.13500000000000004
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,75 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,57 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	1 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.14000000000000004
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,75 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,36 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,57 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	1 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.14500000000000005
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,75 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,57 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	1 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.15000000000000005
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.15500000000000005
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.16000000000000006
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.16500000000000006
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.17000000000000007
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.17500000000000007
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.18000000000000008
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.18500000000000008
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.19000000000000009
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+min treshold is :0.1950000000000001
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,57 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	1 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+

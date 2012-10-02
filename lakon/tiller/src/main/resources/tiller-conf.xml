@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- <entry key="tokenizer.class.name">org.grejpfrut.tiller.analysis.StopWordsTokenizer</entry> -->
+<!-- <entry key="tokenizer.class.name">org.grejpfrut.tiller.analysis.StempelatorTokenizer</entry> -->
+	<entry key="tokenizer.class.name">org.grejpfrut.tiller.analysis.MorpheusTokenizer</entry> 
+    <entry key="abbr.list">itp,itd,np,in,tzw,tzn,cdn,inż,godz,ul,św,ok,prof,art,bm,r,proc,tys,m.in,ds</entry>
+    <entry key="stop.words">u,z,a,aby,acz,aczkolwiek,aż,ale,ależ,bardzo,bardziej,bez,będą,będzie,bo,by,być,byli,był,była,było,były,cali,cała,cały,co,cokolwiek,coś,czasami,czasem,czy,dla,dlaczego,do,gdy,gdyż,gdzie,gdziekolwiek,gdzieś,i,ile,ich,inna,inny,iż,ja,jak,jakaś,jakichś,jakiś,jakiż,jako,jakoś,ją,jednak,jednakże,jego,jej,jest,jeszcze,jeżeli,już,kiedy,kimś,kto,ktokolwiek,ktoś,która,które,który,których,lat,lecz,lub,ma,mi,mimo,mnie,moim,może,możliwe,można,mu,na,nad,nas,nawet,nic,nich,nie,nigdy,niż,no,o,obok,od,około,on,ona,ono,oraz,pan,pana,pani,po,pod,podczas,pomimo,ponad,ponieważ,powinien,powinna,powinni,powinno,prawie,przecież,przed,przez,przy,roku,również,są,się,sobą,sobie,sposób,ta,tak,taka,taki,takie,także,tam,te,tego,tej,ten,teraz,też,trzeba,to,tobie,toteż,tu,twoim,twoja,twoje,twój,twym,ty,tych,tylko,tym,w,we,według,więc,właśnie,wszyscy,wszystko,wszystkie,za,zapewne,zawsze,ze,znowu,znów,żadna,żadne,żadnych,że,żeby</entry>
+    <entry key="min.paragraph.length">10</entry>
+    <entry key="path.to.thesaurus"></entry>
+</properties>

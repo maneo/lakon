@@ -1,0 +1,53 @@
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<script type="text/javascript">
+
+     $(document).ready(function(){
+ 			$("#exception").hide();
+			$("#exception_link").show();
+			$("#exception_link").click(function(){
+				if ( $("#exception:visible").size() == 0 )
+					$("#exception").show("normal");
+				else 	
+					$("#exception").hide("normal");
+			});			
+	 });
+	 
+</script> 
+
+<div id="primaryContent_columnless">
+
+	<div id="columnA_columnless">
+		
+		<h3>#springMessage("error.title")</h3>
+		#if ( ${model.code} == 404 )
+			<p>	#springMessage("error.404")  </p>
+		#else		
+    		<p>
+    			#springMessage("error.text") 
+    			<a href="mailto:#springMessage("error.admin.link")">
+    				#springMessage("error.admin.link.text")
+    			</a>
+    			
+    		</p>
+    		<p>
+    			<a id="exception_link" href="#" style="display:none" > 
+    				#springMessage("label.error.show.details") 
+    			</a>
+    		</p>
+    		
+    	  <div id="exception">	
+    		<div>
+    			#springMessage("label.error.url")  : $!{model.url} 
+    		</div>	
+    		<div>
+    			#springMessage("label.error.code")  : $!{model.code}
+    		</div>	
+    		<div>
+    			#springMessage("label.error.exception") :  $!{model.exception} 
+    		</div>		
+    	  </div>	
+	  #end
+		
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

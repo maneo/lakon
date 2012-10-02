@@ -1,0 +1,36 @@
+TODO:
+ - ThesaurusParser sprawdzanie pokrycia Synsetow, teraz jest tam getSyns (141 petla for), przez co 
+   nie przejdzie cos takiego: zamek, 3 pojecia podrzedne -- 1 wyraz i 3 pojecia podrzedne. Pytanie czy 
+   takie cos powinno przechodzic.    
+   
+ - z TillerConfiguration przejsc na Settings
+ 
+ - pozadna lista skrotcow i stop words
+ - skrot na koncu zdania 
+    "Do takich wniosków doszli uczestnicy posiedzenia Komisji Papierów Wartościowych 4 bm.   
+     Posiedzenie miało uroczysty charakter ze względu na drugą rocznicę istnienia Komisji.   
+     Brali w nim udział, oprócz członków Komisji, t"
+ - wyraz.Nowe zdanie
+ 
+ - zrobic jedno narzedzie ktore pozwoli z poziomu jara korzystac z funkcji w projekcie
+   tak jak jest w wiki.
+  
+TODO history
+ - demo - ktore produkuje xml - article/paragraphs/sentences
+  - pozbyc sie duplikujacych dane wpisow w tezaurusie
+     -przetestowac to...!
+ - m.in.  -- problem z wycinaniem znaków nie-literowych wewnatrz slow
+ - 1973-85
+     
+0.3 -------------------------------
+ - "Roberta D. Strachote" 
+ - wycinac niepotrzebne znaki nowej linii miedzy akapitami
+ - liczebniki porządkowe np. 12. 81.
+      -- mona je uzna automatycznie za skroty to co porzadkuja przychodzi przewaznie po nich, wiec
+      nie moga byc koncem zdania.
+ - lepsze rozdzielanie zdan  
+ - (np.
+ - interpunkcja po spacji: "powiedzial , ze" albo "koniec zdania ." -- przyklejane 
+   nie sa: " ( - (one powinny miec spacje przed)
+ - zmienic konfiguracje na xml-properties!
+0.2 -------------------------------- 

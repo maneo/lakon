@@ -1,0 +1,29 @@
+<div id="secondaryContent_2columns">
+
+	<div id="columnC_2columns">
+
+				<h4>
+					<span>#springMessage("submenu.title")</span> #springMessage("submenu.title.post")
+				</h4>
+				
+				<ul class="links">
+    				<li class="first">
+						&#187;&nbsp;<a href="evaluations.html">#springMessage("submenu.item.evals")</a>
+					</li>
+    				<li>
+						&#187;&nbsp;<a href="evaluations.html?asXml=true">#springMessage("submenu.item.evals.xml")</a>
+					</li>
+    				<li>
+						&#187;&nbsp;<a href="users.html">#springMessage("submenu.item.users")</a>
+					</li>
+    				<li>
+						&#187;&nbsp;<a href="user.html">#springMessage("submenu.item.add.user")</a>
+					</li>
+    				<li>
+						&#187;&nbsp;<a href="texts.html">#springMessage("submenu.item.articles")</a>
+					</li>
+    				<li>
+						&#187;&nbsp;<a href="text.html">#springMessage("submenu.item.add.article")</a>
+					</li>
+    			</ul>
+		

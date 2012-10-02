@@ -1,0 +1,309 @@
+Relevant sentences set size : 11
+(Filtered by average score): 6
+Number of sentence in art: 22
+(19) Rynek kapitałowy w Polsce nie jest przeregulowany, natomiast zbyt mało jest spółek, notowanych na giełdzie.
+(18) Podczas konferecji prasowej prezes Gronkiwicz-Waltz powiedziała, że banki, ubezpieczenia i rynek kapitałowy są tymi segmentami rynku finansowego, na których nie można zrezygnować z regulacji, zwłaszcza w okresie transformacji systemowej.
+(15) Do takich wniosków doszli uczestnicy posiedzenia Komisji Papierów Wartościowych 4 bieżącego miesiąca.
+(12) Przewodniczący Komisji Papierów Wartościwych Lesław Paga powiedział, że giełda jest tylko jednym ze sposobów pozyskiwania kapitału dla spółek, jeżeli mają one dobry standing finansowy mogą starać się o kredyt z banku, co jest prostsze.
+(12) W porównaniu ze standartami obowiązującymi w krajach o rozwiniętych rynkach kapitałowych, a także innymi krajami naszego regionu, polski rynek prezentuje się dobrze, jest właściwie przygotowany pod względem organizacyjnym i prawnym.
+(10) O d 1995 r notowania akcji mają się odbywać w systemie ciągłym, do tego niezbędna jest jednak zmiana oprogramowania systemu komputerowego, potrzebny byłby także lepszy stan telekomunikacji, żeby chociaż w większych miastach można było składać zlecenia w trakcie sesji giełdowej.
+(6) W niedalekiej przyszłości powinien spełniać właściwą mu rolę, to znaczy, mobilizacji kapitału, jego alokacji i wyceny przedsiębiorstw.
+(6) Pani prezes obawia się jednak, że różnica stóp procentowych Polski i innych krajów może grozić "wypłukaniem" rezerw, przy wywozie tych zysków.
+(6) Giełda jest przygotowana do rozwoju drugiego parkietu i stworzenia trzeciego.
+(5) Prowadzone są rozmowy z ministrem finansow, dotyczące zgody na transfer zysków z obligacji jednorocznych i bonów skarbowych.
+(4) Giełda i Komisja Papierów Wartościwych zdołały uzyskać w krótkim czasie dobrą reputację i nie można tego stracić.
+(4) Coraz więcej prywatnych spółek jest obecnie zainteresowanych wejściem na giełdę.
+(4) Obniżenie stóp procentowych w marcu wpłynęło prawidłowo na zmianę systemu oszczędzania, spowodowało przeniesienie pieniędzy na giełdę.
+(3) Zdaniem prezesa giełdy Wiesława Rozłuckiego warunki handlu na rynku giełdowym i pozagiełdowym będą inne, nie będzie więc między nimi konkurencji.
+(3) Podstawą do dyskusji był raport, przygotowany przez Roberta Strachotę, prawnika z Amerykanskiej Komisji Papierów Wartosciowych.
+(3) Brali w nim udział, oprócz członków Komisji, także prezes NBP Hanna Gronkiewicz--Waltz, minister finansów Jerzy Osiatyński, minister przekształceń własnościowych Janusz Lewandowski.
+(2) Odpowiadając na pytanie o przepisy dotyczące przekazywania za granicę zysków z papierów wartościowych powiedziała, że nie ma ograniczeń dla zysków z akcji i obligacji trzyletnich.
+(2) W Komisji przygotowywane są także w stępne rozwiązania dotyczące rynku pozagiełdowego, który może być konkurencyjny dla giełdy.
+(1) Prawo bankowe zabrania natomiast brania kredytów na zakup akcji prywatyzowanych banków.
+
+
+Relevant sentences set size : 10
+(Filtered by average score): 6
+Number of sentence in art: 16
+(28) Włoski reżyser Giovanni Pampiglione przygotowuje w Starym Teatrze premierę spektaklu "Venezia, Venezia".
+(19) Z Małą Sceną (przy ul. Sławkowskiej 18) zmierzy się natomiast Katarzyna Deszcz, znana dotychczas z osiągnięć w teatrze alternatywnym.
+(15) Od 20 bm. można będzie oglądać tam horror, głośną już w Anglii debiutancką sztukę Normana Brocka "Mamy potwora".
+(11) Premiera już w sobotę, 5 bm., na Scenie Kameralnej.
+(10) Ponieważ stale podkreśla swoje przywiązanie do XVIII-wiecznego weneckiego "teatru wiecznego dziecka", znowu wybrał Carlo Goldoniego.
+(9) Oparty na jego "Bliźniakach weneckich" spektakl nosi tytuł "Venezia, Venezia" i włączony jest w międzynarodowe obchody 200-lecia śmierci jednego z najwybitniejszych twórców komedii dell'arte.
+(8) Dedykuje go Bohdanowi Korzeniewskiemu, który 25 lat temu zaprosił go na studia do warszawskiej PWST i nakłonił, aby w Polsce zajmował się teatrem włoskim.
+(4) Tłumaczenia na zamówienie teatru dokonała Joanna Walter, scenografię i kostiumy opracowali Kazimierz Wiśniak i Jan Polewka, a muzykę przygotował Jacek Ostaszewski.
+(2) W Starym Teatrze wystawił 11 grudnia 1981 r. "Łgarza" Goldoniego.
+(2) Do swych w łoskich realizacji sztuk Mrożka i Witkacego Pampiglione chętnie zapraszał artystów z Krakowa.
+(2) Zaowocowało to wieloma premierami w naszym kraju i prezentowaniem polskiego dramatu we Włoszech.
+(1) Główną, podwójną rolę (bliźniaków) gra Szymon Kuśmider.
+(1) Spektakl dawno już obrósł legendą, grany był ponad 150 razy i zszedł z afisza po śmierci Romana Stankiewicza, odtwórcy jednej z głównych ról.
+
+
+Relevant sentences set size : 10
+(Filtered by average score): 7
+Number of sentence in art: 16
+(26) VI Krajowy Nadzwyczajny Zjazd Delegatów NSZZ RI "Solidarność", który w piątek rozpoczął się w Zgierzu pod Łodzią, czeka na kworum.
+(15) Zjazd zorganizowany został przez komisję zjazdową z jej przewodniczącym Piotrem Baumgartem, a wbrew stanowisku przewodniczącego i prezydium związku, by odłożyć zjazd na po wyborach.
+(14) Brak informacji, czy zjazd odbędzie się czy nie, spowodował niską frekwencję.
+(10) Do wieczora w Hali Sportowej "Boruta", gdzie odbywa się zjazd, toczyła się dyskusja, czy jest on prawomocny czy nie.
+(10) Po południu w obradach uczestniczyło niewielu ponad 100 delegatów, aby zjazd stał się prawomocny musi przyjechać dalszych 120 osób.
+(8) Komisja zjazdowa ma nadzieję, że po przekazaniu informacji w radiu i w telewizji, że zjazd się odbywa, delegaci jeszcze dojadą.
+(8) Od początku, czyli od chwili głosowania regulaminu, toczy się walka między silniejszą grupą zwolenników Piotra Baumgarta a zdecydowanie słabszą grupą Romana W ierzbickiego.
+(7) Ustalono, że do czasu zebrania się kworum, delegaci nie będą podejmować uchwał.
+(4) Padła propozycja, aby zjazd na wzór Sejmu Czteroletniego, przekształcić w nieustający, do czasu zebrania się wystarczającej liczby delegatów.
+(3) Nie brakuje też głosów wzywających do opamiętania, zaprzestania walki i podziału związku.
+(2) Roman Wierzbicki zaproponował, by zgromadzenie przekształcić w forum dyskusyjne związku.
+(2) Wieczorem w Zgierzu czekano jeszcze na kworum.
+(2) Delegaci powołali specjalną komisję, która ma rozstrzygnąć, kto ponosi za to winę.
+(1) Nieoczekiwanie do Zgierza przybył przewodniczący związku Roman Wierzbicki.
+
+
+Relevant sentences set size : 11
+(Filtered by average score): 5
+Number of sentence in art: 20
+(27) Nasza Ukraina - prozachodnia partia prezydenta Wiktora Juszczenki - oficjalnie przeszła wczoraj do opozycji i wycofała z rządu swych ministrów.
+(21) W Kijowie rządzi teraz krucha koalicja parlamentarna złożona z największej w 450-osobowej Radzie Najwyższej Partii Regionów premiera Wiktora Janukowycza (186 deputowanych) oraz właśnie socjalistów i komunistów.
+(19) Po wczorajszej decyzji 81 deputowanych proprezydenckiego bloku dołączy do jedynej do tej pory opozycyjnej partii - Bloku Julii Tymoszenko.
+(17) Do porozumienia "pomarańczowych" z resztą koalicji nie doszło z powodu rozbieżności dotyczących umowy koalicyjnej.
+(16) Członków Naszej Ukrainy oburzyło zwłaszcza oświadczenie premiera Janukowycza, który w Brukseli stwierdził, że Ukraina nie jest gotowa zacieśniać stosunków z NATO oraz zabiegi jego partii o ograniczenie uprawnień prezydenta.
+(8) Na razie nie jest natomiast znany los szefów tzw. resortów prezydenckich - szanowanego na Zachodzie ministra spraw zagranicznych Borysa Tarasiuka, ministra obrony Anatolija Hrycenki oraz bezpartyjnego ministra spraw wewnętrznych Jurija Łucenki.
+(6) Na razie trudno też przewidywać, co po upadku idei koalicji większościowej wydarzy się na ukraińskiej scenie politycznej.
+(6) Choć dziś deklaracje Naszej Ukrainy są bardzo stanowcze, niebiescy nie składają broni i wczoraj podkreślali, że nadal będą zabiegać o poparcie "pomarańczowych".
+(4) - W ciągu ostatnich dwóch miesięcy byliśmy świadkami załamywania się polityki wewnętrznej i zagranicznej, którą naród ukraiński poparł poprzez wybór prezydenta Wiktora Juszczenki - tłumaczył wczoraj decyzję jeden z czołowych polityków Naszej Ukrainy Roman Bezsmertny.
+(3) Choć Roman Bezsmertny nie wykluczył współpracy z ugrupowaniem "księżniczki pomarańczowej rewolucji", zdaniem ukraińskich mediów szanse na współpracę skłóconych dziś sprzymierzeńców z Majdanu Niezależnosti są jednak niewielkie.
+(3) - Partia Regionów nie uważa, że możliwości rozmów zostały wyczerpane - zapowiedział jeden z najbliższych współpracowników Janukowycza Jewhen Kusznarow.
+(3) Bezsmertny poinformował też, że z rządu Janukowycza odejdą czterej ministrowie reprezentujący proprezydencki blok, choć nie wiadomo jeszcze, kiedy to nastąpi.
+(2) Nasza Ukraina wczoraj ostatecznie zrezygnowała więc z porozumienia z niebieskimi.
+(2) Zapowiadana od kilku dni decyzja Naszej Ukrainy oznacza, że pogrążona w chaosie od marcowych wyborów Ukraina znów staje na politycznym rozdrożu.
+(1) Dodał też, że "proces tworzenia koalicji zapoczątkowany przez prezydenta i wyłożony w Uniwersale nie jest jeszcze zakończony, lecz dopiero się rozpoczyna".
+(1) Jednak nie mniej ważną rolę odegrały inne wydarzenia w ostatnich tygodniach.
+(1) Do tej pory tylko szef MON wypowiedział się, że popiera decyzję Naszej Ukrainy, nie zadeklarował jednak jasno, czy opuści rząd.
+
+
+Relevant sentences set size : 16
+(Filtered by average score): 14
+Number of sentence in art: 44
+(21) Swój głos oddało na nią nieco ponad 60 proc. wszystkich zarejestrowanych członków Partii Socjalistycznej uczestniczących w czwartkowym plebiscycie wewnątrzpartyjnym.
+(21) Tymczasem finanse publiczne są w fatalnym stanie i nawet szybszy wzrost gospodarczy (1,9 proc. PKB w porównaniu z 1,4 proc. w 2005 r.) nie zatrzyma rosnącego długu publicznego.
+(19) Dotychczasowe wystąpienia pani Royal sugerują, że jedynie pozornie jest zwolenniczką liberalizmu w gospodarce.
+(18) Na razie murowanym faworytem do zdobycia prawicowej nominacji jest szef MSW, 51-letni Nicolas Sarkozy.
+(17) Sondaże pokazują, że tylko Sarkozy ma szanse, by przełamać "medialny fenomen" Royal.
+(16) Jednak z drugiej strony zapowiada kary finansowe dla firm, które z powodu kosztów pracy chcą się z Francji wynosić, i proponuje obowiązkowe członkostwo w związkach zawodowych.
+(15) Jej konkurenci - ekspremier Laurent Fabius oraz eksminister finansów Dominique Strauss-Kahn - dostali odpowiednio 18 i 20 proc. głosów.
+(15) Wcześniej wielokrotnie mówiła o zwiększeniu wydatków na edukację, na poprawę bezpieczeństwa itp., ale nie zająkując się, kto za to zapłaci.
+(11) Wprawdzie deklaruje, że chce iść śladami brytyjskiego premiera Tony'ego Blaira, który uczynił z Partii Pracy ugrupowanie niemalże liberalne.
+(11) Nominację wywalczyła w pierwszej rundzie partyjnego głosowania i zdeklasowała oponentów.
+(10) - W gruncie rzeczy nikt nie zna jej programu.
+(10) Właśnie redukcja wydatków powinna być priorytetem nowego prezydenta i jego rządu.
+(9) PS najwyraźniej wyciągnęła wnioski z porażki w 2002 r., gdy zbyt duża liczba lewicowych kandydatów sprawiła, że socjalistyczny premier Lionel Jospin nie dość, że odpadł już w pierwszej rudzie, to jeszcze dostał mniej głosów od lidera skrajnej prawicy Jean-Marie Le Pena.
+(9) Wczoraj dała do zrozumienia, że koszt ewentualnych reform powinny ponieść osoby zamożne.
+(7) I owszem, opowiada się za likwidacją 35-godzinnego tygodnia pracy, o co od dawna apelują przedsiębiorcy.
+(7) Ogromne poparcie, jakie wczoraj dostała od socjalistów, oraz jej popularność w sondażach wiele mówią o stanie ducha Francuzów.
+(7) Priorytetami mogłyby też być: likwidacja wielu przywilejów socjalnych ( np. emerytury w wieku 50 lat dla kolejarzy), uproszczenie prawa pracy, czy też reforma kosztownego systemu emerytalnego.
+(6) - W swej większości chcą reform i są na nie gotowi, ale znaczna część elektoratu lewicy nie jest - ocenia Moisi.
+(6) - Royal dystansuje się od oficjalnego programu Partii Socjalistycznej, ale jaki ma program?
+(6) Została wybrana nie z powodu poglądów, ale prędzej dla wyglądu.
+(6) Ponieważ przy urnach stawiło się 80 proc. spośród 219 tys. członków PS, Royal może mówić, że ma większość partii.
+(5) Gdyby wybory odbyły się dziś, oboje dostaliby po 50 proc. głosów.
+(4) Na zaimprowizowanej konferencji prasowej wołała do wyborców: - To ja ucieleśniam potrzebę zmian.
+(4) 53-letnia pani Royal, matka czwórki dzieci, bardzo się wczoraj cieszyła.
+(4) I że państwo opiekuńcze zostanie utrzymane.
+(4) - Jeżeli pozostaniemy sobie wierni, to zdołamy oprzeć się niedobremu wiatrowi liberalizmu, bez wiary i jakichkolwiek zasad - stwierdziła w piątek pani Royal.
+(4) Rządząca partia UMP chciała wyznaczyć swojego kandydata dopiero w styczniu 2007 r., ale teraz pojawiły się głosy, że być może decyzję trzeba przyspieszyć.
+(3) Poparcie zdobywała zapowiedziami typu: "Młodocianych przestępców trzeba umieszczać w zarządzanych przez wojsko obozach".
+(3) Jednak o tym wszystkim pani Royal nie mówi.
+(2) Ten entuzjazm udzielił się szeregowym działaczom.
+(2) - Ona jest jak oddech świeżego powietrza dla Francuzów.
+(2) Sukces Royal został uważnie odnotowane na prawicy.
+(2) Obaj z godnością przyjęli porażkę i zapowiedzieli, że będą popierać Royal jako jedynego kandydata głównej partii lewicowej.
+(1) Zdaniem Komisji Europejskiej wyniesie on w przyszłym roku aż 67 proc. PKB.
+(1) Dla pozorów, które stwarza - mówi Dominique Moisi, francuski politolog.
+(1) Ona naprawdę ich słucha - cieszył się Florian Liscouet, 19-letni student z Paryża i jeden z wyborców Royal.
+(1) Nie zawiodę was, nie bójcie się nowych pomysłów!
+
+
+Relevant sentences set size : 13
+(Filtered by average score): 9
+Number of sentence in art: 29
+(28) Sędzia oskarża ich o zlecenie i zorganizowanie zabójstwa dwóch posłów Zelmara Micheliniego i Héctora Gutiérreza oraz dwóch bojowników partyzantki tupamaros Rosaria Barredo i Williama Whitelawa.
+(24) Po Argentynie i Chile Urugwaj zaczyna rozliczać czasy dyktatury z lat 1973-85.
+(20) Niecałe dwa lata później prezydent porozumiał się z wojskiem i dokonał zamachu stanu, rozpędził parlament, ustanowił cenzurę, zawiesił związki zawodowe i ustanowił dyktaturę.
+(20) Za zbrodnie odpowiedzą Juan Maria Bordaberry i jego minister dyplomacji.
+(19) Bordaberry wygrał demokratyczne wybory w 1971 roku, ale podobnie jak w Chile i Argentynie w kraju panował kryzys gospodarczy i klimat wojny domowej między radykalną lewicą oraz armią i policją.
+(14) Także kolejne rządy nie wracały do przeszłości i zmienił to dopiero po swoim zwycięstwie w wyborach prezydenckich w 2004 Tabare Vazquez, przywódca lewicowego Szerokiego Frontu.
+(13) Demokracja została przywrócona w 1985 r., ale zbrodni nie ścigano.
+(11) Nakaz aresztowania byłego dyktatora i ministra Juana Carlosa Blanco wydał w czwartek sędzia Roberto Timbal.
+(10) We wrześniu inny sędzia postawił precedensowe zarzuty ośmiu byłym wojskowym i policjantom zamieszanym w porwanie i zabójstwo w Argentynie innego urugwajskiego emigranta Alberta Soby.
+(6) Najprawdopodobniej mordu dokonano w ramach Planu Kondora, czyli międzynarodowej współpracy latynoskich dyktatorów w ściganiu lewicowych przeciwników.
+(6) Ofiarą represji w kraju i za granicą padło w sumie co najmniej 300 osób.
+(5) Armia nie chciała jednak delegalizacji wszystkich stronnictw politycznych, w tym tradycyjnych partii Colorado i Nacional, i obaliła Bordaberry'ego.
+(5) Uznał, że demokracja sprzyja tylko lewicowym wywrotowcom i choć tupamaros zostali w zasadzie pokonani lub uciekli z kraju, postanowił na trwałe zaprowadzić autorytarne rządy cywilno-wojskowe.
+(3) Wszyscy czterej uciekli przed represjami Bordaberry'ego do sąsiedniej Argentyny, gdzie schronienia udzielił im rząd Izabeli Peron.
+(3) Sędziwy 78-letni Juan Maria Bordaberry przyjechał do kwatery głównej policji sam w piątek rano i dobrowolnie oddał się w ręce władz.
+(3) Wojsko rządziło odtąd samo przez kolejne dziewięć lat.
+(2) Amnestię dla wojskowych ogłosił pierwszy po 1985 r. demokratyczny prezydent Julio Maria Sanguinetti, a naród poparł ją w referendum.
+(2) Okazało się bowiem, że amnestia Sanguinettiego dotyczy tylko wojskowych i nie obejmuje zabójstw i porwań dokonanych za granicą.
+(2) Blanco został zatrzymany od razu w stolicy kraju.
+(2) - Po tylu latach cierpień i tylu latach czekania sprawiedliwości staje się zadość - oświadczył syn zabitego, dzisiaj też lewicowy senator Rafael Michelini.
+(1) Bordaberry był cywilem, konserwatystą i wierzącym katolikiem.
+(1) Kiedy jednak w ślad za swymi chilijskimi i urugwajskimi kolegami także argentyńscy generałowie dokonali zamachu stanu w marcu 1976 roku, wszyscy czterej uchodźcy stracili życie.
+(1) Zadowoleni byli także synowie zamordowanych senatorów, którzy od lat dochodzili sprawiedliwości.
+(1) Bordaberry i Blanco byli cywilami, a ich cztery ofiary zostały zamordowane w Buenos Aires.
+(1) - Sprawiedliwość przemówiła - oświadczył zadowolony prezydent kraju Tabere Vazquez.
+
+
+Relevant sentences set size : 15
+(Filtered by average score): 19
+Number of sentence in art: 49
+(18) Sean Morrison kierujący Centrum Biologii Komórek Macierzystych Uniwersytetu stanu Michigan postanowił sprawdzić, jak w różnych częściach mózgu i w zależności od wieku zachowuje się gen Ink4a i jaki to wywiera wpływ na dzielenie się komórek macierzystych i tworzenie nowych neuronów.
+(17) Okazało się, że przeszczep szpiku od starszych myszy pozbawionych genu Ink4a powoduje, że we krwi biorców pojawiają się liczne nowe komórki macierzyste.
+(17) Profesor Norman Sharpless z Uniwersytetu Północnej Karoliny za główny obiekt swojej pracy obrał trzustkę (znajdujące się w niej komórki beta produkują insulinę - hormon regulujący poziom cukru we krwi).
+(16) Naukowcy już jakiś czas temu zauważyli, że w pewnych tkankach aktywność genu Ink4a wzrasta z wiekiem.
+(16) - Jako pierwsi w historii pokazaliśmy, że dzięki usunięciu jednego genu można ochronić komórki macierzyste przed starzeniem się i sprawić, by w mózgu ssaka powstawały kolejne neurony - komentuje wyniki swojego zespołu Morrison.
+(13) Gen nazywał się Ink4a, białko - p16.
+(12) Sharpless uważa, że to właśnie ów gen, hamując w trzustce tworzenie nowych, sprawnych komórek, przyczynia się do rozwoju choroby u ludzi.
+(12) Zdaniem Sharplessa odkrycie to może przybliżyć nas do stworzenia skutecznych metod walki z cukrzycą typu drugiego.
+(12) Sharpless dowiódł, że za postępujący z wiekiem spadek liczby komórek beta odpowiedzialny jest gen Ink4a.
+(10) David Scadden z Uniwersytetu Harvarda zajął się szpikiem.
+(10) Pierwszy etap eksperymentu potwierdził, iż istotnie wraz z wiekiem liczba komórek tworzonych w mózgu znacznie spada.
+(9) Co jednak sprawia, że w pewnym momencie życia ten dobrze funkcjonujący mechanizm przestaje działać jak należy?
+(9) Z reguły jesteśmy jednak w stanie przetrwać w dość dobrym zdrowiu kilkadziesiąt lat.
+(9) Im dłużej Morrison, Sharpless i Scadden rozmawiali ze sobą, tym bardziej stawało się dla nich jasne, że to właśnie ten gen i to białko stanowią klucz do zagadki starzenia się ludzkiego organizmu.
+(9) Okazało się, że wszyscy pracują nad tym samym - pewnym genem i kodowanym przez niego białkiem.
+(9) Jednak z czasem, gdy przybywa nam lat, sprawność komórek macierzystych spada.
+(8) I może pozostawałoby dalej, gdyby jakiś czas temu na jednej z odbywających się w USA konferencji naukowych nie spotkało się trzech ludzi: Sean Morrison, Norman Sharpless oraz David Scadden.
+(8) Stwierdził, że podobnie jak w mózgu, również tam w miarę starzenia się aktywność genu Ink4a wzrasta.
+(8) Umożliwiają nam to m.in. komórki macierzyste.
+(7) Scadden dowiódł też, że usunięcie genu Ink4a hamuje tzw. proces apoptozy, czyli zaprogramowanej śmierci komórki.
+(7) Za pomocą inżynierii genetycznej Morrison wyhodował też myszy pozbawione genu Ink4a.
+(7) Starzejemy się wszyscy, i to już od momentu przyjścia na świat.
+(6) Nasz organizm sięga po nie, by zastąpić inne komórki, które wskutek urazu bądź choroby uległy uszkodzeniu lub których życie dobiegło końca.
+(5) Okazało się, że w mózgu zwierząt pomimo postępującego wieku wciąż tworzyły się nowe komórki.
+(5) Morrison zauważył, że zmiany te przebiegały w miarę nasilania się aktywności Ink4a.
+(4) Myszy bez genu Ink4a poradziły sobie - ich komórki beta natychmiast zaczęły się dzielić i naprawiać wyrządzone przez promienie szkody.
+(3) Ich szpik wraz z obecnymi w nim komórkami macierzystymi sprawiał, że organizm chorych zwierząt był w stanie naprawić szkody i powrócić do zdrowia.
+(3) Malała również zdolność mózgu do samonaprawy.
+(3) Badania przeprowadzono na myszach, odpowiednio: 60-dniowych, rocznych i takich, które skończyły dwa lata.
+(3) Potem Scadden przeprowadził serię przeszczepów szpiku (głównego miejsca tworzenia się nowych krwinek) pomiędzy kilkoma grupami myszy.
+(3) Z badań wiadomo, że częstość zachorowań na cukrzycę typu 2 wzrasta wraz z wiekiem.
+(2) Powstało pytanie - czy to ten proces jest odpowiedzialny za osłabienie komórek macierzystych?
+(2) To pytanie przez lata pozostawało bez jednoznacznej odpowiedzi.
+(2) Jednak u roczniaków był już aktywny, a u dwulatków pracował pełną parą.
+(2) Badacze z Harvardu sprawdzili również, jak na przeszczep szpiku reagują myszy poddane śmiertelnej dawce promieniowania.
+(2) U najmłodszych, 60-dniowych myszy gen prawie w ogóle nie działał.
+(2) Wiele tkanek nie jest już w stanie reperować uszkodzeń i zastępować starych komórek nowymi.
+(2) Dokładnie tak jak aktywność genu Ink4a.
+(2) Następnie naukowcy za pomocą toksyn uszkodzili komórki beta wysp trzustkowych.
+(1) Skutkiem tego jest zwiększony poziom cukru we krwi.
+(1) To również zwiększało liczbę powstających w szpiku komórek macierzystych.
+(1) Główną cechą tego schorzenia jest oporność na insulinę, gdy komórki naszego organizmu stają się niewrażliwe na działanie tego hormonu.
+
+
+Relevant sentences set size : 9
+(Filtered by average score): 4
+Number of sentence in art: 14
+(24) Włoski urząd głównego inspektora ochrony danych osobowych podjął decyzję o zablokowaniu emisji zapowiedzianego na wtorkowy wieczór programu telewizyjnego, w którym bez wiedzy deputowanych 50 z nich poddano testowi na obecność narkotyków.
+(23) Rezultaty tajnego badania okazały się zatrważające - spośród 50 deputowanych, poddanych testowi, u 12 z nich stwierdzono obecność haszyszu, a u 4 - kokainy.
+(11) Autorzy programu zapewnili, że test, jakiemu poddali parlamentarzystów jest bardzo wiarygodny i obrazuje, jak powszechne jest użycie narkotyków wśród reprezentantów narodu.
+(10) W poniedziałek wieczorem autorzy programu "Le Iene" ("Hieny"), nadawanego w komercyjnej stacji Italia 1, poinformowali, że z testu wynika, iż co trzeci parlamentarzysta zażywa narkotyki.
+(7) Pod pozorem konieczności przypudrowania czoła w trakcie sfingowanego wywiadu telewizyjnego na temat projektu budżetu kobieta podająca się za charakteryzatorkę przecierała twarze deputowanych specjalnym wacikiem, który w istocie był testem, stwierdzającym, czy w ciągu ostatnich 36 godzin osoby te zażyły środek odurzający.
+(5) Wstrzymania emisji zażądała grupa parlamentarzystów, żądając nawet, by w tej sprawie interweniował przewodniczący niższej izby parlamentu Fausto Bertinotti.
+(3) Prowokacja przeprowadzona przez ekipę popularnego programu wywołała ogromną burzę i protesty deputowanych, którzy uznali eksperyment za naruszenie ich prywatności.
+(2) Innego zdania są niektórzy toksykolodzy, którzy twierdzą, że tego typu testy nie dają stuprocentowej pewności i wymagają potwierdzenia w badaniach krwi lub moczu.
+(1) Protest złożyli oni również na ręce głównego inspektora danych osobowych argumentując, że w sposób brutalny i z naruszeniem prawa podeptano ich prywatność.
+(1) Cały program cyklicznej serii "Hieny" miał zostać nadany w jednej ze stacji telewizji Mediaset, należącej do byłego premiera Silvio Berlusconiego.
+
+
+Relevant sentences set size : 17
+(Filtered by average score): 18
+Number of sentence in art: 54
+(29) Późną jesienią 1886 r. Ottomar Anschütz i jego uchodzący w Lesznie za złotą rączkę sąsiad - budowniczy organów Johann Schneider - skonstruowali pierwszy, jeszcze prymitywny, prototyp kinematografu.
+(23) Na początku lat 80-tych XIX wieku fotograf, walcząc o ostrość zdjęć zwierząt i ludzi w ruchu, stworzył pierwsze wersje migawki szczelinowej, która dzięki niezwykle krótkiemu czasowi naświetlania pozwalała uchwycić przedmioty w ruchu.
+(19) Dzięki udoskonalaniu migawki Anschütz jako pierwszy na świecie fotografował zwierzęta i ludzi w czasie zaledwie jednej tysięcznej sekundy!
+(19) Kilka dni temu minęła setna rocznica śmierci Ottomara Anschütza, niemieckiego mieszkańca XIX-wiecznego Leszna.
+(19) Szacuje się, że do grudnia 1895 r., a więc do słynnej projekcji filmowej braci Lumiere, ruchome obrazy Anschütza obejrzało ponad milion widzów na całym świecie.
+(18) Fotografia zawdzięcza mu ostrość zdjęć, a kinematografia - pierwszy projektor filmowy i pierwsze sale kinowe.
+(18) Zmarł 30 maja 1907 r. w szpitalu w berlińskim Friedenau po nieudanej operacji wycięcia wyrostka robaczkowego.
+(15) Prawdziwą światową sensacją stał się jednak w latach 1888-95 tzw. szybkowizjer skonstruowany przez Ottomara Anschütza.
+(13) Fotograf z prowincjonalnego Leszna przed 121 laty wyprzedził braci Lumiere.
+(12) W 1885 r. Anschütz poszedł o krok dalej - za pomocą baterii sprzężonych ze sobą 12, a potem 24 aparatów fotograficznych wykonał seryjne zdjęcia koni w ruchu.
+(11) Anschütz urodził się 16 maja 1846 r. w Lesznie.
+(10) Aparaty Anschütza były w historii fotografii taką rewolucją jak w historii astronautyki lot na Księżyc.
+(10) W ówczesnej fotografii była to niewyobrażalna dziś sensacja - Anschütz jako pierwszy uchwycił na zdjęciu gołębie w locie, biegnącego konia czy skaczących mężczyzn.
+(9) Anschütz, który przeniósł się do Berlina, szybko wypromował swój aparat po obu stronach oceanu, m.in. w Nowym Jorku, Frankfurcie nad Menem, Dreźnie, Bostonie, Sankt Petersburgu i Filadelfii.
+(9) Obrazami poruszających się zwierząt i ludzi zachwycał setki tysięcy widzów po obu stronach oceanu, zanim jeszcze bracia Lumiere pokazali swój słynny, zapisany na celuloidzie film.
+(9) Dzięki ruchowi korby i induktorowi, który wyzwalał napięcie, naniesione na szklane płyty zdjęcia poruszały się z szybkością 30 obrazów na sekundę.
+(8) Berlińskie lato 1888 r. należało do wynalazcy z Leszna - w ciągu trzech miesięcy w różnych częściach stolicy cesarstwa pokazy szybkowizjera obejrzały dziesiątki tysięcy berlińczyków.
+(8) Jego ostatni prawnuk Holger Anschütz, mieszkaniec nadreńskiego Ebersburga, postawił sobie za punkt honoru przypomnieć ludzkości, kto był prawdziwym odkrywcą "żywych obrazów".
+(6) Po przejęciu rodzinnej firmy z rąk ojca w 1879 r. zbudował na wozie konnym kompletne atelier, które - ciągnięte przez dwa konie - objechało prawie wszystkie miasteczka regionu.
+(6) Od 1892 r. w Paryżu, Nowym Jorku, Bostonie i Londynie działały sale projekcyjne wykorzystujące wynalazek Anschütza - pierwsze regularne sale kinowe.
+(5) Mimo prowincjonalnego pochodzenia w latach 60-tych XIX wieku odbył praktyki u trzech wówczas wiodących fotografów epoki: Ferdinanda Beyricha w Berlinie, Franza Hanfstaengla w Monachium i Ludwiga Angerera w Wiedniu.
+(5) Światową sławę przyniosły mu zdjęcia bocianów nad gniazdem (1891).
+(5) Pokazy na urządzeniu nazwanym przez Anschütza "szybkowizjerem" (lub elektro-tachyscopem) początkowo oglądały małe grupy ludzi.
+(5) Anschütz na tyle udoskonalił jednak swój projektor, że półtora roku później mógł go zaprezentować publiczności zgromadzonej w ministerstwie kultury w Berlinie.
+(5) A wszystko dzięki odkryciu migawki szczelinowej.
+(4) - Jestem przekonany, że to on był ojcem kina - mówi prawnuk Holger.
+(3) W końcu 28 grudnia 1895 r. bracia Lumiere wyświetlili w paryskim Grand Café pierwszy płatny seans filmowy.
+(3) Dziś o dniach chwały wynalazcy z Leszna przypominają nieliczni.
+(2) W latach 1893-94 swoje kinetoskopy w całych Stanach Zjednoczonych, a potem w Europie pokazał Thomas Edison.
+(2) "Jako pierwszy sfotografował kulę armatnią w locie, jako pierwszy wyświetlał obrazy w ruchu, jako pierwszy skonstruował szybkowizjer - pierwszy kinematograf" - wylicza zasługi pradziada.
+(2) Trzy lata później Anschütz wyświetlał już swoje ruchome obrazy na lnianym ekranie o wymiarach 6x8 m w zacienionych salach - chciałoby się rzec - kinowych.
+(2) Zbudowany z drewna aparat składał się z szyby o średnicy 1,5 m i z 24 niewielkich szklanych płyt na ruchomym kole.
+(2) W tym czasie kariera Anschütza była już na równi pochyłej.
+(2) Na swojej stronie internetowej udowadnia, jak wiele zawdzięcza jego pradziadkowi współczesna fotografia i kino.
+(2) Ottomarowi Anschützowi po piętach deptała jednak konkurencja.
+(2) Opis obwoźnego atelier zrobił tak duże wrażenie na władzach berlińskiego Towarzystwa Wspierania Fotografii, że w lutym 1880 r. szacowna organizacja przyjęła fotografa z Leszna w swoje szeregi.
+(2) Na wystawie fotograficznej w Brukseli (1883) zdobył brązowy medal.
+(2) Jako pierwszy sfotografował kulę armatnią w locie, jako pierwszy wyświetlał obrazy w ruchu.
+(1) Pokazy wzbudziły sensację - konie i ludzie na szybie szybkowizjera poruszały się jak żywe!
+(1) W 1882 r. zdobył pozwolenie na fotografowanie manewrów wojsk cesarskich pod Wrocławiem.
+(1) Szybkowizjer produkowano już wtedy w USA i w Europie - także w mniejszej, domowej wersji.
+(1) Podświetlone od tyłu, dawały na szklanym ekranie efekt ruchu.
+
+
+Relevant sentences set size : 17
+(Filtered by average score): 17
+Number of sentence in art: 56
+(26) Pojazd składa się z sześciu samodzielnych części: układu napędowego (będącego odpowiednikiem płyty głównej w PC), karoserii, silnika, systemu bezpieczeństwa i centrum informacyjnego.
+(26) W twardym, metalicznym świecie projektantów samochodów, open-source oznacza, że zamiast chronić projekt OScara różnymi restrykcyjnymi patentami, co jest normą w branży motoryzacyjnej, udostępnia się go w sieci każdemu, kto chce mieć jakiś wkład w jego budowę.
+(25) Z dala od gwaru i świateł wielkich pokazów rodzi się OScar - niezwykły "concept car", będący owocem luźnego związku wielu projektantów, inżynierów i programistów chcących rzucić wyzwanie potędze wielkich koncernów samochodowych i poświęcających OScarowi większość swojego wolnego czasu.
+(21) Mimo, że OScar może stać się samochodem przyszłości, jego konstrukcja jest mniej więcej tak prosta, jak konstrukcja samochodów, którymi jeździli nasi dziadkowie.
+(21) Hobbyści rzucają wyzwanie wielkim koncernom motoryzacyjnym i pracują nad pierwszym na świecie samochodem budowanym techniką open-source.
+(18) Markus Merz już od sześciu lat próbuje koordynować prace badawczo-rozwojowe nad prototypem, przy zastosowaniu anarchistycznych ideałów filozofii open-source.
+(18) Do projektu włączyły się dziesiątki tysięcy internautów, ale w rzeczywistości nad samochodem pracuje grupa kilkudziesięciu osób kierowana przez jednego człowieka.
+(17) Projektowi OScar przyświeca prosta idea - jest to samochód zgodny z ideałami open-source.
+(16) Powinien być solidny i zbudowany przy użyciu jak najmniejszej liczby części mechanicznych, ale niezależnie od wszystkiego, musi spełniać jeden podstawowy warunek: jego projekt ma być dostępny za darmo dla każdego członka związanej z nim społeczności.
+(13) Każdą z nich konstruuje się oddzielnie i, co najważniejsze, tak jak w komputerze, można je mieszać między sobą i łączyć z innymi modułami, więc przyszły producent będzie mógł je w razie potrzeby zamieniać, z łatwością przekształcając, na przykład, samochód osobowy w pick-up.
+(12) Zdaniem Merza są również inne przyczyny, dla których droga OScara do fabryk może nie być taka gładka: - Istnieją pewne problemy natury prawnej - mówi.
+(12) Tradycyjnie, projekty samochodów są chronione patentami, więc mała fabryka, powiedzmy w Bangladeszu lub Bostwanie, musi zapłacić za licencję, żeby móc produkować pojazdy według danego projektu.
+(12) Samochód na licencji "open-source" może być wytwarzany bez tych dodatkowych kosztów.
+(12) Pomysł na konstrukcję samochodu zapożyczono z budowy komputera.
+(12) - Jeżeli ktoś, na przykład inżynier specjalista od układów napędowych, jest zatrudniony, załóżmy, w fabryce Mercedesa i pracuje anonimowo przy naszym samochodzie, może to kolidować z jego kontraktem zawodowym, ponieważ swoją wiedzę fachową wykorzystuje na potrzeby naszego projektu.
+(9) W kategorii osiągów mieści się gdzieś między Volkswagenem "Garbusem", a Golfem I - jego prędkość maksymalna wynosi tylko 145 km/h.
+(9) I rzeczywiście, Michael Blabst, rzecznik działu innowacji koncernu BMW, jest sceptyczny co do tego, czy OScar kiedykolwiek wyjedzie z garażu.
+(8) Ale nie należy zapominać, że zbudowanie przez Karla Benza pierwszego samochodu wiązało się również z hobby, któremu poświęcał się przez całe życie.
+(7) Pojęcie to zostało zapożyczone ze świata producentów oprogramowania, którego kod jest ogólnie i nieodpłatnie dostępny na warunkach odpowiedniej licencji.
+(7) Samochód został wymyślony i stworzony przez hobbystów.
+(6) Wynalazki będące dziełem twórców wolnego oprogramowania - czy to kod źródłowy popularnej przeglądarki internetowej Firefox, czy też projekt laptopa za 100 dolarów - rządzą się zasadami świata open-source.
+(5) Mimo że on sam siedzi za kółkiem, proces decyzyjny opiera się na zasadach demokratycznych i każdy - włączając w to indywidualnych projektantów, firmy, uczelnie i inne organizacje - może wziąć w nim udział.
+(5) Merz wychował się na bawarskiej farmie w cieniu wielkiej fabryki BMW, gdzie w końcu został zatrudniony na linii produkcyjnej.
+(4) Kiedy na scenę wkracza hardware, zaczynają się problemy z produkcją, dystrybucją, opakowaniami...
+(4) Zbudowanie samochodu jest równoznaczne z perfekcyjnym połączeniem prawie 20 tys. części.
+(4) O OScarze, tak jak o Wikipedii, tyle że w znacznie bardziej skomplikowanej wersji, dyskutują projektanci-ochotnicy, z których 60 proc. na co dzień pracuje w firmach związanych z przemysłem samochodowym.
+(3) Merz przyznaje, że OScar to hobby.
+(3) Ale podejście modułowe w przypadku OScara oznacza, że teoretycznie może być on produkowany masowo - wynika to z natury open-source.
+(3) Wtedy po raz pierwszy zetknął się z ideą open-source i zauważywszy, że samochody konstruowane przez BMW powstają prawie od początku do końca w świecie wirtualnym, zaczął zastanawiać się, czy udałoby mu się zbudować prototyp pojazdu przy użyciu kombinacji wolnego oprogramowania i internetu.
+(3) Do niedawna dotyczyło to tylko nienamacalnego kodu komputerowego, ale dziś pionierzy, tacy jak Merz, próbują wkroczyć ze swoimi pomysłami do świata fizycznego.
+(3) - To miły, kreatywny pomysł grupy entuzjastów - mówi - ale oczywiście istnieją tu silne ograniczenia.
+(2) Pewien bloger na stronie Metafilter.com zauważył ostatnio: - Wolny software kwitnie, ponieważ łatwo go przenosić.
+(2) Wystarczy zalogować się na stronie OScara.
+(2) Do najbardziej znanych przykładów takich programów należą przeglądarka internetowa Firefox i system operacyjny Linux.
+(2) Na nieszczęście, zarówno dla ekologów jak i dla futurystów, pojazdy te rzadko trafiają do produkcji seryjnej.
+(2) Jego przyszłość może więc należeć właśnie do nich.
+(2) Szybko otrzymał awans i trafił do działu marketingu, a po jakimś czasie zaczął odgrywać znaczącą rolę w tworzeniu nowej strategii medialnej koncernu.
+(1) Ostateczne przeznaczenie pojazdu pozostaje nieco mgliste, ale intencje są jasne.
+(1) Konstrukcja nowego modelu samochodu jest ujęta w bardzo ścisłe ramy i zajmuje najwyżej pięć lat.
+(1) W ten sposób usuwa się przynajmniej jedną barierę utrudniającą produkcję seryjną.
+(1) Jeżeli jednak zwrócimy uwagę na ogromną liczbę powstających obecnie wolno dostępnych aplikacji sieciowych, to zauważymy, że istnieje alternatywa.
+

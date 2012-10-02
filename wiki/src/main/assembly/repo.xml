@@ -1,0 +1,12 @@
+<assembly>
+  <id>repo</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  <repositories>
+    <repository>
+      <includeMetadata>true</includeMetadata>
+      <outputDirectory>maven2</outputDirectory>
+    </repository>
+  </repositories>
+</assembly>

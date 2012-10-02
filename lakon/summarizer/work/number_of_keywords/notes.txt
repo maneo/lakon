@@ -1,0 +1,10 @@
+nouns
+
+number  of keywords used to calculate wieght of sentence, keywords are nouns
+only.
+
+results
+
+number  of keywords used to calculate wieght of sentence, every word can be a
+keyword.
+

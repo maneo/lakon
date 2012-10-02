@@ -1,0 +1,53 @@
+#set ( $selectedItem = "admin" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+
+<div id="primaryContent_2columns">
+	<div id="columnA_2columns">
+		
+		<h3>#springMessage("add.article.form.title")</h3>
+
+		<p>
+			#springMessage("add.article.form.text")
+		</p>
+
+        <form action="" method="post" id="addarticle">
+        	 <fieldset>
+        		<div> 
+        		  <label for="title">#springMessage("label.art.title") :</label>
+        		  #springBind("text.title")
+        		  <input type="text" id="title" name="title" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div> 
+        		 
+        		<div>
+        		  <label for="text">#springMessage("label.art.text") :</label>
+        		  #springBind("text.text")
+				  <textarea id="text" name="text" class="text">$!{status.value}</textarea>
+        		  <span class="error">${status.errorMessage}</span>
+        		</div>  
+				
+				<div>
+        		  <label for="extractLength">#springMessage("label.art.extractLength") :</label>
+        		  #springBind("text.extractLength")
+        		  <input type="text" id="extractLength" name="extractLength" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div>  
+        		
+        	   <div class="submit_row">	  
+        		  #springBind("text.*")
+        		  <input type="submit" id="submit" name="submit" value="#springMessage("label.add")" class="button" />
+				  <a href="texts.html">
+					<input type="button" id="cancel" name="cancel" value="#springMessage("label.cancel")" class="button" onclick="window.location='texts.html'"/>
+				  </a>
+        		</div>
+        		 
+        	 </fieldset>
+        </form>
+		
+    </div>
+</div>	
+
+#parse("/WEB-INF/velocity/parts/submenu.vm")
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

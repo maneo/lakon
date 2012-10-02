@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluations>
+  <evaluation id="1">
+	 <user>wkryza@wp.pl</user>
+	 <artId>1</artId>
+	 <sentences>2_3,3_1,3_3,4_3,6_2</sentences>
+  </evaluation>	
+  <evaluation id="2">
+	 <user>wkryza@wp.pl</user>
+	 <artId>8</artId>
+	 <sentences>2_1,5_1,7_1</sentences>
+  </evaluation>	
+  <evaluation id="3">
+	 <user>wkryza@wp.pl</user>
+	 <artId>6</artId>
+	 <sentences>2_1,3_1,4_1,8_1,8_2,11_1,11_2</sentences>
+  </evaluation>	
+  <evaluation id="4">
+	 <user>wkryza@wp.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_2,3_1,3_3,3_4,3_5,7_1,9_3,14_1,16_6,16_7,16_8</sentences>
+  </evaluation>	
+  <evaluation id="5">
+	 <user>wkryza@wp.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,3_1,4_1,6_1,9_1</sentences>
+  </evaluation>	
+  <evaluation id="6">
+	 <user>wkryza@wp.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_1,4_1,6_1,7_1,8_1,9_1,14_1,14_2,15_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="7">
+	 <user>wkryza@wp.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,3_8,4_1</sentences>
+  </evaluation>	
+  <evaluation id="8">
+	 <user>wkryza@wp.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_4,3_1</sentences>
+  </evaluation>	
+  <evaluation id="10">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_2,2_1,3_2,4_3,6_2</sentences>
+  </evaluation>	
+  <evaluation id="11">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="12">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,7_3,8_1,9_1</sentences>
+  </evaluation>	
+  <evaluation id="14">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,3_1,4_3,5_1,6_3</sentences>
+  </evaluation>	
+  <evaluation id="24">
+	 <user>lemekk@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_2,2_1,3_1,4_2,5_1</sentences>
+  </evaluation>	
+  <evaluation id="25">
+	 <user>grazine1@wp.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,3_1,4_1,5_1,5_3</sentences>
+  </evaluation>	
+  <evaluation id="26">
+	 <user>grazine1@wp.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,7_1,8_1,9_1,10_3,12_1,13_1,14_1,14_2,17_1</sentences>
+  </evaluation>	
+  <evaluation id="27">
+	 <user>grazine1@wp.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="28">
+	 <user>grazine1@wp.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_2,2_6</sentences>
+  </evaluation>	
+  <evaluation id="29">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_1,2_1,3_1,3_2,6_3</sentences>
+  </evaluation>	
+  <evaluation id="30">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="31">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,8_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="32">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>3_3,3_5,6_1,7_1,9_1,11_1,11_2,12_1,13_1,14_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="33">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_1,2_1,4_2,6_1,7_1,10_3,12_1,13_2,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="34">
+	 <user>ziemowit.balcer@barsoft.com.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_2,3_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="35">
+	 <user>ziemowit.balcer@barsoft.com.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="36">
+	 <user>ziemowit.balcer@barsoft.com.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,3_1,3_5</sentences>
+  </evaluation>	
+  <evaluation id="37">
+	 <user>martfucha@interia.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_2,2_1,4_3,6_3</sentences>
+  </evaluation>	
+  <evaluation id="38">
+	 <user>martfucha@interia.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_4,2_6</sentences>
+  </evaluation>	
+  <evaluation id="39">
+	 <user>martfucha@interia.pl</user>
+	 <artId>7</artId>
+	 <sentences>2_3,2_4,3_5,4_1,7_1,9_3,10_1,10_3,13_1,15_3,16_1</sentences>
+  </evaluation>	
+  <evaluation id="40">
+	 <user>martfucha@interia.pl</user>
+	 <artId>8</artId>
+	 <sentences>4_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="41">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,2_1,3_1,5_1,6_1</sentences>
+  </evaluation>	
+  <evaluation id="42">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,2_1,3_1,5_1,5_3,12_1</sentences>
+  </evaluation>	
+  <evaluation id="43">
+	 <user>lamya@op.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_3,2_1,2_3,3_1</sentences>
+  </evaluation>	
+  <evaluation id="44">
+	 <user>lamya@op.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,1_3,2_1,3_1,6_4,7_1,8_1,10_1,12_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="45">
+	 <user>lamya@op.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="46">
+	 <user>lamya@op.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_5,4_2</sentences>
+  </evaluation>	
+  <evaluation id="47">
+	 <user>lamya@op.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,3_4,4_1</sentences>
+  </evaluation>	
+  <evaluation id="48">
+	 <user>lamya@op.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="49">
+	 <user>lamya@op.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="50">
+	 <user>lamya@op.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_2,1_3,2_1,3_1,3_5,6_1,7_1,7_3,9_3,11_1,13_1</sentences>
+  </evaluation>	
+  <evaluation id="51">
+	 <user>mwerla@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_2,1_3,2_1,2_4</sentences>
+  </evaluation>	
+  <evaluation id="52">
+	 <user>mwerla@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,1_2,2_1,4_2,4_4,6_1,6_2,12_1,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="53">
+	 <user>mwerla@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,8_1,9_1</sentences>
+  </evaluation>	
+  <evaluation id="54">
+	 <user>mwerla@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_2,2_4</sentences>
+  </evaluation>	
+  <evaluation id="55">
+	 <user>mwerla@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,3_5,3_8</sentences>
+  </evaluation>	
+  <evaluation id="56">
+	 <user>mwerla@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,3_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="57">
+	 <user>mwerla@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,2_1,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="58">
+	 <user>mwerla@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_2,9_1,9_2,11_1,12_1,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="59">
+	 <user>robert_k@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_2,3_1,3_3,4_2,5_1</sentences>
+  </evaluation>	
+  <evaluation id="60">
+	 <user>pemolek@interia.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_2,3_3,4_2,5_2,6_2</sentences>
+  </evaluation>	
+  <evaluation id="61">
+	 <user>pemolek@interia.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,4_1,5_1,6_2,8_1,10_3,12_1,13_4,14_1</sentences>
+  </evaluation>	
+  <evaluation id="62">
+	 <user>dzikanorka@poczta.fm</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_3,3_3,4_2,6_3</sentences>
+  </evaluation>	
+  <evaluation id="63">
+	 <user>dzikanorka@poczta.fm</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="64">
+	 <user>dzikanorka@poczta.fm</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="65">
+	 <user>dzikanorka@poczta.fm</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_2,4_2</sentences>
+  </evaluation>	
+  <evaluation id="66">
+	 <user>tiger1984@gazeta.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_2,2_1,3_1,3_2</sentences>
+  </evaluation>	
+  <evaluation id="67">
+	 <user>tiger1984@gazeta.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,4_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="68">
+	 <user>tiger1984@gazeta.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,2_1,2_2,2_3,3_1,3_2</sentences>
+  </evaluation>	
+  <evaluation id="69">
+	 <user>tiger1984@gazeta.pl</user>
+	 <artId>7</artId>
+	 <sentences>6_1,7_1,7_2,7_3,7_4,10_1,10_2,10_3,13_1,14_1,15_1</sentences>
+  </evaluation>	
+  <evaluation id="70">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,9_1</sentences>
+  </evaluation>	
+  <evaluation id="71">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,5_2,5_3,7_1,12_1,13_1,15_2,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="72">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,2_1,2_2</sentences>
+  </evaluation>	
+  <evaluation id="73">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,2_6,4_2</sentences>
+  </evaluation>	
+  <evaluation id="74">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>7</artId>
+	 <sentences>2_1,2_3,4_1,6_1,7_2,8_2,8_3,11_1,12_4,16_6,16_8</sentences>
+  </evaluation>	
+  <evaluation id="75">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>2_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="76">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,6_1,9_1,10_2,10_3,12_1,13_2,13_3,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="77">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,2_1,3_1,6_3,8_2,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="78">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_3,2_6</sentences>
+  </evaluation>	
+  <evaluation id="79">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,9_2</sentences>
+  </evaluation>	
+  <evaluation id="80">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_5,3_6,4_1</sentences>
+  </evaluation>	
+  <evaluation id="81">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="82">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>2_3,3_4,3_5,7_4,8_1,9_1,9_2,10_2,11_1,16_6,16_7</sentences>
+  </evaluation>	
+  <evaluation id="83">
+	 <user>grzegorz.dudczak@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_3,3_1,4_2,6_3</sentences>
+  </evaluation>	
+  <evaluation id="84">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_2,7_1,8_2,9_1,10_2,10_3,12_1,13_2,14_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="85">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,2_1,3_1,4_3,6_3,7_2,12_1</sentences>
+  </evaluation>	
+  <evaluation id="86">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_2,2_1,2_6,2_7</sentences>
+  </evaluation>	
+  <evaluation id="87">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,5_2,8_1,9_1</sentences>
+  </evaluation>	
+  <evaluation id="88">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="89">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_2</sentences>
+  </evaluation>	
+  <evaluation id="90">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_3,2_1,3_1,3_5,4_1,6_1,9_3,10_1,11_1,13_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="91">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_2,2_1,2_4,3_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="92">
+	 <user>dupa@mailinator.com</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,3_1,6_1,7_1,10_1,10_3,12_1,17_1,17_2</sentences>
+  </evaluation>	
+  <evaluation id="101">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,5_2,8_1,9_2</sentences>
+  </evaluation>	
+  <evaluation id="102">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_1,3_1</sentences>
+  </evaluation>	
+  <evaluation id="103">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_1,3_5,4_1</sentences>
+  </evaluation>	
+  <evaluation id="104">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,6_4,8_1,8_2,9_1,10_1,10_3,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="105">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,5_2,7_1,9_2,10_1</sentences>
+  </evaluation>	
+  <evaluation id="106">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,2_3,3_1,3_5,4_1,6_1,7_1,9_3,11_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="107">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,3_4,4_2</sentences>
+  </evaluation>	
+  <evaluation id="108">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,2_2,2_3,3_1,6_3,9_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="109">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,4_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="110">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_2,3_1</sentences>
+  </evaluation>	
+  <evaluation id="111">
+	 <user>tomasz_guzialek@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,7_3,9_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="112">
+	 <user>tomasz_guzialek@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="113">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,1_3,2_1,8_1,8_2,9_1,10_1,10_3,13_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="114">
+	 <user>k_zuchowska@o2.pl</user>
+	 <artId>7</artId>
+	 <sentences>3_3,3_4,7_1,9_2,10_1,11_1,13_1,15_3,16_2,16_3,16_8</sentences>
+  </evaluation>	
+  <evaluation id="115">
+	 <user>karusiaw@tlen.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,4_3,6_1,6_3,7_2</sentences>
+  </evaluation>	
+  <evaluation id="116">
+	 <user>karusiaw@tlen.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,6_2,8_1,8_2</sentences>
+  </evaluation>	
+  <evaluation id="117">
+	 <user>karusiaw@tlen.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_4,2_5</sentences>
+  </evaluation>	
+  <evaluation id="118">
+	 <user>karusiaw@tlen.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="119">
+	 <user>grajas84@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_1,2_3,2_4,3_2,3_3,3_4,3_5,4_1,6_1,9_1,9_3</sentences>
+  </evaluation>	
+  <evaluation id="120">
+	 <user>grajas84@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="121">
+	 <user>grajas84@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_3,2_1,6_2,6_3,10_1,10_3,12_1,13_2,13_3,14_1</sentences>
+  </evaluation>	
+  <evaluation id="122">
+	 <user>grajas84@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,3_2,5_2,5_3,12_1</sentences>
+  </evaluation>	
+  <evaluation id="123">
+	 <user>grajas84@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,3_1,3_2</sentences>
+  </evaluation>	
+  <evaluation id="124">
+	 <user>grajas84@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,1_2,3_1,4_1,5_2</sentences>
+  </evaluation>	
+  <evaluation id="125">
+	 <user>ziemowit.balcer@barsoft.com.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="126">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_8,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="127">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,1_3,2_1,2_3,7_1,7_3,9_3,11_1,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="128">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,8_2,9_1</sentences>
+  </evaluation>	
+  <evaluation id="129">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,3_1,4_1,6_4,8_1,9_1,12_1,13_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="130">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,7_1,8_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="131">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_2,3_1</sentences>
+  </evaluation>	
+  <evaluation id="132">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="133">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,2_1,3_1,5_1,5_2</sentences>
+  </evaluation>	
+  <evaluation id="134">
+	 <user>sumek@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="135">
+	 <user>lemekk@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>2_1,3_1,3_4,7_2,7_3,9_3,11_1,12_4,14_1,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="136">
+	 <user>lemekk@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,3_1,6_1,7_1,8_2,9_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="137">
+	 <user>przemyslaw.wesolek@cs.put.poznan.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_1,1_2,2_1,2_3,6_1,6_4,7_1,11_1,12_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="138">
+	 <user>przemyslaw.wesolek@cs.put.poznan.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,4_1,7_1,8_1,8_2</sentences>
+  </evaluation>	
+  <evaluation id="139">
+	 <user>przemyslaw.wesolek@cs.put.poznan.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_3,3_1,4_1</sentences>
+  </evaluation>	
+  <evaluation id="140">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,2_6,3_1</sentences>
+  </evaluation>	
+  <evaluation id="141">
+	 <user>mielniczu@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_5,3_6,3_8</sentences>
+  </evaluation>	
+  <evaluation id="142">
+	 <user>mielniczu@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>2_1,4_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="143">
+	 <user>sebastian.stafiej@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_1,3_1,3_2,3_3,3_4,6_1,7_1,7_3,11_2,13_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="144">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,6_1,7_1,8_2,9_1,10_3,12_1,15_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="145">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,6_1,6_3,7_2,8_2,10_1</sentences>
+  </evaluation>	
+  <evaluation id="146">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,7_1,8_1,10_2</sentences>
+  </evaluation>	
+  <evaluation id="147">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_6,3_7,4_2</sentences>
+  </evaluation>	
+  <evaluation id="148">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>7</artId>
+	 <sentences>3_3,3_4,3_5,6_1,6_2,7_1,10_1,10_2,13_1,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="149">
+	 <user>bjasko@univ.rzeszow.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="150">
+	 <user>karol.nowakowski@inbox.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,1_2,2_1,8_1,8_2,9_1,13_1,13_2,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="151">
+	 <user>karol.nowakowski@inbox.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="152">
+	 <user>mataglap@o2.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_4,2_7</sentences>
+  </evaluation>	
+  <evaluation id="153">
+	 <user>mataglap@o2.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,4_1,6_2,8_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="154">
+	 <user>mataglap@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,3_5,4_2</sentences>
+  </evaluation>	
+  <evaluation id="155">
+	 <user>mataglap@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,3_1,8_2</sentences>
+  </evaluation>	
+  <evaluation id="156">
+	 <user>mataglap@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,7_3,10_1</sentences>
+  </evaluation>	
+  <evaluation id="157">
+	 <user>mataglap@o2.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,7_3,10_1</sentences>
+  </evaluation>	
+  <evaluation id="158">
+	 <user>mataglap@o2.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_3,3_1,6_2,7_1,9_1,11_1,12_1,13_1,14_2,17_1</sentences>
+  </evaluation>	
+  <evaluation id="159">
+	 <user>mataglap@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,3_1,4_3,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="160">
+	 <user>arkadiusz.bronka@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>2_1,2_5,2_6,2_7</sentences>
+  </evaluation>	
+  <evaluation id="161">
+	 <user>justyna.ziolkowska@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="162">
+	 <user>justyna.ziolkowska@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_8,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="163">
+	 <user>sumek@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,3_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="164">
+	 <user>sumek@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,2_1,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="165">
+	 <user>greg_gg@wp.pl</user>
+	 <artId>7</artId>
+	 <sentences>6_1,7_1,8_1,8_2,8_3,9_1,9_2,10_1,10_2,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="166">
+	 <user>grazine1@wp.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,4_1,5_2,8_1,9_2</sentences>
+  </evaluation>	
+  <evaluation id="167">
+	 <user>grazine1@wp.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="168">
+	 <user>monika.ziolkowska@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_2,5_1,5_2,7_1,10_1,10_3,12_1,13_1,15_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="169">
+	 <user>nartalia@o2.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_6,3_1</sentences>
+  </evaluation>	
+  <evaluation id="170">
+	 <user>nartalia@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_5,3_8,4_1</sentences>
+  </evaluation>	
+  <evaluation id="171">
+	 <user>nartalia@o2.pl</user>
+	 <artId>7</artId>
+	 <sentences>7_1,7_3,8_1,9_1,9_3,10_1,11_1,13_1,14_1,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="172">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,5_2,7_3,8_1</sentences>
+  </evaluation>	
+  <evaluation id="173">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_1,1_2,6_1,7_1,8_1,9_1,10_1,15_2,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="174">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_2,2_1,3_1,6_1,6_3,7_2,7_3</sentences>
+  </evaluation>	
+  <evaluation id="175">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_2,4_2</sentences>
+  </evaluation>	
+  <evaluation id="176">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,1_2,2_1,2_2</sentences>
+  </evaluation>	
+  <evaluation id="177">
+	 <user>nartalia@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,4_1</sentences>
+  </evaluation>	
+  <evaluation id="178">
+	 <user>nartalia@o2.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,6_2,6_4,8_1,9_1,13_4,15_1,16_1,17_1,17_2</sentences>
+  </evaluation>	
+  <evaluation id="179">
+	 <user>nartalia@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>2_1,3_1,4_3,9_2,10_1,11_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="180">
+	 <user>nartalia@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_3,2_4,5_3,6_3</sentences>
+  </evaluation>	
+  <evaluation id="181">
+	 <user>nartalia@o2.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,7_1,8_1,9_1</sentences>
+  </evaluation>	
+  <evaluation id="182">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>7</artId>
+	 <sentences>3_5,4_1,6_1,7_1,7_3,7_4,9_3,11_2,11_3,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="183">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,2_4,4_1</sentences>
+  </evaluation>	
+  <evaluation id="184">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="185">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="186">
+	 <user>inf44283@poczta.onet.pl</user>
+	 <artId>7</artId>
+	 <sentences>3_3,6_1,7_1,8_1,9_3,10_3,11_1,11_2,15_1,15_3,16_1</sentences>
+  </evaluation>	
+  <evaluation id="187">
+	 <user>inf59813@informatyka.org</user>
+	 <artId>5</artId>
+	 <sentences>1_1,1_2,3_1,6_1,7_1,9_1,11_1,12_1,17_1,17_2</sentences>
+  </evaluation>	
+  <evaluation id="188">
+	 <user>inf59813@informatyka.org</user>
+	 <artId>6</artId>
+	 <sentences>2_1,2_3,3_1,4_3,6_1,6_3,12_1</sentences>
+  </evaluation>	
+  <evaluation id="189">
+	 <user>jurek.blaszczynski@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,2_5,3_2</sentences>
+  </evaluation>	
+  <evaluation id="190">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,2_1,3_1,5_2,6_3</sentences>
+  </evaluation>	
+  <evaluation id="191">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,6_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="192">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,1_3,3_1,6_2,6_4,10_1,10_2,10_3,14_1,14_2</sentences>
+  </evaluation>	
+  <evaluation id="193">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,7_2,10_1</sentences>
+  </evaluation>	
+  <evaluation id="194">
+	 <user>justyna.ziolkowska@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>3_3,3_4,3_5,7_1,9_3,10_1,10_2,11_1,13_1,14_1,16_1</sentences>
+  </evaluation>	
+  <evaluation id="195">
+	 <user>justyna.ziolkowska@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,6_1</sentences>
+  </evaluation>	
+  <evaluation id="196">
+	 <user>nartalia@o2.pl</user>
+	 <artId>9</artId>
+	 <sentences>3_1,5_1,5_2,8_1,8_3,10_1,11_1,11_2,14_3,15_1,18_2</sentences>
+  </evaluation>	
+  <evaluation id="197">
+	 <user>nowak2000@poczta.onet.pl</user>
+	 <artId>10</artId>
+	 <sentences>3_3,4_1,5_1,6_1,6_3,8_1,9_3,10_5,12_1,12_5,13_2,14_2</sentences>
+  </evaluation>	
+  <evaluation id="198">
+	 <user>kasiorek8@op.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_2,3_1,3_2,4_1,6_1,8_1,10_1,10_3,13_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="199">
+	 <user>kdembczynski@cs.put.poznan.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_1,2_2,2_3,3_1,3_2,8_2,10_1,11_1,13_1,14_3</sentences>
+  </evaluation>	
+  <evaluation id="200">
+	 <user>nartalia@o2.pl</user>
+	 <artId>10</artId>
+	 <sentences>3_3,5_1,6_2,8_2,8_3,9_3,9_4,12_2,13_1,13_2,15_1,15_2</sentences>
+  </evaluation>	
+  <evaluation id="201">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,2_3,3_2,6_1,8_2,10_1,12_1,14_1,17_3,18_2</sentences>
+  </evaluation>	
+  <evaluation id="202">
+	 <user>agnieszkalewandowska@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,6_1,6_2,8_1,8_3,9_3,9_4,13_1,13_2,15_2</sentences>
+  </evaluation>	
+  <evaluation id="204">
+	 <user>arkadiusz.bronka@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_3,2_4,3_1,6_1,8_1,9_1,10_1,10_3,12_1,18_4,19_1</sentences>
+  </evaluation>	
+  <evaluation id="205">
+	 <user>przemyslaw.wesolek@cs.put.poznan.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_1,2_3,6_1,8_1,8_2,10_1,11_2,12_1,15_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="207">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>3_1,4_1,5_1,6_1,8_1,9_1,10_1,12_1,15_1,16_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="208">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,5_1,6_1,8_1,9_2,10_5,10_6,14_1,15_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="209">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_2,3_5,3_8</sentences>
+  </evaluation>	
+  <evaluation id="210">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,3_1,4_1,9_2</sentences>
+  </evaluation>	
+  <evaluation id="211">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_2,2_1,5_1,6_1,6_3</sentences>
+  </evaluation>	
+  <evaluation id="212">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,3_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="213">
+	 <user>wkryza@wp.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_1,2_2,3_1,3_2,4_1,8_1,12_1,15_1,17_3,19_1</sentences>
+  </evaluation>	
+  <evaluation id="214">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,1_3,2_3,3_1,6_1,9_3,10_2,11_1,13_1,15_3</sentences>
+  </evaluation>	
+  <evaluation id="215">
+	 <user>wkryza@wp.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,4_2,6_1,6_3,6_4,8_1,8_2,8_3,9_3,16_1</sentences>
+  </evaluation>	
+  <evaluation id="216">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="217">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,3_1,4_2,7_1,8_2,9_1,11_1,12_1,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="218">
+	 <user>jakub.jurkiewicz@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,3_2,9_2,10_1,12_1</sentences>
+  </evaluation>	
+  <evaluation id="219">
+	 <user>schmidt.adam@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_2,3_1,6_1,8_1,8_4,10_1,11_1,14_3,15_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="220">
+	 <user>schmidt.adam@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,5_1,6_2,8_1,9_3,10_5,10_6,15_1,15_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="221">
+	 <user>weronika.wronska@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_2,2_3,2_4,3_2,4_2,6_1,8_2,9_1,10_1,11_2,15_1</sentences>
+  </evaluation>	
+  <evaluation id="222">
+	 <user>weronika.wronska@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,4_2,5_1,6_1,8_1,8_3,9_2,9_3,9_4,16_1</sentences>
+  </evaluation>	
+  <evaluation id="223">
+	 <user>weronika.wronska@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_8,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="224">
+	 <user>weronika.wronska@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>2_1,4_1,5_2,6_1,7_1</sentences>
+  </evaluation>	
+  <evaluation id="225">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,3_1,8_1,8_2,9_1,10_1,10_3,10_4,13_1,15_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="226">
+	 <user>malgorzata_szyburska@o2.pl</user>
+	 <artId>10</artId>
+	 <sentences>3_3,4_1,5_1,6_1,8_1,8_3,9_3,9_4,10_5,10_6,13_1,13_2</sentences>
+  </evaluation>	
+  <evaluation id="227">
+	 <user>helinek@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,2_4,4_1,8_1,8_2,10_1,14_3,15_1,17_3,18_2</sentences>
+  </evaluation>	
+  <evaluation id="228">
+	 <user>k_zuchowska@o2.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_1,5_1,5_2,6_1,8_1,8_3,10_1,15_1,16_2,17_1</sentences>
+  </evaluation>	
+  <evaluation id="229">
+	 <user>k_zuchowska@o2.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,4_1,4_2,5_1,6_1,8_3,9_2,9_3,9_4,12_1,14_5,14_6</sentences>
+  </evaluation>	
+  <evaluation id="230">
+	 <user>helinek@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,4_2,5_1,6_1,6_2,8_1,9_3,9_4,10_3,10_4,13_1,13_2</sentences>
+  </evaluation>	
+  <evaluation id="231">
+	 <user>helinek@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_2,4_2</sentences>
+  </evaluation>	
+  <evaluation id="232">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>3_3,4_1,4_2,4_3,6_1,6_2,8_1,8_2,8_3,9_2,9_3,9_4</sentences>
+  </evaluation>	
+  <evaluation id="233">
+	 <user>katarzynaziolkowska@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,6_1,9_1,10_1,10_3,13_1,14_3,15_1,18_2,19_1</sentences>
+  </evaluation>	
+  <evaluation id="234">
+	 <user>anika_b@poczta.fm</user>
+	 <artId>10</artId>
+	 <sentences>3_3,5_1,6_2,6_3,8_1,8_2,8_3,9_3,9_4,10_6,10_7,14_1</sentences>
+  </evaluation>	
+  <evaluation id="235">
+	 <user>anika_b@poczta.fm</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_3,4_2,6_1,10_1,10_2,10_3,11_2,14_2,15_1,16_2</sentences>
+  </evaluation>	
+  <evaluation id="236">
+	 <user>anika_b@poczta.fm</user>
+	 <artId>1</artId>
+	 <sentences>1_2,2_1,4_1,4_3,4_5</sentences>
+  </evaluation>	
+  <evaluation id="237">
+	 <user>anika_b@poczta.fm</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_6,3_8,4_1</sentences>
+  </evaluation>	
+  <evaluation id="238">
+	 <user>anika_b@poczta.fm</user>
+	 <artId>7</artId>
+	 <sentences>2_3,4_1,7_1,7_3,8_1,11_1,11_2,13_1,14_1,16_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="239">
+	 <user>grajas84@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_1,3_3,5_1,5_3,8_1,8_2,8_3,15_1,15_2,16_1,16_2</sentences>
+  </evaluation>	
+  <evaluation id="240">
+	 <user>grajas84@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_1,1_2,2_1,2_2,10_1,11_1,11_3,17_3,18_1,18_2,18_3</sentences>
+  </evaluation>	
+  <evaluation id="241">
+	 <user>wonderwalluk@tlen.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,6_1,6_2,8_1,8_2,9_2,9_3,12_1,12_2,13_1</sentences>
+  </evaluation>	
+  <evaluation id="242">
+	 <user>leszcz22@o2.pl</user>
+	 <artId>10</artId>
+	 <sentences>3_3,4_1,5_1,6_1,6_2,7_3,9_3,9_4,13_1,14_1,15_2,16_1</sentences>
+  </evaluation>	
+  <evaluation id="243">
+	 <user>bandabanda@wp.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,6_1,8_1,9_3,12_4,12_5,14_1,15_2,16_1,16_2</sentences>
+  </evaluation>	
+  <evaluation id="244">
+	 <user>helinek@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="245">
+	 <user>helinek@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="246">
+	 <user>helinek@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,3_1,4_2,7_1,12_1,13_1,13_4,14_1,16_1,17_1</sentences>
+  </evaluation>	
+  <evaluation id="247">
+	 <user>helinek@gmail.com</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,8_1,8_2,9_1</sentences>
+  </evaluation>	
+  <evaluation id="248">
+	 <user>helinek@gmail.com</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_8,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="249">
+	 <user>helinek@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_1,3_1,3_2,5_1,5_2</sentences>
+  </evaluation>	
+  <evaluation id="250">
+	 <user>helinek@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_3,2_1,2_3,3_5,4_1,7_1,9_3,10_1,10_2,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="251">
+	 <user>stanislaw@osinski.name</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_3,4_1,6_1,9_1,10_1,12_1,14_1,15_1,16_3,17_3</sentences>
+  </evaluation>	
+  <evaluation id="252">
+	 <user>stanislaw@osinski.name</user>
+	 <artId>10</artId>
+	 <sentences>4_1,5_1,6_2,7_1,7_2,8_1,8_2,9_3,10_5,10_6,13_1,13_2</sentences>
+  </evaluation>	
+  <evaluation id="253">
+	 <user>wojtek.pieklik@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_2,2_4,3_1,4_1,6_1,8_1,8_2,8_3,10_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="254">
+	 <user>wojtek.pieklik@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,6_1,6_2,7_1,8_1,9_2,9_3,13_1,13_2,14_6</sentences>
+  </evaluation>	
+  <evaluation id="255">
+	 <user>wojtek.pieklik@gmail.com</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="256">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,3_1,4_1,6_1,8_1,10_1,15_1,16_3,17_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="257">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,6_2,7_1,7_2,7_3,8_3,9_2,9_3,9_4,12_1,12_2</sentences>
+  </evaluation>	
+  <evaluation id="258">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>8</artId>
+	 <sentences>2_1,4_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="259">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,3_2,6_1,8_1,9_1,10_1,15_1,17_3,18_1,19_1</sentences>
+  </evaluation>	
+  <evaluation id="260">
+	 <user>muuuzg@wp.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,5_1,6_2,6_3,7_1,7_3,9_3,10_3,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="261">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,2_1,3_1,6_1,6_3,9_1</sentences>
+  </evaluation>	
+  <evaluation id="262">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,2_1,4_1,7_1,12_1,12_2,13_1,13_2,13_3,16_1</sentences>
+  </evaluation>	
+  <evaluation id="263">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,4_1,5_2,8_1</sentences>
+  </evaluation>	
+  <evaluation id="264">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,1_2,2_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="265">
+	 <user>joanna.slapinska@amu.edu.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_8,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="266">
+	 <user>mwerla@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,2_3,3_1,3_2,4_1,5_1,6_1,9_1,10_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="267">
+	 <user>mwerla@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,4_1,5_1,6_1,6_2,8_1,8_3,9_2,9_3,10_5,10_6,15_2</sentences>
+  </evaluation>	
+  <evaluation id="268">
+	 <user>lamya@op.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_1,2_1,2_2,3_1,4_1,4_2,5_1,6_1,10_1,13_1,18_2</sentences>
+  </evaluation>	
+  <evaluation id="269">
+	 <user>lamya@op.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_1,3_3,4_1,4_2,5_1,6_1,6_2,9_3,10_5,12_1,13_2</sentences>
+  </evaluation>	
+  <evaluation id="270">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_1,2_2,2_4,3_1,8_1,10_1,10_3,17_3,18_2,18_3</sentences>
+  </evaluation>	
+  <evaluation id="271">
+	 <user>pobieraj@tlen.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,6_1,6_2,6_3,8_3,9_3,10_5,10_6,13_1,13_2,14_1</sentences>
+  </evaluation>	
+  <evaluation id="272">
+	 <user>sebastian.stafiej@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,8_1,8_3,9_3,9_4,10_5,10_6,12_5,13_1,13_2</sentences>
+  </evaluation>	
+  <evaluation id="273">
+	 <user>sebastian.stafiej@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_3,3_2,4_2,6_1,9_1,10_1,13_1,15_1,16_1,18_2</sentences>
+  </evaluation>	
+  <evaluation id="274">
+	 <user>sebastian.stafiej@gmail.com</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_3,3_1,5_1,6_3</sentences>
+  </evaluation>	
+  <evaluation id="275">
+	 <user>lemekk@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,5_1,6_2,7_1,8_3,9_3,10_6,11_3,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="276">
+	 <user>wojtek.pieklik@gmail.com</user>
+	 <artId>8</artId>
+	 <sentences>1_1,4_1,5_1</sentences>
+  </evaluation>	
+  <evaluation id="277">
+	 <user>h-zel@o2.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,4_1,6_1,8_1,8_2,8_4,9_1,10_1,12_1,15_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="278">
+	 <user>sergiuszz@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_2,4_1,5_1,6_1,7_1,8_1,9_1,10_1,12_1,15_1,16_3</sentences>
+  </evaluation>	
+  <evaluation id="279">
+	 <user>sergiuszz@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,4_1,5_1,6_1,8_1,9_2,10_3,12_4,12_5,13_2,14_2</sentences>
+  </evaluation>	
+  <evaluation id="280">
+	 <user>arkadiusz.kita@gmail.com</user>
+	 <artId>9</artId>
+	 <sentences>1_2,2_2,3_2,6_1,8_1,8_2,9_1,10_1,10_3,15_1,18_4</sentences>
+  </evaluation>	
+  <evaluation id="281">
+	 <user>arkadiusz.kita@gmail.com</user>
+	 <artId>10</artId>
+	 <sentences>3_3,4_1,4_2,5_1,5_3,8_2,9_3,10_5,10_6,13_2,14_1,14_6</sentences>
+  </evaluation>	
+  <evaluation id="282">
+	 <user>rozbudowywowywacz@gmail.com</user>
+	 <artId>7</artId>
+	 <sentences>1_2,1_3,4_1,6_1,7_3,9_3,11_1,11_2,12_4,14_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="283">
+	 <user>rozbudowywowywacz@gmail.com</user>
+	 <artId>6</artId>
+	 <sentences>1_2,3_1,4_3,6_3,7_3,8_2,10_1</sentences>
+  </evaluation>	
+  <evaluation id="284">
+	 <user>rozbudowywowywacz@gmail.com</user>
+	 <artId>5</artId>
+	 <sentences>1_1,3_1,6_1,7_1,8_2,9_1,10_3,12_1,14_2,17_1</sentences>
+  </evaluation>	
+  <evaluation id="285">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,1_2,2_1,5_1,6_1</sentences>
+  </evaluation>	
+  <evaluation id="286">
+	 <user>tomek_pl2@o2.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,1_2,4_1,5_1,5_2</sentences>
+  </evaluation>	
+  <evaluation id="287">
+	 <user>lor.net.ka@wp.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_2,2_3,3_1</sentences>
+  </evaluation>	
+  <evaluation id="288">
+	 <user>lor.net.ka@wp.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,3_5,4_1</sentences>
+  </evaluation>	
+  <evaluation id="289">
+	 <user>lor.net.ka@wp.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_3,3_1,6_1,8_1,8_3,10_1,11_1,11_2,13_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="290">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,5_3,6_4,8_1,8_3,9_2,10_5,10_6,12_1,14_6</sentences>
+  </evaluation>	
+  <evaluation id="291">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,2_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="292">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_2,1_3,3_1,3_4,3_5,6_1,9_1,9_2,11_1,13_1,16_8</sentences>
+  </evaluation>	
+  <evaluation id="293">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,4_3,6_1,6_3,10_1</sentences>
+  </evaluation>	
+  <evaluation id="294">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,1_3,2_1,2_3,7_1,10_3,13_2,16_1,17_1,17_2</sentences>
+  </evaluation>	
+  <evaluation id="295">
+	 <user>panikaa@tlen.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,3_1,7_1,9_2</sentences>
+  </evaluation>	
+  <evaluation id="296">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,4_2,6_1,8_1,10_1,10_2,10_3,13_1,14_3,18_1</sentences>
+  </evaluation>	
+  <evaluation id="297">
+	 <user>jerzy.stefanowski@cs.put.poznan.pl</user>
+	 <artId>10</artId>
+	 <sentences>1_1,3_3,5_1,6_1,6_2,8_1,8_3,9_2,9_3,9_4,14_1,14_2</sentences>
+  </evaluation>	
+  <evaluation id="298">
+	 <user>hermionia@o2.pl</user>
+	 <artId>3</artId>
+	 <sentences>1_1,2_1,2_2,2_4</sentences>
+  </evaluation>	
+  <evaluation id="299">
+	 <user>hermionia@o2.pl</user>
+	 <artId>2</artId>
+	 <sentences>1_1,3_4,4_1,4_2</sentences>
+  </evaluation>	
+  <evaluation id="300">
+	 <user>hermionia@o2.pl</user>
+	 <artId>1</artId>
+	 <sentences>1_1,2_1,2_3,3_1,6_3</sentences>
+  </evaluation>	
+  <evaluation id="301">
+	 <user>hermionia@o2.pl</user>
+	 <artId>8</artId>
+	 <sentences>1_1,5_1,6_2</sentences>
+  </evaluation>	
+  <evaluation id="302">
+	 <user>hermionia@o2.pl</user>
+	 <artId>6</artId>
+	 <sentences>1_1,1_2,3_1,6_1,6_3,9_1,10_1</sentences>
+  </evaluation>	
+  <evaluation id="303">
+	 <user>hermionia@o2.pl</user>
+	 <artId>7</artId>
+	 <sentences>1_1,1_2,1_3,7_1,7_3,9_3,10_1,10_2,11_2,13_1,14_1</sentences>
+  </evaluation>	
+  <evaluation id="304">
+	 <user>hermionia@o2.pl</user>
+	 <artId>4</artId>
+	 <sentences>1_1,2_1,5_2,7_1,8_1</sentences>
+  </evaluation>	
+  <evaluation id="305">
+	 <user>hermionia@o2.pl</user>
+	 <artId>5</artId>
+	 <sentences>1_2,7_1,8_1,9_1,10_1,10_2,10_3,12_1,17_1,17_2</sentences>
+  </evaluation>	
+  <evaluation id="306">
+	 <user>hermionia@o2.pl</user>
+	 <artId>9</artId>
+	 <sentences>2_1,2_2,3_1,6_1,8_2,8_3,10_1,10_3,13_1,15_1,17_3</sentences>
+  </evaluation>	
+  <evaluation id="307">
+	 <user>hermionia@o2.pl</user>
+	 <artId>10</artId>
+	 <sentences>4_1,4_3,5_1,5_3,6_2,8_1,8_2,9_2,9_3,9_4,10_5,10_6</sentences>
+  </evaluation>	
+</evaluations>

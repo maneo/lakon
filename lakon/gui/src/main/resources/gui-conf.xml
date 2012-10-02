@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="preload.thesauri">true</entry>
+<!-- Tiller default conf -->
+	<entry key="tokenizer.class.name">org.grejpfrut.tiller.analysis.MorpheusTokenizer</entry> 
+    <entry key="abbr.list">itp,itd,np,in,tzw,tzn,cdn,inż,godz,ul,św,ok,prof,art,bm,r,proc,tys,m.in</entry>
+    <entry key="stop.words">a,aby,acz,aczkolwiek,aż,ale,ależ,bardzo,bardziej,bez,będą,będzie,bo,by,być,byli,był,była,było,były,cali,cała,cały,co,cokolwiek,coś,czasami,czasem,czy,dla,dlaczego,do,gdy,gdyż,gdzie,gdziekolwiek,gdzieś,i,ile,ich,inna,inny,iż,ja,jak,jakaś,jakichś,jakiś,jakiż,jako,jakoś,ją,jednak,jednakże,jego,jej,jest,jeszcze,jeżeli,już,kiedy,kimś,kto,ktokolwiek,ktoś,która,które,który,których,lat,lecz,lub,ma,mi,mimo,mnie,moim,może,możliwe,można,mu,na,nad,nas,nawet,nic,nich,nie,nigdy,niż,no,o,obok,od,około,on,ona,ono,oraz,pan,pana,pani,po,pod,podczas,pomimo,ponad,ponieważ,powinien,powinna,powinni,powinno,prawie,przecież,przed,przez,przy,roku,również,są,się,sobą,sobie,sposób,ta,tak,taka,taki,takie,także,tam,te,tego,tej,ten,teraz,też,trzeba,to,tobie,toteż,tu,twoim,twoja,twoje,twój,twym,ty,tych,tylko,tym,w,we,według,więc,właśnie,wszyscy,wszystko,wszystkie,za,zapewne,zawsze,ze,znowu,znów,żadna,żadne,żadnych,że,żeby</entry>
+    <entry key="min.paragraph.length">10</entry>
+    <entry key="path.to.thesaurus">e:/projekty/.eclipse_work/moje/lakon/tiller/work/nthesauri/</entry>
+<!-- Summarizer default conf -->
+    <entry key="ref.index.dir">e:/projekty/.eclipse_work/moje/wiki/work/index</entry>
+    <entry key="ave.doc.length">80.0</entry>
+    <!-- FIRST, FIRST_IN_PARAGRAPHS -->
+    <entry key="location.mode">FIRST_IN_PARAGRAPHS</entry>
+    <!-- TFIDF, BM_25 -->
+    <entry key="weight.type">TFIDF</entry>
+    <!-- NOUNS, ALL used only by weights summarizer -->
+    <entry key="signature.words.type">NOUNS</entry>
+    <entry key="length">4</entry>
+    <entry key="min.tfidf">0.025</entry>
+    <entry key="min.bm25">0.035</entry>
+    <!-- -1 means all -->
+    <entry key="no.of.keywords">-1</entry>
+    <!--  this is used by lexical chains summarizer -->
+    <entry key="only.nouns">false</entry>
+    <entry key="max.interpretation">30</entry>
+    <!-- ON, OFF -->
+    <entry key="representative.mode">OFF</entry>
+</properties>

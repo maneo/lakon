@@ -1,0 +1,23 @@
+#set ( $selectedItem = "evaluation" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<div id="primaryContent_columnless">
+
+	<div id="columnA_columnless">
+		#if(${model.zeroTextsInSystem})
+			<span class="error">
+				#springMessage("eval.no.article")
+			</span>
+		#else
+    		<h3>#springMessage("submit.eval.title")</h3>
+    		
+    		<p>
+    			 #if (${model.showMoreLink}) 
+    				#springMessage("submit.eval.text") <a href="evaluation.html">#springMessage("submit.eval.link")</a>
+				 #else
+					#springMessage("submit.eval.nomore")
+    			 #end
+    		</p>	
+        #end
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

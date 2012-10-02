@@ -1,0 +1,38 @@
+#set ( $selectedItem = "admin" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<div id="primaryContent_2columns">
+	<div id="columnA_2columns">
+		
+		<h3>#springMessage("users.list.title")</h3>
+
+		<p>
+			#springMessage("users.list.text")
+		</p>
+		
+		<ol>
+		 #foreach($user in ${model.users})	
+			<li>
+				<div> 
+					${user.Login} 
+					#if ( ${user.Type} == 0 )  ( #springMessage("label.user.inactive") )
+					#elseif( ${user.Type} == 10 )( #springMessage("label.user.admin") )
+					#else  ( #springMessage("label.user.normal") ) #end
+				</div>
+				<a href="users.html?action=delete&amp;id=${user.Id}">
+					#springMessage("label.delete")
+				</a>
+				<a href="user.html?id=${user.Id}">
+					#springMessage("label.modify")
+				</a>
+			</li>	
+		 #end 	
+		</ol>
+			
+    </div>
+</div>	
+
+#parse("/WEB-INF/velocity/parts/submenu.vm")
+
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

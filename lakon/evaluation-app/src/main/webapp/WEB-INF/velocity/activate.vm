@@ -1,0 +1,23 @@
+#set ( $selectedItem = "login" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<div id="primaryContent_columnless">
+
+	<div id="columnA_columnless">
+		
+		<h3>#springMessage("activation.title")</h3>
+		
+		#if ( $success )
+    		<p>
+    			 #springMessage("activation.success") 
+				 <a href="index.html">
+					#springMessage("activation.success.link")
+				 </a>	
+    		</p>	
+		#else
+    		<p>
+    			 #springMessage("activation.failed") 
+    		</p>	
+		#end
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

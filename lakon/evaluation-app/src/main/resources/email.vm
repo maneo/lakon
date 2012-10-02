@@ -1,0 +1,17 @@
+<html>
+<body>
+Witaj, <br/>
+
+Twoje konto zostało utworzone, ale wymaga aktywacji. Wklej poniższy link do swojej przeglądarki internetowej: <br/><br/>
+
+<a href="${link}/activate.html?id=${id}&amp;user=${user}">${link}/activate.html?id=${id}&amp;user=${user}</a> <br/><br/>
+
+Twoje hasło : ${pass} <br/><br/>
+
+Po wyświetleniu komunikatu informującego o pomyślnej aktywacji konta, przejdź do formularza logowania. <br/>
+
+Dziękuje, za rejestracje. <br/><br/>
+
+Adam Dudczak
+</body>
+</html>

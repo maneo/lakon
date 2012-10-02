@@ -1,0 +1,8 @@
+relevant_positions
+
+positions of relevant  sentences chosen by users
+
+users-eval
+
+ranking of sentences chosen by users during the poll. include those sentences
+where number of votes is zero.

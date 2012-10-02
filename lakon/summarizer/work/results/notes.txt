@@ -1,0 +1,7 @@
+three measures (values from 0 to 1): 
+coverage - how many sentences from summary was in ideal summary 
+	   created by experts, as an ideal summary we assume top n
+	   sentences chosen by users (for each text).
+recal and precision - calculation based on relevant sentences set, sentence
+is relevant, when users've chosen it to summary more than average number
+of times.

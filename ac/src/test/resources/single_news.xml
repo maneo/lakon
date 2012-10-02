@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<rss version="2.0">
+	<channel
+		xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+		<title>Wiadomości.Gazeta.pl</title>
+		<link>http://www.gazeta.pl</link>
+		<description></description>
+		<language>pl</language>
+		<copyright>
+			Copyright &#169; Agora SA All rights reserved.
+		</copyright>
+		<lastBuildDate>Thu, 13 Jul 2006 22:04:31 +0200</lastBuildDate>
+		<image>
+			<title>Gazeta.pl</title>
+			<url>http://www.gazeta.pl/img/w/l/gazeta.gif</url>
+			<link>http://www.gazeta.pl</link>
+			<width>68</width>
+			<height>25</height>
+		</image>
+		<item>
+			<guid>
+				http://wiadomosci.gazeta.pl/wiadomosci/1,53600,3481099.html?skad=rss
+			</guid>
+			<link>
+				http://wiadomosci.gazeta.pl/wiadomosci/1,53600,3481099.html?skad=rss
+			</link>
+			<title>Liban: Lotnisko w Bejrucie ostrzelane</title>
+			<description>
+				Okręty izraelskie ostrzelały w czwartek wieczorem
+				zbiorniki paliwa na lotnisku w Bejrucie. Co najmniej
+				jeden zbiornik stanął w płomieniach. Lotnictwo
+				izraelskie zrzuciło nad południowymi przedmieściami
+				Bejrutu ulotki w języku arabskim, wzywające ludność do
+				trzymania się z daleka od obiektów Hezbollahu.
+			</description>
+			<enclosure description="Fot. ODED BALILTY AP" type="jpg"
+				url="http://bi.gazeta.pl/im/8/3481/z3481938S.jpg" />
+			<category>Wiadomości.Gazeta.pl</category>
+			<pubDate>Thu, 13 Jul 2006 07:33:00 +0200</pubDate>
+		</item>
+</channel>
+</rss>

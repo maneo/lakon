@@ -1,0 +1,59 @@
+#set ( $selectedItem = "admin" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<div id="primaryContent_2columns">
+
+	<div id="columnA_2columns">
+
+		
+		<h3>#springMessage("add.user.form.title")</h3>
+
+		<p>
+			#springMessage("add.user.form.text")
+		</p>
+		
+        <form action="" method="post" id="add_user">
+        	 <fieldset>
+				
+        		<div> 
+        		  <label for="login">#springMessage("label.login") :</label>
+        		  #springBind("user.login")
+        		  <input type="text" id="login" name="login" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div> 
+        		 
+        		<div>
+        		  <label for="pass">#springMessage("label.password") :</label>
+        		  #springBind("user.pass")
+        		  <input type="password" id="pass" name="pass" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div>  
+				
+        		<div>
+        		  <label for="type">#springMessage("label.user.type") :</label>
+        		  #springBind("user.type")
+				  <select id="type" name="type">
+					<option value="0">#springMessage("label.user.inactive")</option>
+					<option value="1">#springMessage("label.user.normal")</option>
+					<option value="10">#springMessage("label.user.admin")</option>
+				  </select>
+        		  <span class="error">${status.errorMessage}</span>
+				</div>
+				
+        	    <div>	  
+        		  #springBind("user.*")
+        		  <input type="submit" id="submit" name="submit" value="#springMessage("label.add")" class="button" />
+				  <a href="users.html">
+					<input type="button" id="cancel" name="cancel" value="#springMessage("label.cancel")" class="button" onlclick="window.location='users.html'"/>
+				  </a>
+        		</div>
+        		 
+        	 </fieldset>
+        </form>			
+    </div>
+</div>	
+
+#parse("/WEB-INF/velocity/parts/submenu.vm")
+
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

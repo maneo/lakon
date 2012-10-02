@@ -1,0 +1,45 @@
+#set ( $selectedItem = "login" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<div id="primaryContent_columnless">
+
+	<div id="columnA_columnless">
+		
+		<h3>#springMessage("register.title")</h3>
+		
+		<p>
+			#springMessage("register.text") 
+		</p>
+		
+        <form action="" method="post" id="register">
+           <fieldset>
+        		<div> 
+        		  <label for="login">#springMessage("label.login") :</label>
+        		  #springBind("register.login")
+        		  <input type="text" id="login" name="login" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div> 
+        		 
+        		<div>
+        		  <label for="pass">#springMessage("label.password") :</label>
+        		  #springBind("register.pass")
+        		  <input type="password" id="pass" name="pass" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div>  
+        
+        		<div>
+        		  <label for="repass">#springMessage("label.repassword") :</label>
+        		  #springBind("register.repass")
+        		  <input type="password" id="repass" name="repass" value="$!{status.value}" class="text" />
+        		  <span class="error">${status.errorMessage}</span>
+        		</div>  
+        		
+        	   <div>	  
+        		  #springBind("register.*")
+        			<input type="submit" id="submit" name="submit" value="#springMessage("label.register")" class="button" />
+        		</div>
+        		 
+        	 </fieldset>
+        </form>
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

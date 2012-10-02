@@ -1,0 +1,65 @@
+#set ( $selectedItem = "login" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<script type="text/javascript">
+
+     $(document).ready(function(){
+ 			$("#columnC_2columns").addClass("hidden").show("slow");
+			$("#columnA_2columns").addClass("hidden").fadeIn("slow");
+	 });
+	 
+</script> 
+
+
+<div id="primaryContent_2columns">
+	<div id="columnA_2columns">
+
+
+  <h3>#springMessage("index.introduction.title")</h3>
+
+  #if ( ${privilegesError} )
+      <p class="error">
+     	 #springMessage("privs.warning")
+      </p>
+  #end
+  ${introduction}
+  
+  <div id="selection">
+	<h3> #springMessage("menu.item.evaluation") </h3>
+	$!{selection}
+  </div>	
+
+    </div>
+</div>
+
+<div id="secondaryContent_2columns">
+
+	<div id="columnC_2columns">
+		
+		<h3>#springMessage("label.login.title")</h3>
+
+ 	 #if  (	!${loggedIn}  )
+		<div id="loginView">
+    		#set( $loginForm = true )
+    		#parse("/WEB-INF/velocity/parts/login-form.vm")
+		</div>
+    #else
+		<div id="logoutView">
+    			<p> 
+    				#springMessage("index.logout.text") ${user.Login}
+    				#springMessage("index.logout.text.postifx")
+    			</p>
+    			<a href="logout.html">
+    				#springMessage("label.logout")
+    			</a>	
+		</div>
+	#end
+		
+   <div id="register">
+		#springMessage("index.registration")
+	 <a href="registration.html">
+		#springMessage("index.registration.link")
+	 </a>	
+   </div>
+
+#parse("/WEB-INF/velocity/parts/footer.vm")				

@@ -1,0 +1,148 @@
+#set ( $selectedItem = "evaluation" )
+#parse("/WEB-INF/velocity/parts/header.vm")
+
+<script type="text/javascript">
+
+ var selected_count = 0;
+
+ //some event handling
+ $(document).ready(function(){
+ 
+ 	$("#edit_link").addClass("active_link");
+	 
+ 	$("#showEdit").click(function() {
+	   $(".sentence_selected").removeClass("sentence_selected_prev");
+	   $(".sentence").show();
+	   $("#preview_link").removeClass("active_link");
+	   $("#edit_link").addClass("active_link");
+	   $(".paragraph_title").show();
+	});
+
+#if ( ${maxSentences} > 0 )
+	$("#showPreview").click(function() {
+	   if ( $(".sentence_selected").size() > 0 ) {
+    	   $(".sentence_selected").addClass("sentence_selected_prev");
+    	   $(".sentence").hide();
+		   $("#edit_link").removeClass("active_link");
+		   $("#preview_link").addClass("active_link");
+		   $(".paragraph_title").hide();
+	   }
+	   else alert('#springMessage("eval.choose.something")');
+	});
+
+    // submit evaluation form was clicked
+    $("#confirm").click(function() {
+	  if (  selected_count == $!{maxSentences} ) {
+	    ids = "";
+	    $(".sentence_selected").each(function() {
+			ids += ',' + this.id; 
+		});
+		
+		document.getElementById('ids').value = ids.substring(1);
+		document.getElementById('evaluation').submit();
+	  }
+	  else alert('#springMessage("eval.not.enough.sentences")');
+	});
+#end
+	
+	//mark sentence if clicked
+	$(".sentence").click(function() {
+	
+	  if (this.className == 'sentence' ) {
+		   if ( selected_count >= $!{maxSentences} ) { 
+			   alert('#springMessage("eval.max.sentences.warning") $!{maxSentences}'); 
+		   } else {
+    		   this.className = 'sentence_selected';
+			   selected_count++;
+		   }
+	  }
+	  else if ( this.className == 'sentence_selected sentence_selected_prev' ) {
+	     this.className = 'sentence';
+	     this.style.display = 'none'; 
+		 selected_count--;
+	  }
+	  else {
+	    this.className = 'sentence';
+	    selected_count--;
+	  }
+	  if (selected_count != 0 )
+		  $("#counter").html(selected_count);
+	  else	  
+  		  $("#counter").html('0');
+
+	});
+	
+  });
+</script> 
+<div id="primaryContent_2columns">
+	<div id="columnA_2columns">
+		
+		#if ( ${article.Title} )
+    		<h3>
+    			 ${article.Title}
+    		</h3>	
+		#else
+			<span class="error">
+				#springMessage("eval.no.article")
+			</span>
+		#end
+		
+		<div id="edit">
+
+			#foreach($paragraph in ${article.Paragraphs} )
+				
+				#if ( (${paragraph.Title}) && (${paragraph.Title} != "") ) 
+					<b class="paragraph_title"> ${paragraph.Title} </b>  
+				#end
+				
+				#set ( $paraCount = ${velocityCount} )
+				<div class="paragraph">
+    				#foreach($sentence in ${paragraph.Sentences} )
+    					<span class="sentence" id="${paraCount}_${velocityCount}">
+    						${sentence.Text}
+    					</span>
+    				#end
+				</div>
+				
+			#end
+			
+		</div>
+			
+    </div>
+</div>	
+
+<div id="secondaryContent_2columns">
+
+	<div id="columnC_2columns">
+
+				<h4>
+					<span>#springMessage("eval.menu.title")</span> #springMessage("eval.menu.title.postfix")
+				</h4>
+				
+				<ul class="links">
+    				<li class="first" id="edit_link">
+						&#187;&nbsp;<a href="#" id="showEdit">
+							#springMessage("eval.menu.edit")
+						</a>
+					</li>
+    				<li id="preview_link">
+						&#187;&nbsp;<a href="#" id="showPreview">
+							#springMessage("eval.menu.preview")
+						</a>
+					</li>
+    			</ul>
+		
+				<p>
+					#springMessage("eval.sentences.left") : <span id="counter">0</span>/$!{maxSentences}
+				</p>
+
+				<form id="evaluation" action="" method="post">
+				<p>
+				   <input type="hidden" name="ids" id="ids" value="" />
+				   <input type="hidden" name="artId" id="artId" value="$!{artId}" />
+				   <input type="button" class="button" value="#springMessage("eval.submit")" id="confirm" />	
+				</p>	
+				</form>	
+
+
+#parse("/WEB-INF/velocity/parts/footer.vm")

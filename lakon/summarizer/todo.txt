@@ -1,0 +1,25 @@
+TODO:
+- jest blad w modulle oceny jakosci, jezeli uruchamiamy cos po EvaluateSummariesTask to leci 
+  ArrayIndexOutofBounds
+  
+- czy SynSet.getRelation powinno tak dzialac: maszyneria i zamek
+- recal i precision
+- normalizacja wzgledem liczby termow w zdaniu
+- sprawdzic czy w przypadku powtorzenia wyrazu w zdaniu czegos nie tracimy przy budowaniu lancuchow
+
+- w location method uwzglêdniac podzia³ na sekcje, tekstu, jezeli 
+  akapit posiada tytul, to przewaznie nie jest tytul tego akapitu, ale tytul 
+  nowej sekcji, mozna wiec wydzielic kolejny poziom struktry i cos z nim zrobic :)
+
+TODO HISTORY:
+
+- bm25 debug
+- toString() dopisac jakies rozsadne do wszystkiego nowego
+- lexical chains
+- czy lancuchem jest tez wielkrotne powtorzenie tego samego wyrazu?  jak najbardziej!
+- klasy do ewaluacji, miara jakoœci
+
+0.3 ----------------------------
+- RandomSummarizer
+- LocationBasedSummarizer
+- WeightSummarizer

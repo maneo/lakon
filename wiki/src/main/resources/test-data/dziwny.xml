@@ -1,0 +1,1542 @@
+<mediawiki>
+ <page>
+    <title>Wikipedia:LanguagePl.php</title>
+    <id>8460</id>
+    <revision>
+      <id>1550585</id>
+      <timestamp>2005-09-10T10:57:21Z</timestamp>
+      <contributor>
+        <username>Tawbot</username>
+        <id>723</id>
+      </contributor>
+      <comment>poprawione linki na przekierowania: [[Wikipedia:Nazewnictwo]] na [[Wikipedia:Zalecenia edycyjne]]</comment>
+      <text xml:space="preserve">Reference/work copy of translations file.
+Takes into account changes up to version 1.25.2.19 of
+[http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/wikipedia/phase3/languages/Language.php Language.php] (branch '''stable''') except dynamic dates feature and still holds sitename dependence (''Wikipedia'' name).
+(except 1.25.2.7-11 upgrades, to be included later)
+
+Poniższy plik jest umieszczany w repozytorium projektu pod adresem:
+[http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/wikipedia/phase3/languages/LanguagePl.php]
+
+Inne, nie zawsze aktualne, wersje językowe znajdują się na Metawikipedii:
+[[m:Locales for the Wikipedia Software]]
+
+Dyskusję dotyczącą tłumaczenia można znaleźć na stronach Metawikipedii:
+* [[m:Sprawy związane z przejściem na PHP]]
+* [[m:Polska Wikipedia - Phase III]]
+
+&lt;center&gt;&lt;font color=&quot;red&quot;&gt;'''To jest wersja stable'''&lt;/font&gt;&lt;/center&gt;
+
+----
+
+&lt;pre&gt;&lt;nowiki&gt;
+&lt;?
+global $IP;
+include_once(&quot;{$IP}/LanguageUtf8.php&quot;);
+
+# NOTE: To turn off &quot;Current Events&quot; in the sidebar,
+# set &quot;currentevents&quot; =&gt; &quot;-&quot;
+
+# The names of the namespaces can be set here, but the numbers
+# are magical, so don't change or move them!  The Namespace class
+# encapsulates some of the magic-ness.
+#
+/* private */ $wgNamespaceNamesPl = array(
+        -2      =&gt; &quot;Media&quot;,
+        -1      =&gt; &quot;Specjalna&quot;,
+        0       =&gt; &quot;&quot;,
+        1       =&gt; &quot;Dyskusja&quot;,
+        2       =&gt; &quot;Wikipedysta&quot;,
+        3       =&gt; &quot;Dyskusja_wikipedysty&quot;,
+        4       =&gt; &quot;Wikipedia&quot;,
+        5       =&gt; &quot;Dyskusja_Wikipedii&quot;,
+        6       =&gt; &quot;Grafika&quot;,
+        7       =&gt; &quot;Dyskusja_grafiki&quot;,
+		8       =&gt; &quot;MediaWiki&quot;,
+		9       =&gt; &quot;Dyskusja_MediaWiki&quot;
+);
+
+/* private */ $wgDefaultUserOptionsPl = array(
+        &quot;quickbar&quot; =&gt; 1, &quot;underline&quot; =&gt; 1, &quot;hover&quot; =&gt; 1,
+        &quot;cols&quot; =&gt; 80, &quot;rows&quot; =&gt; 25, &quot;searchlimit&quot; =&gt; 20,
+        &quot;contextlines&quot; =&gt; 5, &quot;contextchars&quot; =&gt; 50,
+        &quot;skin&quot; =&gt; 0, &quot;math&quot; =&gt; 1, &quot;rcdays&quot; =&gt; 3, &quot;rclimit&quot; =&gt; 50,
+        &quot;highlightbroken&quot; =&gt; 1, &quot;stubthreshold&quot; =&gt; 0,
+		&quot;previewontop&quot; =&gt; 1, &quot;editsection&quot; =&gt; 1, &quot;editsectiononrightclick&quot; =&gt; 0, &quot;showtoc&quot; =&gt; 1
+);
+
+
+
+/* private */ $wgQuickbarSettingsPl = array(
+        &quot;Brak&quot;, &quot;Stały, z lewej&quot;, &quot;Stały, z prawej&quot;, &quot;Unoszący się, z lewej&quot;
+);
+
+/* private */ $wgSkinNamesPl = array(
+        &quot;Standard&quot;, &quot;Nostalgia&quot;, &quot;Cologne Blue&quot;
+);
+
+/* private */ $wgMathNamesPl = array( 
+    &quot;Zawsze jako PNG&quot;,
+        &quot;HTML dla prostych, dla reszty PNG&quot;,
+        &quot;Spróbuj HTML; jeśli zawiedzie, to PNG&quot;,
+        &quot;Pozostaw w TeXu (tekst)&quot;,
+        &quot;HTML, dla nowszych przeglądarek&quot;
+); 
+
+/* private */ $wgUserTogglesPl = array(
+        &quot;hover&quot; =&gt; &quot;Pokazuj okienko podpowiedzi ponad linkami&quot;,
+        &quot;underline&quot; =&gt; &quot;Podkreślenie linków&quot;,
+        &quot;highlightbroken&quot; =&gt; &quot;&lt;a href=\&quot;\&quot; class=\&quot;new\&quot;&gt;Podświetl&lt;/a&gt; linki pustych stron (alternatywa: znak zapytania&lt;a href=\&quot;\&quot; class=\&quot;internal\&quot;&gt;?&lt;/a&gt;).&quot;,
+        &quot;justify&quot; =&gt; &quot;Wyrównuj tekst artykułu w kolumnie&quot;,
+        &quot;hideminor&quot; =&gt; &quot;Ukryj drobne zmiany w \&quot;Ostatnich zmianach\&quot;&quot;,
+        &quot;usenewrc&quot; =&gt; &quot;Konsolidacja ostatnich zmian (JavaScript)&quot;,
+        &quot;numberheadings&quot; =&gt; &quot;Automatyczna numeracja nagłówków&quot;,
+        &quot;editondblclick&quot; =&gt; &quot;Podwójne kliknięcie rozpoczyna edycję (JavaScript)&quot;,
+		&quot;editsection&quot; =&gt; &quot;Możliwość edycji poszczególnych sekcji strony&quot;,
+		&quot;editsectiononrightclick&quot; =&gt; &quot;Kliknięcie prawym klawiszem na tytule sekcji&lt;br&gt;rozpoczyna jej edycję (JavaScript)&quot;,
+		&quot;showtoc&quot; =&gt;  &quot;Spis treści (na stronach zawierających więcej niż 3 nagłówki)&quot;,
+        &quot;rememberpassword&quot; =&gt; &quot;Pamiętaj hasło między sesjami&quot;,
+        &quot;editwidth&quot; =&gt; &quot;Obszar edycji o pełnej szerokości&quot;,
+        &quot;watchdefault&quot; =&gt; &quot;Obserwuj strony, które będę edytować&quot;,
+        &quot;minordefault&quot; =&gt; &quot;Wszystkie zmiany zaznaczaj domyślnie jako drobne&quot;,
+        &quot;previewontop&quot; =&gt; &quot;Pokazuj podgląd przed oknem edycji&quot;,
+		&quot;nocache&quot; =&gt; &quot;Wyłącz pamięć podręczną&quot;
+);
+
+/* private */ $wgBookstoreListPl = array(
+        &quot;AddALL&quot; =&gt; &quot;http://www.addall.com/New/Partner.cgi?query=$1&amp;type=ISBN&quot;,
+        &quot;PriceSCAN&quot; =&gt; &quot;http://www.pricescan.com/books/bookDetail.asp?isbn=$1&quot;,
+        &quot;Barnes &amp; Noble&quot; =&gt; &quot;http://shop.barnesandnoble.com/bookSearch/isbnInquiry.asp?isbn=$1&quot;,
+        &quot;Amazon.com&quot; =&gt; &quot;http://www.amazon.com/exec/obidos/ISBN=$1&quot;
+);
+
+/* private */ $wgLanguageNamesPl = array(
+        &quot;ab&quot;    =&gt; &quot;abchaska&quot;,
+        &quot;aa&quot;    =&gt; &quot;afar&quot;,
+        &quot;af&quot;    =&gt; &quot;afrikaans&quot;,
+        &quot;sq&quot;    =&gt; &quot;albańska&quot;,
+        &quot;am&quot;    =&gt; &quot;amharska&quot;,
+        &quot;ar&quot;    =&gt; &quot;arabska&quot;,
+        &quot;hy&quot;    =&gt; &quot;armeńska&quot;,
+        &quot;as&quot;    =&gt; &quot;asamska&quot;,
+        &quot;ay&quot;    =&gt; &quot;ajmara&quot;,
+        &quot;az&quot;    =&gt; &quot;azerbejdżańska&quot;,
+        &quot;ba&quot;    =&gt; &quot;baszkirska&quot;,
+        &quot;eu&quot;    =&gt; &quot;baskijska&quot;,
+        &quot;be&quot;    =&gt; &quot;białoruska&quot;,
+        &quot;bn&quot;    =&gt; &quot;bengalska&quot;,
+        &quot;dz&quot;    =&gt; &quot;druk&quot;,
+        &quot;bg&quot;    =&gt; &quot;bułgarska&quot;,
+        &quot;bh&quot;    =&gt; &quot;biharska&quot;,
+        &quot;bi&quot;    =&gt; &quot;bislama&quot;,
+        &quot;my&quot;    =&gt; &quot;birmańska&quot;,
+        &quot;br&quot;    =&gt; &quot;bretońska&quot;,
+        &quot;bs&quot;    =&gt; &quot;bośniacka&quot;,
+	&quot;ch&quot;    =&gt; &quot;czamorro&quot;,
+        &quot;km&quot;    =&gt; &quot;kambodżańska&quot;,
+        &quot;ca&quot;    =&gt; &quot;katalońska&quot;,
+        &quot;zh&quot;    =&gt; &quot;chińska&quot;,
+	&quot;zh-cn&quot; =&gt; &quot;chińska uproszczona&quot;,
+        &quot;zh-tw&quot; =&gt; &quot;chińska tradycyjna&quot;,
+        &quot;co&quot;    =&gt; &quot;korsykańska&quot;,
+        &quot;hr&quot;    =&gt; &quot;chorwacka&quot;,
+        &quot;cs&quot;    =&gt; &quot;czeska&quot;,
+        &quot;da&quot;    =&gt; &quot;duńska&quot;, # Note two different subdomains. 
+        &quot;dk&quot;    =&gt; &quot;duńska&quot;, # 'da' is correct for the language.
+        &quot;nl&quot;    =&gt; &quot;holenderska&quot;,
+        &quot;en&quot;    =&gt; &quot;angielska&quot;,
+        &quot;w&quot;     =&gt; &quot;angielska&quot;, # Should this be in list this?
+        &quot;simple&quot; =&gt; &quot;uproszczona angielska&quot;,
+        &quot;eo&quot;    =&gt; &quot;esperanto&quot;,
+        &quot;et&quot;    =&gt; &quot;estońska&quot;,
+        &quot;fo&quot;    =&gt; &quot;farerska&quot;,
+        &quot;fj&quot;    =&gt; &quot;fidżyjska&quot;,
+        &quot;fi&quot;    =&gt; &quot;fińska&quot;,
+        &quot;fr&quot;    =&gt; &quot;francuska&quot;,
+        &quot;fy&quot;    =&gt; &quot;fryzyjska&quot;,
+        &quot;gl&quot;    =&gt; &quot;galicyjska&quot;,
+        &quot;ka&quot;    =&gt; &quot;gruzińska&quot;,
+        &quot;de&quot;    =&gt; &quot;niemiecka&quot;,
+        &quot;el&quot;    =&gt; &quot;grecka&quot;,
+        &quot;kl&quot;    =&gt; &quot;grenlandzka&quot;,
+        &quot;gn&quot;    =&gt; &quot;guarani&quot;,
+        &quot;gu&quot;    =&gt; &quot;gudźarati&quot;,
+        &quot;ha&quot;    =&gt; &quot;hausa&quot;,
+        &quot;he&quot;    =&gt; &quot;hebrajska&quot;,
+        &quot;hi&quot;    =&gt; &quot;hindi&quot;,
+        &quot;hu&quot;    =&gt; &quot;węgierska&quot;,
+        &quot;is&quot;    =&gt; &quot;islandzka&quot;,
+        &quot;id&quot;    =&gt; &quot;indonezyjska&quot;,
+        &quot;ia&quot;    =&gt; &quot;interlingua&quot;,
+        &quot;iu&quot;    =&gt; &quot;inuktitut&quot;,
+        &quot;ik&quot;    =&gt; &quot;inupiak&quot;,
+        &quot;ga&quot;    =&gt; &quot;irlandzka&quot;,
+        &quot;it&quot;    =&gt; &quot;włoska&quot;,
+        &quot;ja&quot;    =&gt; &quot;japońska&quot;,
+        &quot;jv&quot;    =&gt; &quot;jawajska&quot;,
+        &quot;kn&quot;    =&gt; &quot;kannada&quot;,
+        &quot;ks&quot;    =&gt; &quot;kaszmirska&quot;,
+	&quot;kw&quot;    =&gt; &quot;kornijska&quot;,
+        &quot;kk&quot;    =&gt; &quot;kazachska&quot;,
+        &quot;rw&quot;    =&gt; &quot;kinya-ruanda&quot;,
+        &quot;ky&quot;    =&gt; &quot;kirgiska&quot;,
+        &quot;rn&quot;    =&gt; &quot;urundi&quot;,
+        &quot;ko&quot;    =&gt; &quot;koreańska&quot;,
+        &quot;lo&quot;    =&gt; &quot;laotańska&quot;,
+        &quot;la&quot;    =&gt; &quot;łacińska&quot;,
+        &quot;lv&quot;    =&gt; &quot;łotewska&quot;,
+        &quot;ln&quot;    =&gt; &quot;lingala&quot;,
+        &quot;lt&quot;    =&gt; &quot;litewska&quot;,
+        &quot;mk&quot;    =&gt; &quot;macedońska&quot;,
+        &quot;mg&quot;    =&gt; &quot;malagaska&quot;,
+        &quot;ms&quot;    =&gt; &quot;malajska&quot;,
+        &quot;ml&quot;    =&gt; &quot;malajalam&quot;,
+        &quot;mi&quot;    =&gt; &quot;maoryska&quot;,
+        &quot;mr&quot;    =&gt; &quot;marathi&quot;,
+        &quot;mo&quot;    =&gt; &quot;mołdawska&quot;,
+        &quot;mn&quot;    =&gt; &quot;mongolska&quot;,
+        &quot;na&quot;    =&gt; &quot;nauru&quot;,
+        &quot;nah&quot;   =&gt; &quot;nahuatl&quot;,
+        &quot;nds&quot;   =&gt; &quot;dolnosaksońska&quot;,
+        &quot;ne&quot;    =&gt; &quot;nepalska&quot;,
+        &quot;no&quot;    =&gt; &quot;norweska&quot;,
+        &quot;oc&quot;    =&gt; &quot;prowansalska&quot;,
+        &quot;or&quot;    =&gt; &quot;orija&quot;,
+        &quot;om&quot;    =&gt; &quot;oromo&quot;,
+        &quot;ps&quot;    =&gt; &quot;paszto&quot;,
+        &quot;fa&quot;    =&gt; &quot;perska&quot;,
+        &quot;pl&quot;    =&gt; &quot;polska&quot;,
+        &quot;pt&quot;    =&gt; &quot;portugalska&quot;,
+        &quot;pa&quot;    =&gt; &quot;pendżabska&quot;,
+        &quot;qu&quot;    =&gt; &quot;keczua&quot;,
+        &quot;rm&quot;    =&gt; &quot;retoromańska&quot;,
+        &quot;ro&quot;    =&gt; &quot;rumuńska&quot;,
+        &quot;ru&quot;    =&gt; &quot;rosyjska&quot;,
+        &quot;sm&quot;    =&gt; &quot;samoańska&quot;,
+        &quot;sg&quot;    =&gt; &quot;sangro&quot;,  //??
+        &quot;sa&quot;    =&gt; &quot;sanskrycka&quot;,
+        &quot;sr&quot;    =&gt; &quot;serbska&quot;,
+        &quot;sh&quot;    =&gt; &quot;serbsko-chorwacka&quot;,
+
+        &quot;st&quot;    =&gt; &quot;sotho&quot;,
+        &quot;tn&quot;    =&gt; &quot;setswana&quot;,
+        &quot;sn&quot;    =&gt; &quot;szona&quot;,
+        &quot;sd&quot;    =&gt; &quot;sindhi&quot;,
+        &quot;si&quot;    =&gt; &quot;syngaleska&quot;,
+        &quot;ss&quot;    =&gt; &quot;suazi&quot;,
+        &quot;sk&quot;    =&gt; &quot;słowacka&quot;,
+        &quot;sl&quot;    =&gt; &quot;słoweńska&quot;,
+        &quot;so&quot;    =&gt; &quot;somali&quot;,
+        &quot;es&quot;    =&gt; &quot;hiszpańska&quot;,
+        &quot;su&quot;    =&gt; &quot;arabska (sudańska)&quot;,
+        &quot;sw&quot;    =&gt; &quot;suahili&quot;,
+        &quot;sv&quot;    =&gt; &quot;szwedzka&quot;,
+        &quot;tl&quot;    =&gt; &quot;tagalog&quot;,
+        &quot;tg&quot;    =&gt; &quot;tadżycka&quot;,
+        &quot;ta&quot;    =&gt; &quot;tamilska&quot;,
+        &quot;tt&quot;    =&gt; &quot;tatarska&quot;,
+        &quot;te&quot;    =&gt; &quot;telugu&quot;,
+        &quot;th&quot;    =&gt; &quot;tajska&quot;,
+        &quot;bo&quot;    =&gt; &quot;tybetańska&quot;,
+        &quot;ti&quot;    =&gt; &quot;tigrinia&quot;,
+        &quot;to&quot;    =&gt; &quot;tonga&quot;,
+
+        &quot;ts&quot;    =&gt; &quot;tsonga&quot;,
+        &quot;tr&quot;    =&gt; &quot;turecka&quot;,
+        &quot;tk&quot;    =&gt; &quot;turkmeńska&quot;,
+        &quot;tw&quot;    =&gt; &quot;twi&quot;,
+        &quot;ug&quot;    =&gt; &quot;ujgurska&quot;,
+        &quot;uk&quot;    =&gt; &quot;ukraińska&quot;,
+        &quot;ur&quot;    =&gt; &quot;urdu&quot;,
+        &quot;uz&quot;    =&gt; &quot;uzbecka&quot;,
+        &quot;vi&quot;    =&gt; &quot;wietnamska&quot;,
+        &quot;vo&quot;    =&gt; &quot;volapuk&quot;,
+        &quot;cy&quot;    =&gt; &quot;walijska&quot;,
+        &quot;wo&quot;    =&gt; &quot;wolof&quot;,
+        &quot;xh&quot;    =&gt; &quot;xhosa&quot;,
+        &quot;yi&quot;    =&gt; &quot;jidisz&quot;,
+        &quot;yo&quot;    =&gt; &quot;joruba&quot;,
+        &quot;za&quot;    =&gt; &quot;dolnosaksońska&quot;,
+        &quot;zu&quot;    =&gt; &quot;zulu&quot;
+);
+
+/* private */ $wgWeekdayNamesPl = array(
+        &quot;niedziela&quot;, &quot;poniedziałek&quot;, &quot;wtorek&quot;, &quot;środa&quot;, &quot;czwartek&quot;,
+        &quot;piątek&quot;, &quot;sobota&quot;
+);
+
+/* private */ $wgMonthNamesPl = array(
+        &quot;styczeń&quot;, &quot;luty&quot;, &quot;marzec&quot;, &quot;kwiecień&quot;, &quot;maj&quot;, &quot;czerwiec&quot;,
+        &quot;lipiec&quot;, &quot;sierpień&quot;, &quot;wrzesień&quot;, &quot;październik&quot;, &quot;listopad&quot;,
+        &quot;grudzień&quot;
+);
+
+/* private */ $wgMonthNamesGenPl = array(
+        &quot;stycznia&quot;, &quot;lutego&quot;, &quot;marca&quot;, &quot;kwietnia&quot;, &quot;maja&quot;, &quot;czerwca&quot;,
+        &quot;lipca&quot;, &quot;sierpnia&quot;, &quot;września&quot;, &quot;października&quot;, &quot;listopada&quot;,
+        &quot;grudnia&quot;
+);
+
+/* private */ $wgMonthAbbreviationsPl = array(
+        &quot;sty&quot;, &quot;lut&quot;, &quot;mar&quot;, &quot;kwi&quot;, &quot;maj&quot;, &quot;cze&quot;, &quot;lip&quot;, &quot;sie&quot;,
+        &quot;wrz&quot;, &quot;paź&quot;, &quot;lis&quot;, &quot;gru&quot;
+);
+
+# All special pages have to be listed here: a description of &quot;&quot;
+# will make them not show up on the &quot;Special Pages&quot; page, which
+# is the right thing for some of them (such as the &quot;targeted&quot; ones).
+#
+/* private */ $wgValidSpecialPagesPl = array(
+        &quot;Userlogin&quot;     =&gt; &quot;&quot;,
+        &quot;Userlogout&quot;    =&gt; &quot;&quot;,
+        &quot;Preferences&quot;   =&gt; &quot;Zmiana moich preferencji&quot;,
+        &quot;Watchlist&quot;     =&gt; &quot;Obserwowane&quot;,
+        &quot;Recentchanges&quot; =&gt; &quot;Ostatnio zmienione&quot;,
+        &quot;Upload&quot;        =&gt; &quot;Przesyłanie plików&quot;,
+        &quot;Imagelist&quot;     =&gt; &quot;Lista obrazków i multimediów&quot;,
+        &quot;Listusers&quot;     =&gt; &quot;Zarejestrowani użytkownicy&quot;,
+        &quot;Statistics&quot;    =&gt; &quot;Statystyka&quot;,
+        &quot;Randompage&quot;    =&gt; &quot;Losowa strona&quot;,
+
+        &quot;Lonelypages&quot;   =&gt; &quot;Porzucone artykuły&quot;,
+        &quot;Unusedimages&quot;  =&gt; &quot;Porzucone pliki&quot;,
+        &quot;Popularpages&quot;  =&gt; &quot;Najpopularniejsze&quot;,
+        &quot;Wantedpages&quot;   =&gt; &quot;Najbardziej potrzebne&quot;,
+        &quot;Shortpages&quot;    =&gt; &quot;Najkrótsze&quot;,
+        &quot;Longpages&quot;     =&gt; &quot;Najdłuższe&quot;,
+        &quot;Newpages&quot;      =&gt; &quot;Nowoutworzone&quot;,
+		&quot;Ancientpages&quot; =&gt; &quot;Najstarsze&quot;,
+        &quot;Allpages&quot;      =&gt; &quot;Wszystkie&quot;,
+
+        &quot;Ipblocklist&quot;   =&gt; &quot;Zablokowane adresy IP&quot;,
+        &quot;Maintenance&quot;   =&gt; &quot;Prosta administracja&quot;,
+        &quot;Specialpages&quot;  =&gt; &quot;&quot;,
+        &quot;Contributions&quot; =&gt; &quot;&quot;,
+        &quot;Emailuser&quot;     =&gt; &quot;&quot;,
+        &quot;Whatlinkshere&quot; =&gt; &quot;&quot;,
+        &quot;Recentchangeslinked&quot; =&gt; &quot;&quot;,
+        &quot;Movepage&quot;      =&gt; &quot;&quot;,
+        &quot;Booksources&quot;   =&gt; &quot;Książki&quot;,
+		&quot;Categories&quot;    =&gt; &quot;Kategorie stron&quot;
+);
+
+/* private */ $wgSysopSpecialPagesPl = array(
+        &quot;Blockip&quot;       =&gt; &quot;Zablokuj adres IP&quot;,
+        &quot;Asksql&quot;        =&gt; &quot;Zapytanie SQL&quot;,
+        &quot;Undelete&quot;      =&gt; &quot;Odtwarzanie skasowanych stron&quot;
+
+);
+
+/* private */ $wgDeveloperSpecialPagesPl = array(
+        &quot;Lockdb&quot;        =&gt; &quot;Zablokuj zapis do bazy danych&quot;,
+        &quot;Unlockdb&quot;      =&gt; &quot;Odblokuj zapis do bazy danych&quot;,
+        &quot;Debug&quot;         =&gt; &quot;Odpluskwianie&quot;
+);
+
+/* private */ $wgAllMessagesPl = array(
+
+# Bits of text used by many pages:
+#
+&quot;categories&quot; =&gt; &quot;Kategorie stron&quot;,
+&quot;category&quot; =&gt; &quot;kategoria&quot;,
+&quot;category_header&quot; =&gt; &quot;Artykuły w kategorii \&quot;$1\&quot;&quot;,
+&quot;subcategories&quot; =&gt; &quot;Podkategorie&quot;,
+&quot;linktrail&quot; =&gt; &quot;/^([a-z]+)(.*)\$/sD&quot;,
+&quot;mainpage&quot; =&gt; &quot;Strona główna&quot;,
+&quot;mainpagetext&quot; =&gt; &quot;Instalacja oprogramowania powiodła się.&quot;,
+&quot;about&quot; =&gt; &quot;O Wikipedii&quot;,
+&quot;aboutwikipedia&quot; =&gt; &quot;O Wikipedii&quot;,
+&quot;aboutpage&quot; =&gt; &quot;Wikipedia:O_Wikipedii&quot;,
+&quot;help&quot; =&gt; &quot;Pomoc&quot;,
+&quot;helppage&quot; =&gt; &quot;Wikipedia:Pomoc&quot;,
+&quot;wikititlesuffix&quot; =&gt; &quot;Wikipedia&quot;,
+&quot;bugreports&quot; =&gt; &quot;Raport o błędach&quot;,
+&quot;bugreportspage&quot; =&gt; &quot;Wikipedia:Błędy&quot;,
+&quot;sitesupport&quot; =&gt; &quot;Dary pieniężne&quot;,
+&quot;sitesupportpage&quot; =&gt; &quot;http://wikimediafoundation.org/fundraising&quot;, # If not set, won't appear. Can be wiki page or URL
+&quot;faq&quot; =&gt; &quot;FAQ&quot;,
+&quot;faqpage&quot; =&gt; &quot;Wikipedia:FAQ&quot;,
+&quot;edithelp&quot; =&gt; &quot;Pomoc w edycji&quot;,
+&quot;edithelppage&quot; =&gt; &quot;Wikipedia:Jak_edytować_stronę&quot;,
+&quot;cancel&quot; =&gt; &quot;Anuluj&quot;,
+&quot;qbfind&quot; =&gt; &quot;Znajdź&quot;,
+&quot;qbbrowse&quot; =&gt; &quot;Przeglądanie&quot;,
+&quot;qbedit&quot; =&gt; &quot;Edycja&quot;,
+&quot;qbpageoptions&quot; =&gt; &quot;Opcje strony&quot;,
+&quot;qbpageinfo&quot; =&gt; &quot;O stronie&quot;,
+&quot;qbmyoptions&quot; =&gt; &quot;Moje opcje&quot;,
+&quot;mypage&quot; =&gt; &quot;Moja strona&quot;,
+&quot;mytalk&quot; =&gt; &quot;Moja dyskusja&quot;,
+&quot;currentevents&quot; =&gt; &quot;-&quot;,
+&quot;errorpagetitle&quot; =&gt; &quot;Błąd&quot;,
+&quot;returnto&quot; =&gt; &quot;Wróć do strony: $1.&quot;,
+&quot;fromwikipedia&quot; =&gt; &quot;Z Wikipedii, wolnej encyklopedii.&quot;,
+&quot;whatlinkshere&quot; =&gt; &quot;Strony, które odwołują się do tej&quot;,
+&quot;help&quot; =&gt; &quot;Pomoc&quot;,
+&quot;search&quot; =&gt; &quot;Szukaj&quot;,
+&quot;go&quot; =&gt; &quot;OK&quot;,
+&quot;history&quot; =&gt; &quot;Historia strony&quot;,
+&quot;printableversion&quot; =&gt; &quot;Wersja do druku&quot;,
+&quot;editthispage&quot; =&gt; &quot;Edytuj&quot;,
+&quot;deletethispage&quot; =&gt; &quot;Usuń&quot;,
+&quot;protectthispage&quot; =&gt; &quot;Zabezpiecz&quot;,
+&quot;unprotectthispage&quot; =&gt; &quot;Odbezpiecz&quot;,
+&quot;newpage&quot; =&gt; &quot;Nowa strona&quot;,
+&quot;talkpage&quot; =&gt; &quot;Dyskusja&quot;,
+&quot;postcomment&quot; =&gt; &quot;Skomentuj&quot;,
+&quot;articlepage&quot; =&gt; &quot;Strona artykułu&quot;, 
+&quot;subjectpage&quot; =&gt; &quot;Strona dyskutowana&quot;, # for compatibility
+&quot;userpage&quot; =&gt; &quot;Strona wikipedysty&quot;, 
+&quot;wikipediapage&quot; =&gt; &quot;Strona metaartykułu&quot;, 
+&quot;imagepage&quot; =&gt;  &quot;Strona grafiki&quot;, 
+&quot;viewtalkpage&quot; =&gt; &quot;Strona dyskusji&quot;,
+&quot;otherlanguages&quot; =&gt; &quot;Wersja&quot;,
+&quot;redirectedfrom&quot; =&gt; &quot;(Przekierowano z $1)&quot;,
+&quot;lastmodified&quot; =&gt; &quot;Tę stronę ostatnio zmodyfikowano o $1;&quot;,
+&quot;viewcount&quot; =&gt; &quot;Tę stronę obejrzano $1 razy;&quot;,
+&quot;gnunote&quot; =&gt; &quot;udostępniana jest w oparciu o licencję &lt;a class=internal href='/wiki/GNU_FDL'&gt;GNU FDL&lt;/a&gt;; możesz ją samodzielnie uzupełnić lub poprawić.&quot;,
+&quot;printsubtitle&quot; =&gt; &quot;(z http://pl.wikipedia.org)&quot;,
+&quot;protectedpage&quot; =&gt; &quot;Strona zabezpieczona&quot;,
+&quot;administrators&quot; =&gt; &quot;Wikipedia:Administratorzy&quot;,
+&quot;sysoptitle&quot; =&gt; &quot;Wymagane prawa dostępu administratora&quot;,
+&quot;sysoptext&quot; =&gt; &quot;Ta operacja może być wykonana tylko przez
+użytkowania o statusie \&quot;administrator\&quot;.
+Zobacz $1.&quot;,
+&quot;developertitle&quot; =&gt; &quot;Wymagane prawa dostępu Programisty&quot;,
+&quot;developertext&quot; =&gt; &quot;Ta operacja może być wykonana tylko przez
+użytkownika o prawach \&quot;Programisty\&quot;.
+Zobacz $1.&quot;,
+&quot;nbytes&quot; =&gt; &quot;$1 bajtów&quot;,
+&quot;go&quot; =&gt; &quot;OK&quot;,
+&quot;ok&quot; =&gt; &quot;OK&quot;,
+&quot;sitetitle&quot; =&gt; &quot;Wikipedia&quot;,
+&quot;sitesubtitle&quot; =&gt; &quot;Wolna Encyklopedia&quot;,
+&quot;retrievedfrom&quot; =&gt; &quot;Źródło: \&quot;$1\&quot;&quot;,
+&quot;newmessages&quot; =&gt; &quot;Masz $1.&quot;,
+&quot;newmessageslink&quot; =&gt; &quot;Nowe wiadomości&quot;,
+&quot;editsection&quot; =&gt; &quot;Edytuj&quot;,
+&quot;toc&quot; =&gt; &quot;Spis treści&quot;,
+&quot;showtoc&quot; =&gt; &quot;pokaż&quot;,
+&quot;hidetoc&quot; =&gt; &quot;schowaj&quot;,
+&quot;thisisdeleted&quot; =&gt; &quot;Pokaż/odtwórz $1&quot;,
+&quot;restorelink&quot; =&gt; &quot;skasowane wersje (w sumie $1)&quot;,
+
+# Main script and global functions
+#
+&quot;nosuchaction&quot; =&gt; &quot;Nie ma takiej operacji&quot;,
+&quot;nosuchactiontext&quot; =&gt; &quot;Oprogramowanie Wikipedii nie rozpoznaje
+operacji takiej jak podana w URL&quot;,
+&quot;nosuchspecialpage&quot; =&gt; &quot;Nie ma takiej strony specjalnej&quot;,
+&quot;nospecialpagetext&quot; =&gt; &quot;Oprogramowanie Wikipedii nie rozpoznaje takiej
+specjalnej strony.&quot;,
+
+# General errors
+#
+&quot;error&quot; =&gt; &quot;Błąd&quot;,
+&quot;databaseerror&quot; =&gt; &quot;Błąd bazy danych&quot;,
+&quot;dberrortext&quot; =&gt; &quot;Wystąpił błąd składni w zapytaniu do bazy danych.
+Mogło to być spowodowane przez złe sformułowanie zapytania (zobacz $5)
+albo przez błąd w oprogramowaniu.
+Ostatnie, nieudane zapytanie to:
+&lt;blockquote&gt;&lt;tt&gt;$1&lt;/tt&gt;&lt;/blockquote&gt;
+wysłane przez funkcję \&quot;&lt;tt&gt;$2&lt;/tt&gt;\&quot;.
+MySQL zgłosił błąd \&quot;&lt;tt&gt;$3: $4&lt;/tt&gt;\&quot;.&quot;,
+&quot;dberrortextcl&quot; =&gt; &quot;Wystąpił błąd składni w zapytaniu do bazy danych.
+Ostatnie, nieudane zapytanie to:
+\&quot;$1\&quot;
+wywołane zostało przez funkcję \&quot;$2\&quot;.
+MySQL zgłosił błąd \&quot;$3: $4\&quot;.\n&quot;,
+&quot;noconnect&quot; =&gt; &quot;Wikipedia ma chwilowo problemy techniczne. Nie można połączyć się z serwerem bazy danych. Przepraszamy!&quot;,
+&quot;nodb&quot; =&gt; &quot;Nie można odnaleźć bazy danych $1&quot;,
+&quot;cachederror&quot; =&gt; &quot;Poniższy tekst strony jest kopią znajdującą się w pamięci podręcznej i może być już niekatualny.&quot;,
+&quot;readonly&quot; =&gt; &quot;Baza danych jest zablokowana&quot;,
+&quot;enterlockreason&quot; =&gt; &quot;Podaj powód zablokowania bazy oraz szacunkowy czas
+jej odblokowania&quot;,
+&quot;readonlytext&quot; =&gt; &quot;Baza danych Wikipedii jest w tej chwili zablokowana
+- nie można wprowadzać nowych artykułów ani modyfikować istniejących. Powodem
+są prawdopodobnie czynności administracyjne. Po ich zakończeniu przywrócona
+zostanie pełna funkcjonalność bazy.
+Administrator, który zablokował bazę, podał następujące wyjaśnienie:
+&lt;p&gt;$1&quot;,
+&quot;missingarticle&quot; =&gt; &quot;Oprogramowanie nie odnalazło tekstu strony,
+która powinna się znajdować w bazie, tzn. strony \&quot;$1\&quot;.
+&lt;p&gt;Zazwyczaj zdarza się to, gdy wybrane zostanie łącze
+do skasowanej strony, np. w starszej wersji innej ze stron.
+&lt;p&gt;Inne okoliczności świadczyłyby o tym, że w oprogramowaniu jest błąd.
+W takim przypadku zgłoś, proszę, ten fakt administratorowi
+podając także powyższy adres.&quot;,
+&quot;internalerror&quot; =&gt; &quot;Błąd wewnętrzny&quot;,
+&quot;filecopyerror&quot; =&gt; &quot;Nie można skopiować pliku \&quot;$1\&quot; do \&quot;$2\&quot;.&quot;,
+&quot;filerenameerror&quot; =&gt; &quot;Nie można zmienić nazwy pliku \&quot;$1\&quot; na \&quot;$2\&quot;.&quot;,
+&quot;filedeleteerror&quot; =&gt; &quot;Nie można skasować pliku \&quot;$1\&quot;.&quot;,
+&quot;filenotfound&quot; =&gt; &quot;Nie można znaleźć pliku \&quot;$1\&quot;.&quot;,
+&quot;unexpected&quot; =&gt; &quot;Niespodziewana wartość: \&quot;$1\&quot;=\&quot;$2\&quot;.&quot;,
+&quot;formerror&quot; =&gt; &quot;Błąd: nie można wysłać formularza&quot;,
+&quot;badarticleerror&quot; =&gt; &quot;Dla tej strony ta operacja nie może być wykonana.&quot;,
+&quot;cannotdelete&quot; =&gt; &quot;Nie można skasować podanej strony lub obrazka.&quot;,
+&quot;badtitle&quot; =&gt; &quot;Niepoprawny tytuł&quot;,
+&quot;badtitletext&quot; =&gt; &quot;Podano niepoprawny tytuł strony. Prawdopodobnie zawiera
+znaki, których użycie jest zabronione lub jest pusty.&quot;,
+&quot;perfdisabled&quot; =&gt; &quot;By odciążyć serwer w godzinach szczytu czasowo zablokowaliśmy
+wykonanie tej czynności. Wróć proszę i spróbuj jeszcze raz między 02.00 a 14.00
+czasu UTC. Przepraszamy!&quot;,
+&quot;perfdisabledsub&quot; =&gt; &quot;Oto ostatnia zapisana wersja strony z $1&quot;,
+&quot;viewsource&quot; =&gt; &quot;Tekst źródłowy&quot;,
+&quot;protectedtext&quot; =&gt; &quot;Wyłączono możliwość edycji tej strony; istnieje kilka powodów
+dla których jest to robione - zobacz [[Wikipedia:Strona_zabezpieczona]]
+
+Tekst źródłowy strony można w dalszym ciągu podejrzeć i skopiować.&quot;,
+
+# Login and logout pages
+#
+&quot;logouttitle&quot; =&gt; &quot;Wylogowanie użytkownika&quot;,
+&quot;logouttext&quot; =&gt; &quot;Wylogowano Cię.
+Możesz kontynuować pracę z Wikipedią jako niezarejestrowany użytkownik
+albo zalogować się ponownie jako ten sam lub inny użytkownik.\n&quot;,
+
+&quot;welcomecreation&quot; =&gt; &quot;&lt;h2&gt;Witaj, $1!&lt;/h2&gt;&lt;p&gt;Właśnie utworzyliśmy dla Ciebie konto.
+Nie zapomnij dostosować &lt;i&gt;preferencji&lt;/i&gt;.&quot;,
+
+&quot;loginpagetitle&quot; =&gt; &quot;User login&quot;,
+&quot;yourname&quot; =&gt; &quot;Twój login&quot;,
+&quot;yourpassword&quot; =&gt; &quot;Twoje hasło&quot;,
+&quot;yourpasswordagain&quot; =&gt; &quot;Powtórz hasło&quot;,
+&quot;newusersonly&quot; =&gt; &quot; (tylko nowi użytkownicy)&quot;,
+&quot;remembermypassword&quot; =&gt; &quot;Pamiętaj moje hasło między sesjami.&quot;,
+&quot;loginproblem&quot; =&gt; &quot;&lt;b&gt;Są problemy z Twoim logowaniem.&lt;/b&gt;&lt;br&gt;Spróbuj ponownie!&quot;,
+&quot;alreadyloggedin&quot; =&gt; &quot;&lt;font color=red&gt;&lt;b&gt;$1, jesteś już zalogowany!&lt;/b&gt;&lt;/font&gt;&lt;br&gt;\n&quot;,
+
+&quot;areyounew&quot; =&gt; &quot;Jeśli jesteś po raz pierwszy na Wikipedii i chcesz mieć
+własne konto użytkownika, wprowadź swój pseudonim (login), a następnie wpisz
+dwukrotnie wybrane hasło. Podanie adresu e-mail jest opcjonalne - jeśli
+zapomnisz hasła możesz poprosić o przesłanie go na ów adres.&lt;br&gt;\n&quot;,
+
+&quot;login&quot; =&gt; &quot;Zaloguj mnie&quot;,
+&quot;userlogin&quot; =&gt; &quot;Logowanie&quot;,
+&quot;logout&quot; =&gt; &quot;Wyloguj mnie&quot;,
+&quot;userlogout&quot; =&gt; &quot;Wylogowanie&quot;,
+&quot;notloggedin&quot; =&gt; &quot;Brak logowania&quot;,
+&quot;createaccount&quot; =&gt; &quot;Załóż nowe konto&quot;,
+&quot;badretype&quot; =&gt; &quot;Wprowadzone hasła różnią się między sobą.&quot;,
+&quot;userexists&quot; =&gt; &quot;Wybrana przez Ciebie nazwa użytkownika jest już zajęta. Wybierz, proszę, inną.&quot;,
+&quot;youremail&quot; =&gt; &quot;Twój e-mail*&quot;,
+&quot;yournick&quot; =&gt; &quot;Twój podpis&quot;,
+&quot;emailforlost&quot; =&gt; &quot;* Wpisanie adresu e-mailowego nie jest obowiązkowe. Pozwala to jednak innym użytkownikom skontaktowanie się z Tobą bez jawnej znajomości Twojego adresu. Przyda się także, gdy zapomnisz hasła - możesz wtedy poprosić o przesłanie nowego na podany adres.&quot;,
+&quot;loginerror&quot; =&gt; &quot;Błąd logowania&quot;,
+&quot;noname&quot; =&gt; &quot;To nie jest poprawna nazwa użytkownika.&quot;,
+&quot;loginsuccesstitle&quot; =&gt; &quot;Udane logowanie&quot;,
+&quot;loginsuccess&quot; =&gt; &quot;Zalogowano Cię do Wikipedii jako \&quot;$1\&quot;.&quot;,
+&quot;nosuchuser&quot; =&gt; &quot;Nie ma użytkowniku nazywającego się \&quot;$1\&quot;.
+Sprawdź pisownię lub użyj poniższego formularza by utworzyć nowe konto.&quot;,
+&quot;wrongpassword&quot; =&gt; &quot;Podane przez Ciebie hasło jest nieprawidłowe. Spróbuj jeszcze raz.&quot;,
+&quot;mailmypassword&quot; =&gt; &quot;Wyślij mi nowe hasło&quot;,
+&quot;passwordremindertitle&quot; =&gt; &quot;Wikipedia przypomina o haśle&quot;,
+&quot;passwordremindertext&quot; =&gt; &quot;Ktoś (prawdopodobnie Ty, spod adresu $1)
+poprosił od nas o wysłanie nowego hasła dostępu do Wikipedii.
+Aktualne hasło dla użytkownika \&quot;$2\&quot; to \&quot;$3\&quot;. 
+Najlepiej będzie jak zalogujesz się teraz i od razu zmienisz hasło.&quot;,
+&quot;noemail&quot; =&gt; &quot;W bazie nie ma adresu e-mailowego dla użytkownika \&quot;$1\&quot;.&quot;,
+&quot;passwordsent&quot; =&gt; &quot;Nowe hasło zostało wysłane na adres e-mailowy użytkownika \&quot;$1\&quot;
+Po otrzymaniu go zaloguj się ponownie.&quot;,
+
+# Edit pages
+#
+&quot;summary&quot; =&gt; &quot;Opis zmian&quot;,
+&quot;subject&quot; =&gt; &quot;Temat/nagłówek&quot;,
+&quot;minoredit&quot; =&gt; &quot;To jest drobna zmiana.&quot;,
+&quot;watchthis&quot; =&gt; &quot;Obserwuj&quot;,
+&quot;savearticle&quot; =&gt; &quot;Zapisz&quot;,
+&quot;preview&quot; =&gt; &quot;Podgląd&quot;,
+&quot;showpreview&quot; =&gt; &quot;Podgląd&quot;,
+&quot;blockedtitle&quot; =&gt; &quot;Użytkownik jest zablokowany&quot;,
+&quot;blockedtext&quot; =&gt; &quot;Twoje konto lub adres IP zostały zablokowane przez $1.
+Podany powód to:&lt;br&gt;$2.&lt;p&gt;W celu wyjaśnienia sprawy zablokowania możesz się skontaktować z $1 lub innym
+[[Wikipedia:Administratorzy|administratorem]].&quot;,
+&quot;newarticle&quot; =&gt; &quot;(Nowy)&quot;,
+&quot;newarticletext&quot; =&gt; &quot;Nie ma jeszcze artykułu o tym tytule. W poniższym polu można wpisać pierwszy jego fragment. Jeśli nie to było Twoim zamiarem, wciśnij po prostu ''Wstecz''.&quot;,
+&quot;anontalkpagetext&quot; =&gt; &quot;---- ''To jest strona dyskusyjna dla użytkowników
+anonimowych - takich, którzy nie mają jeszcze swojego konta na Wikipedii lub
+nie chcą go w tej chwili używać. By ich identyfikować używamy [[IP|numerów IP]].
+Jeśli jesteś anonimowym użytkownikiem i wydaje Ci się, że zamieszczone tu komentarze
+nie są skierowane do Ciebie, [[Specjalna:Userlogin|utwórz proszę konto i/albo zaloguj się]]
+- dzięki temu unikniesz w przyszłości podobnych nieporozumień.'' &quot;,
+&quot;noarticletext&quot; =&gt; &quot;(Nie ma jeszcze artykułu o tym tytule. Wybierz ''Edytuj'' by go rozpocząć.)&quot;,
+&quot;updated&quot; =&gt; &quot;(Zmodyfikowano)&quot;,
+&quot;note&quot; =&gt; &quot;&lt;strong&gt;Uwaga:&lt;/strong&gt; &quot;,
+&quot;previewnote&quot; =&gt; &quot;To jest tylko podgląd - artykuł nie został jeszcze zapisany!&quot;,
+&quot;previewconflict&quot; =&gt; &quot;Wersja podglądana odnosi się do tekstu
+z górnego pola edycji. Tak będzie wyglądać strona jeśli zdecydujesz się ją zapisać.&quot;,
+&quot;editing&quot; =&gt; &quot;Edytujesz \&quot;$1\&quot;&quot;,
+&quot;sectionedit&quot; =&gt; &quot; (fragment)&quot;,
+&quot;commentedit&quot; =&gt; &quot; (komentarz)&quot;,
+&quot;editconflict&quot; =&gt; &quot;Konflikt edycji: $1&quot;,
+&quot;explainconflict&quot; =&gt; &quot;Ktoś zdążył wprowadzić swoją wersję artykułu
+w trakcie Twojej edycji.
+Górne pole edycji zawiera tekst strony aktualnie zapisany w bazie danych.
+Twoje zmiany znajdują się w dolnym polu edycji.
+By wprowadzić swoje zmiany musisz zmodyfikować tekst z górnego pola.
+&lt;b&gt;Tylko&lt;/b&gt; tekst z górnego pola będzie zapisany w bazie gdy wciśniesz
+\&quot;Zapisz\&quot;.\n&lt;p&gt;&quot;,
+&quot;yourtext&quot; =&gt; &quot;Twój tekst&quot;,
+&quot;storedversion&quot; =&gt; &quot;Zapisana wersja&quot;,
+&quot;editingold&quot; =&gt; &quot;&lt;font color=\&quot;red\&quot;&gt;&lt;strong&gt;OSTRZEŻENIE: Edytujesz inną niż bieżąca wersję tej strony.
+Jeśli zapiszesz ją wszystkie późniejsze zmiany zostaną skasowane.&lt;/strong&gt;&lt;/font&gt;\n&quot;,
+&quot;yourdiff&quot; =&gt; &quot;Różnice&quot;,
+&quot;copyrightwarning&quot; =&gt; &quot;Proszę pamiętać o tym, że przyjmuje się, iż wszelki
+wkład do Wikipedii jest udostępniany na zasadach &lt;i&gt;GNU Free Documentation License&lt;/i&gt;
+(szczegóły w $1).  &lt;br&gt;Jeśli nie chcesz, żeby Twój tekst był dowolnie zmieniany przez każdego i rozpowszechniany bez ograniczeń, nie umieszczaj go w Wikipedii.  Niniejszym jednocześnie oświadczasz, że ten tekst jest Twoim dziełem lub pochodzi z materiałów dostępnych na zasadach &lt;i&gt;public domain&lt;/i&gt; albo
+licencji &lt;i&gt;GNU Free Documentation License&lt;/i&gt; lub kompatybilnej.
+&lt;br&gt;&lt;strong&gt;PROSZĘ NIE UŻYWAĆ BEZ POZWOLENIA MATERIAŁÓW OBJĘTYCH PRAWEM
+AUTORSKIM!&lt;/strong&gt;&quot;,
+&quot;longpagewarning&quot; =&gt; &quot;UWAGA: Ta strona ma $1 kilobajt-y/-ów; w przypadku niektórych
+przeglądarek mogą wystąpić problemy w edycji stron mających więcej niż 32 kilobajty.
+Jeśli to możliwe, spróbuj podzielić tekst na mniejsze części.&quot;,
+&quot;readonlywarning&quot; =&gt; &quot;UWAGA: Baza danych została chwilowo zablokowana do celów
+administracyjnych. Nie można więc na razie zapisać nowej wersji
+artykułu. Proponujemy przenieść jej tekst do prywatnego pliku
+(wytnij/wklej) i zachować na później.&quot;,
+&quot;protectedpagewarning&quot; =&gt; &quot;UWAGA: Modyfikacja tej strony została zablokowana.
+Mogą ją edytować jedynie użytkownicy z prawami administracyjnymi.
+Upewnij się, że postępujesz zgodnie z
+&lt;a href='/wiki/Wikipedia:Blokowanie_stron'&gt;zasadami dotyczącymi
+zablokowanych stron&lt;/a&gt;.&quot;,
+
+
+# History pages
+#
+&quot;revhistory&quot; =&gt; &quot;Historia modyfikacji&quot;,
+&quot;nohistory&quot; =&gt; &quot;Ta strona nie ma swojej historii edycji.&quot;,
+&quot;revnotfound&quot; =&gt; &quot;Wersja nie została odnaleziona&quot;,
+&quot;revnotfoundtext&quot; =&gt; &quot;Ta (starsza) wersja strony nie może zostać odnaleziona.
+Sprawdź proszę URL użyty przez Ciebie by uzyskać dostęp do tej strony.\n&quot;,
+&quot;loadhist&quot; =&gt; &quot;Pobieranie historii tej strony&quot;,
+&quot;currentrev&quot; =&gt; &quot;Aktualna wersja&quot;,
+
+&quot;revisionasof&quot; =&gt; &quot;Wersja z dnia $1&quot;,
+&quot;cur&quot; =&gt; &quot;bież&quot;,
+&quot;next&quot; =&gt; &quot;następna&quot;,
+&quot;last&quot; =&gt; &quot;poprz&quot;,
+&quot;orig&quot; =&gt; &quot;oryginał&quot;,
+&quot;histlegend&quot; =&gt; &quot;Legenda: (bież) = różnice z wersją bieżącą,
+(poprz) = różnice z wersją poprzedzającą, M = drobne zmiany&quot;,
+
+# Diffs
+#
+&quot;difference&quot; =&gt; &quot;(Różnice między wersjami)&quot;,
+&quot;loadingrev&quot; =&gt; &quot;pobieranie wersji w celu porównania&quot;,
+&quot;lineno&quot; =&gt; &quot;Linia $1:&quot;,
+&quot;editcurrent&quot; =&gt; &quot;Edytuj bieżącą wersję tej strony&quot;,
+
+# Search results
+#
+&quot;searchresults&quot; =&gt; &quot;Wyniki wyszukiwania&quot;,
+&quot;searchhelppage&quot; =&gt; &quot;Wikipedia:Przeszukiwanie&quot;,
+&quot;searchingwikipedia&quot; =&gt; &quot;Przeszukiwanie Wikipedii&quot;,
+&quot;searchresulttext&quot; =&gt; &quot;Aby dowiedzieć się więcej o przeszukiwaniu Wikipedii, zobacz $1.&quot;,
+&quot;searchquery&quot; =&gt; &quot;Dla zapytania \&quot;$1\&quot;&quot;,
+&quot;badquery&quot; =&gt; &quot;Źle sformułowane zapytanie&quot;,
+&quot;badquerytext&quot; =&gt; &quot;Nie można zrealizować Twojego zapytania.
+Prawdopodobna przyczyna to obecność słowa krótszego niż trzyliterowe.
+Spróbuj, proszę, innego zapytania.&quot;,
+&quot;matchtotals&quot; =&gt; &quot;Zapytanie \&quot;$1\&quot;, liczba znalezionych tytułów: $2,
+liczba znalezionych artykułów: $3.&quot;,
+&quot;nogomatch&quot; =&gt; &quot;Nie istnieją strony o dokładnie takim tytule. Spróbuj pełnego przeszukiwania. &quot;,
+&quot;titlematches&quot; =&gt; &quot;Znaleziono w tytułach:&quot;,
+&quot;notitlematches&quot; =&gt; &quot;Nie znaleziono w tytułach&quot;,
+&quot;textmatches&quot; =&gt; &quot;Znaleziono na stronach:&quot;,
+&quot;notextmatches&quot; =&gt; &quot;Nie znaleziono w tekście stron&quot;,
+&quot;prevn&quot; =&gt; &quot;poprzednie $1&quot;,
+&quot;nextn&quot; =&gt; &quot;następne $1&quot;,
+&quot;viewprevnext&quot; =&gt; &quot;Zobacz ($1) ($2) ($3).&quot;,
+&quot;showingresults&quot; =&gt; &quot;Oto lista &lt;b&gt;$1&lt;/b&gt; pozycji, poczynając od numeru &lt;b&gt;$2&lt;/b&gt;.&quot;,
+&quot;showingresultsnum&quot; =&gt; &quot;Oto lista &lt;b&gt;$3&lt;/b&gt; pozycji, poczynając od numeru &lt;b&gt;$2&lt;/b&gt;.&quot;,
+&quot;nonefound&quot; =&gt; &quot;&lt;strong&gt;Uwaga&lt;/strong&gt;: brak rezultatów wyszukiwania
+spowodowany jest bardzo często szukaniem najpopularniejszych słów, takich jak
+\&quot;jest\&quot; czy \&quot;nie\&quot;, które nie są indeksowane, albo z powodu podania w
+zapytaniu więcej niż jednego słowa (na liście odnalezionych stron znajdą się
+tylko te, które zawierają wszystkie podane słowa).&quot;,
+&quot;powersearch&quot; =&gt; &quot;Szukaj&quot;, 
+&quot;powersearchtext&quot; =&gt; &quot;
+Szukaj w przestrzeniach nazw :&lt;br&gt;
+$1&lt;br&gt;
+$2 Pokaż przekierowania &amp;nbsp; Szukany tekst $3 $9&quot;,
+&quot;searchdisabled&quot; =&gt; &quot;&lt;p&gt;Ze względu na duże obciążenie serwera wyszukiwanie
+w treści artykułów zostało czasowo wyłączone; mamy nadzieję, że 
+po zbliżającej się modyfikacji sprzętu możliwość ta zostanie przywrócona.
+W międzyczasie polecamy wyszukiwanie za pomocą Google:&lt;/p&gt;
+
+&lt;!-- SiteSearch Google --&gt;
+&lt;FORM method=GET action=\&quot;http://www.google.com/search\&quot;&gt;
+&lt;TABLE bgcolor=\&quot;#FFFFFF\&quot;&gt;&lt;tr&gt;&lt;td&gt;
+&lt;A HREF=\&quot;http://www.google.com/\&quot;&gt;
+&lt;IMG SRC=\&quot;http://www.google.com/logos/Logo_40wht.gif\&quot;
+border=\&quot;0\&quot; ALT=\&quot;Google\&quot;&gt;&lt;/A&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;INPUT TYPE=text name=q size=31 maxlength=255 value=\&quot;$1\&quot;&gt;
+&lt;INPUT type=submit name=btnG VALUE=\&quot;Google Search\&quot;&gt;
+&lt;font size=-1&gt;
+&lt;input type=hidden name=domains value=\&quot;{$wgServer}\&quot;&gt;&lt;br&gt;&lt;input type=radio
+name=sitesearch value=\&quot;\&quot;&gt; WWW &lt;input type=radio name=sitesearch
+value=\&quot;{$wgServer}\&quot; checked&gt; {$wgServer} &lt;br&gt;
+&lt;input type='hidden' name='ie' value='$2'&gt;
+&lt;input type='hidden' name='oe' value='$2'&gt;
+&lt;/font&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;
+&lt;/FORM&gt;
+&lt;!-- SiteSearch Google --&gt;
+&quot;,
+&quot;blanknamespace&quot; =&gt; &quot;(Główna)&quot;,
+
+
+# Preferences page
+#
+&quot;preferences&quot; =&gt; &quot;Preferencje&quot;,
+&quot;prefsnologin&quot; =&gt; &quot;Brak logowania&quot;,
+&quot;prefsnologintext&quot; =&gt; &quot;Musisz się &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Userlogin&quot; ) . &quot;\&quot;&gt;zalogować&lt;/a&gt;
+przez zmianą swoich preferencji.&quot;,
+&quot;prefslogintext&quot; =&gt; &quot;Zalogowano Cię jako \&quot;$1\&quot;. Twój numer identyfikacyjny to $2.
+
+Zobacz [[Wikipedia:Preferencje]], aby poznać znaczenie poszczególnych opcji.&quot;,
+&quot;prefsreset&quot; =&gt; &quot;Preferencje domyślne zostały odtworzone.&quot;,
+&quot;qbsettings&quot; =&gt; &quot;Pasek szybkiego dostępu&quot;, 
+&quot;changepassword&quot; =&gt; &quot;Zmiana hasła&quot;,
+&quot;skin&quot; =&gt; &quot;Skórka&quot;,
+&quot;math&quot; =&gt; &quot;Prezentacja wzorów matematycznych&quot;, 
+&quot;math_failure&quot; =&gt; &quot;Parser nie umiał rozpoznać&quot;, 
+&quot;math_unknown_error&quot; =&gt; &quot;nieznany błąd&quot;, 
+&quot;math_unknown_function&quot; =&gt; &quot;nieznana funkcja &quot;, 
+&quot;math_lexing_error&quot; =&gt; &quot;błąd leksera&quot;, 
+&quot;math_syntax_error&quot; =&gt; &quot;błąd składni&quot;, 
+&quot;saveprefs&quot; =&gt; &quot;Zapisz preferencje&quot;,
+&quot;resetprefs&quot; =&gt; &quot;Preferencje domyślne&quot;,
+&quot;oldpassword&quot; =&gt; &quot;Stare hasło&quot;,
+&quot;newpassword&quot; =&gt; &quot;Nowe hasło&quot;,
+&quot;retypenew&quot; =&gt; &quot;Powtórz nowe hasło&quot;,
+&quot;textboxsize&quot; =&gt; &quot;Wymiary pola edycji&quot;,
+&quot;rows&quot; =&gt; &quot;Wiersze&quot;,
+&quot;columns&quot; =&gt; &quot;Kolumny&quot;,
+&quot;searchresultshead&quot; =&gt; &quot;Ustawienia wyszukiwarki&quot;,
+&quot;resultsperpage&quot; =&gt; &quot;Liczba wyników na stronie&quot;,
+&quot;contextlines&quot; =&gt; &quot;Pierwsze wiersze artykułu&quot;,
+&quot;contextchars&quot; =&gt; &quot;Litery kontekstu w linijce&quot;,
+&quot;stubthreshold&quot; =&gt; &quot;Maksymalny rozmiar artykułu prowizorycznego&quot;,
+&quot;recentchangescount&quot; =&gt; &quot;Liczba pozycji na liście ostatnich zmian&quot;,
+&quot;savedprefs&quot; =&gt; &quot;Twoje preferencje zostały zapisane.&quot;,
+&quot;timezonetext&quot; =&gt; &quot;Podaj liczbę godzin różnicy między Twoim czasem,
+a czasem uniwersalnym (UTC). Np. dla Polski jest to liczba \&quot;2\&quot; (czas letni)
+lub \&quot;1\&quot; (czas zimowy).&quot;,
+&quot;localtime&quot; =&gt; &quot;Twój czas&quot;,
+&quot;timezoneoffset&quot; =&gt; &quot;Różnica&quot;,
+&quot;servertime&quot; =&gt; &quot;Aktualny czas serwera&quot;,
+&quot;guesstimezone&quot; =&gt; &quot;Pobierz z przeglądarki&quot;,
+&quot;emailflag&quot; =&gt; &quot;Nie chcę otrzymywać e-maili od innych użytkowników&quot;,
+&quot;defaultns&quot; =&gt; &quot;Przeszukuj następujące przestrzenie nazw domyślnie:&quot;,
+
+# Recent changes
+#
+&quot;changes&quot; =&gt; &quot;zmian-a/-y&quot;,
+&quot;recentchanges&quot; =&gt; &quot;Ostatnie zmiany&quot;,
+&quot;recentchangestext&quot; =&gt; &quot;Ta strona przedstawia historię ostatnich zmian w polskiej Wikipedii.
+
+[[Wikipedia:Powitanie nowicjuszy|Witaj]]! Jeśli jesteś tu po raz pierwszy, zapoznaj się, proszę, z tymi stronami: [[wikipedia:FAQ|Wikipedia FAQ]], [[Wikipedia:Zasady i wskazówki|polityka Wikipedii]] (a zwłaszcza [[Wikipedia:Zalecenia edycyjne|konwencje nazywania stron]], [[Wikipedia:Neutralny punkt widzenia|neutralny punkt widzenia]]) oraz [[Wikipedia:Najczęstsze nieporozumienia|najczęstsze nieporozumienia]].
+
+Jeśli zależy Ci na dalszym rozwoju Wikipedii, nie dodawaj materiałów zastrzeżonych prawami autorskimi. Złamanie tej zasady mogłyby narazić projekt Wikipedii na poważne konsekwencje prawne.  Zobacz także [http://meta.wikipedia.org/wiki/Special:Recentchanges ostatnie zmiany na stronach dyskusyjnych projektu].&quot;,
+&quot;rcloaderr&quot; =&gt; &quot;Ładuję ostatnie zmiany&quot;,
+&quot;rcnote&quot; =&gt; &quot;To ostatnie &lt;strong&gt;$1&lt;/strong&gt; zmian dokonanych na Wikipedii w ciągu ostatnich &lt;strong&gt;$2&lt;/strong&gt; dni.&quot;,
+&quot;rcnotefrom&quot; =&gt; &quot;Poniżej pokazano zmiany dokonane po &lt;b&gt;$2&lt;/b&gt; (nie więcej niż &lt;b&gt;$1&lt;/b&gt; pozycji).&quot;,
+&quot;rclistfrom&quot; =&gt; &quot;Pokaż nowe zmiany począwszy od $1&quot;,
+&quot;rclinks&quot; =&gt; &quot;Wyświetl ostatnie $1 zmian w ciągu ostatnich $2 dni.&quot;,
+&quot;rchide&quot; =&gt; &quot;in $4 form; $1 drobnych zmian; $2 innych przestrzeni nazw; $3 wielokrotnych edycji.&quot;,
+&quot;diff&quot; =&gt; &quot;różn&quot;,
+&quot;hist&quot; =&gt; &quot;hist&quot;,
+&quot;hide&quot; =&gt; &quot;schowaj&quot;,
+&quot;show&quot; =&gt; &quot;pokaż&quot;,
+&quot;tableform&quot; =&gt; &quot;tabelka&quot;,
+&quot;listform&quot; =&gt; &quot;lista&quot;,
+&quot;nchanges&quot; =&gt; &quot;$1 zmian&quot;,
+&quot;minoreditletter&quot; =&gt; &quot;M&quot;,
+&quot;newpageletter&quot; =&gt; &quot;N&quot;,
+
+# Upload
+#
+&quot;upload&quot; =&gt; &quot;Prześlij plik&quot;,
+&quot;uploadbtn&quot; =&gt; &quot;Prześlij plik&quot;,
+&quot;uploadlink&quot; =&gt; &quot;Prześlij obrazki&quot;,
+&quot;reupload&quot; =&gt; &quot;Prześlij ponownie&quot;,
+&quot;reuploaddesc&quot; =&gt; &quot;Wróć do formularza wysyłki.&quot;,
+&quot;uploadnologin&quot; =&gt; &quot;Brak logowania&quot;,
+&quot;uploadnologintext&quot; =&gt; &quot;Musisz się &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Userlogin&quot; ) . &quot;\&quot;&gt;zalogować&lt;/a&gt;
+przed przesłaniem pików.&quot;,
+&quot;uploadfile&quot; =&gt; &quot;Prześlij plik&quot;,
+&quot;uploaderror&quot; =&gt; &quot;Błąd przesyłki&quot;,
+&quot;uploadtext&quot; =&gt; &quot;&lt;strong&gt;STOP!&lt;/strong&gt; Zanim prześlesz plik,
+przeczytaj &lt;a href=\&quot;&quot; . wfLocalUrlE( &quot;Wikipedia:Zasady_dołączania_plików&quot; ) .
+&quot;\&quot;&gt;zasady dołączania plików&lt;/a&gt; i upewnij się, że przesyłając pozostaniesz z
+nimi w zgodzie.
+&lt;p&gt;Jeśli chcesz przejrzeć lub przeszukać dotychczas przesłane pliki,
+przejdź do &lt;a href=\&quot;&quot; . wfLocalUrlE( &quot;Specjalna:Imagelist&quot; ) .
+&quot;\&quot;&gt;listy dołączonych plików&lt;/a&gt;.
+Wszystkie przesyłki i skasowania są odnotowane na
+specjalnych wykazach (&lt;a href=\&quot;&quot; .  wfLocalUrlE( &quot;Wikipedia:Dołączone&quot; ) .
+&quot;\&quot;&gt;dołączone&lt;/a&gt;, &lt;a href=\&quot;&quot; . wfLocalUrlE( &quot;Wikipedia:Usunięte&quot; ) .
+&quot;\&quot;&gt;usunięte&lt;/a&gt;).
+&lt;p&gt;By przesłać nowy plik mający zilustrować Twój artykuł skorzystaj
+z poniższego formularza.
+W przypadku większości przeglądarek zobaczysz przycisk &lt;i&gt;Browse...&lt;/i&gt;
+albo &lt;i&gt;Przeglądaj...&lt;/i&gt;, który umożliwi Ci otworzenie standardowego
+okienka wyboru pliku. Wybranie pliku spowoduje umieszczenie jego nazwy
+w polu tekstowym obok przycisku.
+Musisz także zaznaczając odpowiednie pole, potwierdzić, że przesyłając
+plik nie naruszasz niczyich praw autorskich.
+Przesyłka rozpocznie się po naciśnięciu &lt;i&gt;Prześlij plik&lt;/i&gt;.
+Może zająć kilka chwil, zwłaszcza jeśli masz wolne połączenie z internetem.
+&lt;p&gt;Preferowane formaty to JPEG dla zdjęć fotograficznych, PNG dla rysunków
+i obrazków o charakterze ikon oraz OGG dla dźwięków.
+Aby uniknąć nieporozumień nadawaj plikom nazwy związane z zawartością.
+Aby umieścić obrazek w artykule, użyj linku w postaci
+&lt;b&gt;[[grafika:obrazek.jpg]]&lt;/b&gt; lub &lt;b&gt;[[grafika:obrazek.png|opcjonalny tekst]]&lt;/b&gt;.
+Dla plików dźwiękowych link będzie miał postać &lt;b&gt;[[media:file.ogg]]&lt;/b&gt;.
+&lt;p&gt;Pamiętaj, proszę, że tak jak w przypadku zwykłych stron Wikipedii,
+inni użytkownicy mogą edytować lub kasować przesłane przez Ciebie pliki,
+jeśli stwierdzą, że to będzie lepiej służyć całemu projektowi.
+Twoje prawo do przesyłania może zostać Ci odebrane, jeśli nadużyjesz systemu.&quot;,
+&quot;uploadlog&quot; =&gt; &quot;Wykaz przesyłek&quot;,
+&quot;uploadlogpage&quot; =&gt; &quot;Dołączone&quot;,
+&quot;uploadlogpagetext&quot; =&gt; &quot;Oto lista ostatnio przesłanych plików.
+Wszystkie czasy odnoszą się do strefy czasu uniwersalnego (UTC).
+&lt;ul&gt;
+&lt;/ul&gt;
+&quot;,
+&quot;filename&quot; =&gt; &quot;Plik&quot;,
+&quot;filedesc&quot; =&gt; &quot;Opis&quot;,
+&quot;affirmation&quot; =&gt; &quot;Potwierdzam, że właściciel praw autorskich do tego pliku
+zgadza się udzielić licencji zgodnie z $1.&quot;,
+&quot;copyrightpage&quot; =&gt; &quot;Wikipedia:Prawa_autorskie&quot;,
+&quot;copyrightpagename&quot; =&gt; &quot;prawami autorskimi Wikipedii&quot;,
+&quot;uploadedfiles&quot; =&gt; &quot;Przesłane pliki&quot;,
+&quot;noaffirmation&quot; =&gt; &quot;Musisz potwierdzić, że Twoja przesyłka nie narusza żadnych
+praw autorskich.&quot;,
+&quot;ignorewarning&quot; =&gt; &quot;Zignoruj ostrzeżenie i prześlij plik.&quot;,
+&quot;minlength&quot; =&gt; &quot;Nazwa obrazku musi mieć co najmniej trzy litery.&quot;,
+&quot;badfilename&quot; =&gt; &quot;Nazwę obrazku zmieniona na \&quot;$1\&quot;.&quot;,
+&quot;badfiletype&quot; =&gt; &quot;\&quot;.$1\&quot; nie jest zalecanym formatem pliku.&quot;,
+&quot;largefile&quot; =&gt; &quot;Zalecane jest aby rozmiar pliku z obrazkiem nie był większy niż 100 kilobajtów.&quot;,
+&quot;successfulupload&quot; =&gt; &quot;Wysyłka powiodła się&quot;,
+&quot;fileuploaded&quot; =&gt; &quot;Plik \&quot;$1\&quot; został pomyślnie przesłany.
+Przejdź, proszę, do strony opisu pliku ($2) i podaj dotyczące go informacje
+takie jak: pochodzenie pliku, kiedy i przez kogo został utworzony
+i cokolwiek co wiesz o pliku, a wydaje Ci się ważne.&quot;,
+&quot;uploadwarning&quot; =&gt; &quot;Ostrzeżenie o przesyłce&quot;,
+&quot;savefile&quot; =&gt; &quot;Zapisz plik&quot;,
+&quot;uploadedimage&quot; =&gt; &quot;przesłano \&quot;$1\&quot;&quot;,
+&quot;uploaddisabled&quot; =&gt; &quot;Przepraszamy! Możliwość przesyłania plików na ten serwer została wyłączona.&quot;,
+
+# Image list
+#
+&quot;imagelist&quot; =&gt; &quot;Lista plików&quot;,
+&quot;imagelisttext&quot; =&gt; &quot;To jest lista $1 plików posortowanych $2.&quot;,
+&quot;getimagelist&quot; =&gt; &quot;pobieranie listy plików&quot;,
+&quot;ilshowmatch&quot; =&gt; &quot;Pokaż wszystkie pliki o takiej samej nazwie&quot;,
+&quot;ilsubmit&quot; =&gt; &quot;Szukaj&quot;,
+&quot;showlast&quot; =&gt; &quot;Pokaż ostatnie $1 plików posortowane $2.&quot;,
+&quot;all&quot; =&gt; &quot;wszystkie&quot;,
+&quot;byname&quot; =&gt; &quot;według nazwy&quot;,
+&quot;bydate&quot; =&gt; &quot;według daty&quot;,
+&quot;bysize&quot; =&gt; &quot;według rozmiaru&quot;,
+&quot;imgdelete&quot; =&gt; &quot;usuń&quot;,
+&quot;imgdesc&quot; =&gt; &quot;opisz&quot;,
+&quot;imglegend&quot; =&gt; &quot;Legenda: (opisz) = pokaż/edytuj opis pliku.&quot;,
+&quot;imghistory&quot; =&gt; &quot;Historia pliku&quot;,
+&quot;revertimg&quot; =&gt; &quot;przywróć&quot;,
+&quot;deleteimg&quot; =&gt; &quot;usuń&quot;,
+&quot;imghistlegend&quot; =&gt; &quot;Legenda: (bież) = to jest obecny plik, (usuń) = usuń
+tę starszą wersję, (przywróć) = przywróć tę starszą wersję.
+&lt;br&gt;&lt;i&gt;Kliknij na datę aby zobaczyć jakie pliki przesłano tego dnia&lt;/i&gt;.&quot;,
+&quot;imagelinks&quot; =&gt; &quot;Linki do pliku&quot;,
+&quot;linkstoimage&quot; =&gt; &quot;Oto strony odwołujące się do tego pliku:&quot;,
+&quot;nolinkstoimage&quot; =&gt; &quot;Żadna strona nie odwołuje się do tego pliku.&quot;,
+
+# Statistics
+#
+&quot;statistics&quot; =&gt; &quot;Statystyka&quot;,
+&quot;sitestats&quot; =&gt; &quot;Statystyka artykułów&quot;,
+&quot;userstats&quot; =&gt; &quot;Statystyka użytkowników&quot;,
+&quot;sitestatstext&quot; =&gt; &quot;W bazie danych jest w sumie &lt;b&gt;$1&lt;/b&gt; stron.
+Ta liczba uwzględnia strony &lt;i&gt;Dyskusji&lt;/i&gt;, strony na temat samej Wikipedii,
+strony typu &lt;i&gt;stub&lt;/i&gt; (prowizoryczne), strony przekierowujące, oraz inne, które trudno
+uznać za artykuły. Wyłączając powyższe, jest prawdopodobnie &lt;b&gt;$2&lt;/b&gt; stron, które można uznać
+za artykuły.&lt;p&gt;
+Było w sumie &lt;b&gt;$3&lt;/b&gt; odwiedzin oraz &lt;b&gt;$4&lt;/b&gt; edycji od kiedy dokonano
+upgrade'u oprogramowania (22 listopada 2002).
+Daje to średnio &lt;b&gt;$5&lt;/b&gt; edycji na jedną stronę i &lt;b&gt;$6&lt;/b&gt; odwiedzin na jedną edycję.&quot;,
+&quot;userstatstext&quot; =&gt; &quot;Jest &lt;b&gt;$1&lt;/b&gt; zarejestrowanych użytkowników.
+Spośród nich &lt;b&gt;$2&lt;/b&gt; ma status administratora (zobacz $3).&quot;,
+
+# Maintenance Page
+#
+&quot;maintenance&quot; =&gt; &quot;Prosta administracja&quot;,
+&quot;maintnancepagetext&quot; =&gt; &quot;Na tej stronie zgrupowano kilka użytecznych narzędzi
+pomagających w prostej administracji. Niektóre z nich obciążają bazę danych, proszę
+więc, by ich nie nadużywać.&quot;,
+&quot;maintenancebacklink&quot; =&gt; &quot;Powrót do strony prostej administracji&quot;,
+&quot;disambiguations&quot; =&gt; &quot;Strony ujednoznaczniające&quot;,
+&quot;disambiguationspage&quot; =&gt; &quot;Wikipedia:Strony_ujednoznaczniające&quot;,
+&quot;disambiguationstext&quot; =&gt; &quot;Poniższe artykuły odwołują się do &lt;i&gt;stron
+ujednoznaczniających&lt;/i&gt;, a powinny odwoływać się bezpośrednio do hasła
+związanego z treścią artykułu.&lt;br&gt;Strona uznawana jest za ujednoznaczniającą
+jeśli odwołuje się do niej $1.&lt;br&gt;Linki z innych przestrzeni nazw &lt;i&gt;nie&lt;/i&gt;
+zostały tu uwzględnione.&quot;,
+&quot;doubleredirects&quot; =&gt; &quot;Podwójne przekierowania&quot;,
+&quot;doubleredirectstext&quot; =&gt; &quot;&lt;b&gt;Uwaga:&lt;/b&gt; Na tej liście mogą znajdować się
+przekierowania pozorne. Oznacza to, że poniżej pierwszej linii artykułu,
+zawierającej \&quot;#REDIRECT ...\&quot;, może znajdować się dodatkowy tekst.&lt;br&gt;Każdy
+wiersz listy zawiera odwołania do pierwszego i drugiego przekierowania oraz
+pierwszą linię tekstu drugiego przekierowania. Umożliwia to w większości
+przypadków odnalezienie właściwego artykułu, do którego powinno się
+przekierowywać.&quot;,
+&quot;brokenredirects&quot; =&gt; &quot;Zerwane przekierowania&quot;,
+&quot;brokenredirectstext&quot; =&gt; &quot;Poniższe przekierowania wskazują na nieistniejące artykuły.&quot;,
+&quot;selflinks&quot; =&gt; &quot;Strony zawierające odwołania do siebie samych&quot;,
+&quot;selflinkstext&quot; =&gt; &quot;Poniższe strony zawierają odnośniki do samych siebie
+(co nie powinno mieć miejsca).&quot;,
+
+&quot;mispeelings&quot; =&gt; &quot;Strony z błędami pisowni&quot;,
+&quot;mispeelingstext&quot; =&gt; &quot;Poniższe strony zawierają najczęstsze błędy
+pisowni (ich listę można znaleźć w $1). Poprawna pisownia może być podana obok w
+nawiasach.&quot;, 
+&quot;mispeelingspage&quot; =&gt; &quot;Lista najczęstszych błędów pisowni&quot;,
+&quot;missinglanguagelinks&quot; =&gt; &quot;Brakujące odnośniki do innych wersji językowych&quot;,
+&quot;missinglanguagelinksbutton&quot; =&gt; &quot;Znajdź brakujące odnośniki, wersja&quot;,
+&quot;missinglanguagelinkstext&quot; =&gt; &quot;Dla wielu artykułów istnieje wersja $1.
+Artykuły umieszczone na poniższej liście &lt;i&gt;nie&lt;/i&gt; odnoszą się do swojego
+odpowiednika w tym języku. Na tej liście &lt;i&gt;pominięto&lt;/i&gt; podstrony oraz przekierowania.&quot;,
+
+# Miscellaneous special pages
+#
+&quot;orphans&quot; =&gt; &quot;Porzucone strony&quot;,
+&quot;lonelypages&quot; =&gt; &quot;Porzucone strony&quot;,
+&quot;unusedimages&quot; =&gt; &quot;Nie używane pliki&quot;,
+&quot;popularpages&quot; =&gt; &quot;Najpopularniejsze strony&quot;,
+&quot;nviews&quot; =&gt; &quot;odwiedzono $1 razy&quot;,
+&quot;wantedpages&quot; =&gt; &quot;Najpotrzebniejsze strony&quot;,
+&quot;nlinks&quot; =&gt; &quot;$1 linków&quot;,
+&quot;allpages&quot; =&gt; &quot;Wszystkie strony&quot;,
+&quot;randompage&quot; =&gt; &quot;Losuj stronę&quot;,
+&quot;shortpages&quot; =&gt; &quot;Najkrótsze strony&quot;,
+&quot;longpages&quot; =&gt; &quot;Najdłuższe strony&quot;,
+&quot;listusers&quot; =&gt; &quot;Lista użytkowników&quot;,
+&quot;specialpages&quot; =&gt; &quot;Strony specjalne&quot;,
+&quot;spheading&quot; =&gt; &quot;Strony specjalne&quot;,
+&quot;sysopspheading&quot; =&gt; &quot;Strony specjalne tylko dla użytkowników z prawami Administratora&quot;,
+&quot;developerspheading&quot; =&gt; &quot;Strony specjalne tylko dla użytkowników z prawami Programisty&quot;,
+&quot;protectpage&quot; =&gt; &quot;Zabezpiecz stronę&quot;,
+&quot;recentchangeslinked&quot; =&gt; &quot;Zmiany w dolinkowanych&quot;,
+&quot;rclsub&quot; =&gt; &quot;(dla stron dolinkowanych do \&quot;$1\&quot;)&quot;,
+&quot;debug&quot; =&gt; &quot;Odpluskwianie&quot;,
+&quot;newpages&quot; =&gt; &quot;Nowe strony&quot;,
+&quot;ancientpages&quot; =&gt; &quot;Najstarsze strony&quot;,
+&quot;movethispage&quot; =&gt; &quot;Przenieś&quot;,
+&quot;unusedimagestext&quot; =&gt; &quot;&lt;p&gt;Pamiętaj, proszę, że inne witryny,
+np. Wikipedie w innych językach, mogą odwoływać się do tych plików
+używając bezpośrednio URL. Dlatego też niektóre z plików mogą się znajdować
+na tej liście mimo, że żadna strona tej Wikipedii nie odwołuje się do nich.&quot;,
+&quot;booksources&quot; =&gt; &quot;Książki&quot;,
+&quot;booksourcetext&quot; =&gt; &quot;Oto lista linków do innych witryn,
+które pośredniczą w sprzedaży nowych i używanych książek i mogą podać
+informacje o książkach, których szukasz.
+Wikipedia nie jest stowarzyszona z żadnym ze sprzedawców,
+
+a ta lista nie powinna być interpretowana jako świadectwo udziału w zyskach.&quot;,
+&quot;alphaindexline&quot; =&gt; &quot;$1 --&amp;gt; $2&quot;,
+
+# Email this user
+#
+&quot;mailnologin&quot; =&gt; &quot;Brak adresu&quot;,
+&quot;mailnologintext&quot; =&gt; &quot;Musisz się &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Userlogin&quot; ) . &quot;\&quot;&gt;zalogować&lt;/a&gt;
+i mieć wpisany aktualny adres e-mailowy w swoich &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Preferences&quot; ) . &quot;\&quot;&gt;preferencjach&lt;/a&gt;,
+aby móc wysłać e-mail do innych użytkowników.&quot;,
+&quot;emailuser&quot; =&gt; &quot;Wyślij e-mail do tego użytkownika&quot;,
+&quot;emailpage&quot; =&gt; &quot;Wyślij e-mail do użytkownika&quot;,
+&quot;emailpagetext&quot; =&gt; &quot;Jeśli ten użytkownik wpisał poprawny adres e-mailowy
+w swoich preferencjach, to poniższy formularz umożliwi Ci wysłanie jednej wiadomości.
+Adres e-mailowy, który został przez Ciebie wprowadzony w Twoich preferencjach
+pojawi się w polu \&quot;Od\&quot;; dzięki temu odbiorca będzie mógł Ci odpowiedzieć.&quot;,
+&quot;noemailtitle&quot; =&gt; &quot;Brak adresu e-mailowego&quot;,
+&quot;noemailtext&quot; =&gt; &quot;Ten użytkownik nie podał poprawnego adresu e-mailowego,
+albo zadecydował, że nie chce otrzymywać e-maili od innych użytkowników.&quot;,
+&quot;emailfrom&quot; =&gt; &quot;Od&quot;,
+&quot;emailto&quot; =&gt; &quot;Do&quot;,
+&quot;emailsubject&quot; =&gt; &quot;Temat&quot;,
+&quot;emailmessage&quot; =&gt; &quot;Wiadomość&quot;,
+&quot;emailsend&quot; =&gt; &quot;Wyślij&quot;,
+&quot;emailsent&quot; =&gt; &quot;Wiadomość została wysłana&quot;,
+&quot;emailsenttext&quot; =&gt; &quot;Twoja wiadomość została wysłana.&quot;,
+
+# Watchlist
+#
+&quot;watchlist&quot; =&gt; &quot;Obserwowane&quot;,
+&quot;watchlistsub&quot; =&gt; &quot;(dla użytkownika \&quot;$1\&quot;)&quot;,
+&quot;nowatchlist&quot; =&gt; &quot;Nie ma żadnych pozycji na liście obserwowanych przez Ciebie stron.&quot;,
+&quot;watchnologin&quot; =&gt; &quot;Brak logowania&quot;,
+&quot;watchnologintext&quot; =&gt; &quot;Musisz się &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Userlogin&quot; ) . &quot;\&quot;&gt;zalogować&lt;/a&gt;
+przed modyfikacją listy obserwowanych artykułów.&quot;,
+&quot;addedwatch&quot; =&gt; &quot;Dodana do listy obserwowanych&quot;,
+&quot;addedwatchtext&quot; =&gt; &quot;Strona \&quot;$1\&quot; została dodana do Twojej &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Watchlist&quot; ) . &quot;\&quot;&gt;listy obserwowanych&lt;/a&gt;.
+Na tej liście znajdzie się rejestr przyszłych zmian tej strony i stowarzyszonej z nią strony Dyskusji,
+a nazwa samej strony zostanie &lt;b&gt;wytłuszczona&lt;/b&gt; na &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Recentchanges&quot; ) . &quot;\&quot;&gt;liście ostatnich zmian&lt;/a&gt; aby
+łatwiej było Ci sam fakt zmiany zauważyć.&lt;/p&gt;
+
+&lt;p&gt;Jeśli chcesz usunąć stronę ze swojej listy obserwowanych, kliknij na
+\&quot;Przestań obserwować\&quot;.&quot;,
+&quot;removedwatch&quot; =&gt; &quot;Usunięto z listy obserwowanych&quot;,
+&quot;removedwatchtext&quot; =&gt; &quot;Strona \&quot;$1\&quot; została usunięta z Twojej listy obserwowanych.&quot;,
+&quot;watchthispage&quot; =&gt; &quot;Obserwuj&quot;,
+&quot;unwatchthispage&quot; =&gt; &quot;Przestań obserwować&quot;,
+&quot;notanarticle&quot; =&gt; &quot;To nie artykuł&quot;,
+
+
+&quot;watchnochange&quot; =&gt; &quot;Żadna z obserwowanych stron nie była edytowana w podanym okresie.&quot;,
+&quot;watchdetails&quot; =&gt; &quot;(Liczba obserwowanych przez Ciebie stron: $1, nie licząc stron dyskusji;
+liczba stron edytowanych od ostatniej cezury: $2;
+$3...
+&lt;a href='$4'&gt;pokaż i edytuj pełną listę&lt;/a&gt;.)&quot;,
+&quot;watchmethod-recent&quot; =&gt; &quot;poszukiwanie ostatnich zmian wśród obserwowanych stron&quot;,
+&quot;watchmethod-list&quot; =&gt; &quot;poszukiwanie obserwowanych stron wśród ostatnich zmian&quot;,
+&quot;removechecked&quot; =&gt; &quot;Usuń zaznaczone pozycje z listy obserwowanych&quot;,
+&quot;watcheditlist&quot; =&gt; &quot;Oto alfabetyczna lista obserwowanych stron.
+Zaznacz, które z nich mamy usunąć z listy i kliknij przycisk
+
+&lt;i&gt;Usuń...&lt;/i&gt; znajdujący się na dole strony.&quot;,
+&quot;removingchecked&quot; =&gt; &quot;Usuwamy zaznaczone pozycje z listy obserwowanych...&quot;,
+&quot;couldntremove&quot; =&gt; &quot;Nie można było usunąć pozycji '$1'...&quot;,
+&quot;iteminvalidname&quot; =&gt; &quot;Problem z pozycją '$1', niepoprawna nazwa...&quot;,
+&quot;wlnote&quot; =&gt; &quot;Poniżej pokazano zmiany dokonane w ciągu ostatnich &lt;b&gt;$2&lt;/b&gt; godzin (maksymalna liczba pozycji: $1).&quot;,
+
+# Delete/protect/revert
+#
+&quot;deletepage&quot; =&gt; &quot;Usuń stronę&quot;,
+&quot;confirm&quot; =&gt; &quot;Potwierdź&quot;,
+&quot;excontent&quot; =&gt; &quot;Zawartość strony&quot;,
+&quot;exbeforeblank&quot; =&gt; &quot;Poprzednia zawartość pustej strony&quot;,
+&quot;exblank&quot; =&gt; &quot;Strona była pusta&quot;,
+&quot;confirmdelete&quot; =&gt; &quot;Potwierdź usunięcie&quot;,
+&quot;deletesub&quot; =&gt; &quot;(Usuwanie \&quot;$1\&quot;)&quot;,
+&quot;historywarning&quot; =&gt; &quot;Uwaga: Strona, którą chcesz skasować ma starsze wersje; oto &quot;,
+&quot;confirmdeletetext&quot; =&gt; &quot;Zamierzasz trwale usunąć stronę
+lub plik z bazy danych razem z dotyczącą ich historią.
+Potwierdź, proszę, swoje zamiary, tzn., że rozumiesz konsekwencje,
+i że robisz to w zgodzie z
+[[Wikipedia:Zasady i wskazówki|zasadami Wikipedii]].&quot;,
+&quot;confirmcheck&quot; =&gt; &quot;Tak, naprawdę chcę usunąć.&quot;,
+&quot;actioncomplete&quot; =&gt; &quot;Operacja wykonana&quot;,
+
+&quot;deletedtext&quot; =&gt; &quot;Usunięto \&quot;$1\&quot;.
+Rejestr ostatnio dokonanych kasowań możesz obejrzeć tutaj: $2.&quot;,
+&quot;deletedarticle&quot; =&gt; &quot;usunięto \&quot;$1\&quot;&quot;,
+&quot;dellogpage&quot; =&gt; &quot;Usunięte&quot;,
+&quot;dellogpagetext&quot; =&gt; &quot;To jest lista ostatnio wykonanych kasowań.
+Podane czasy odnoszą się do strefy czasu uniwersalnego (UTC).
+&lt;ul&gt;
+&lt;/ul&gt;
+&quot;,
+&quot;deletionlog&quot; =&gt; &quot;rejestr usunięć&quot;,
+&quot;reverted&quot; =&gt; &quot;Przywrócono starszą wersję&quot;,
+&quot;deletecomment&quot; =&gt; &quot;Powód usunięcia&quot;,
+&quot;imagereverted&quot; =&gt; &quot;Przywrócenie wcześniejszej wersji powiodło się.&quot;,
+&quot;rollback&quot; =&gt; &quot;Cofnij edycję&quot;, 
+&quot;rollbacklink&quot; =&gt; &quot;cofnij&quot;,
+&quot;rollbackfailed&quot; =&gt; &quot;Nie udało się cofnąć zmiany&quot;,
+&quot;cantrollback&quot; =&gt; &quot;Nie można cofnąć edycji; jest tylko jedna wersja tej strony.&quot;,
+&quot;alreadyrolled&quot; =&gt; &quot;Nie można cofnąć ostatniej zmiany strony [[$1]],
+której autorem jest [[Wikipedysta:$2|$2]] ([[Dyskusja_wikipedysty:$2|Dyskusja]]).
+Ktoś inny zdążył już to zrobić lub wprowadził własne poprawki do treści strony.
+Autorem ostatniej zmiany jest teraz [[Wikipedysta:$3|$3]] ([[Dyskusja_wikipedysty:$3|Dyskusja]]).&quot;,
+# only shown if there is an edit comment
+&quot;editcomment&quot; =&gt; &quot;Opisano ją następująco: \&quot;&lt;i&gt;$1&lt;/i&gt;\&quot;.&quot;,
+&quot;revertpage&quot; =&gt; &quot;Przywrócono przedostatnią wersję, jej autor to $1&quot;, 
+
+# Undelete
+#
+&quot;undelete&quot; =&gt; &quot;Odtwórz skasowaną stronę&quot;,
+&quot;undeletepage&quot; =&gt; &quot;Odtwarzanie skasowanych stron&quot;,
+&quot;undeletepagetext&quot; =&gt; &quot;Poniższe strony zostały skasowane, ale ich kopia wciąż
+znajduje się w archiwum.&lt;br&gt;&lt;b&gt;Uwaga:&lt;/b&gt; archiwum co jakiś czas także jest kasowane!&quot;,
+&quot;undeletearticle&quot; =&gt; &quot;Odtwórz skasowaną stronę&quot;,
+&quot;undeleterevisions&quot; =&gt; &quot;Liczba zarchiwizowanych wersji: $1&quot;,
+&quot;undeletehistory&quot; =&gt; &quot;Odtworzenie strony spowoduje przywrócenie także jej
+wszystkich poprzednich wersji. Jeśli od czasu skasowania ktoś utworzył nową stronę
+o tej nazwie, odtwarzane wersje znajdą się w jej historii, a obecna wersja
+pozostanie bez zmian.&quot;,
+&quot;undeleterevision&quot; =&gt; &quot;Skasowano wersję z $1&quot;,
+&quot;undeletebtn&quot; =&gt; &quot;Odtwórz!&quot;,
+&quot;undeletedarticle&quot; =&gt; &quot;odtworzono \&quot;$1\&quot;&quot;,
+&quot;undeletedtext&quot; =&gt; &quot;Pomyślnie odtworzono stronę [[$1]].
+Zobacz [[Wikipedia:Usunięte]], jeśli chcesz przejrzeć rejestr ostatnio
+skasowanych i odtworzonych stron.&quot;,
+
+# Contributions
+#
+&quot;contributions&quot; =&gt; &quot;Wkład użytkownika&quot;,
+&quot;mycontris&quot; =&gt; &quot;Moje edycje&quot;,
+&quot;contribsub&quot; =&gt; &quot;Dla użytkownika $1&quot;,
+&quot;nocontribs&quot; =&gt; &quot;Brak zmian odpowiadających tym kryteriom.&quot;,
+
+&quot;ucnote&quot; =&gt; &quot;Oto lista ostatnich &lt;b&gt;$1&lt;/b&gt; zmian dokonanych przez
+użytkownika w ciągu ostatnich &lt;b&gt;$2&lt;/b&gt; dni.&quot;,
+&quot;uclinks&quot; =&gt; &quot;Zobacz ostatnie $1 zmian; zobacz ostatnie $2 dni.&quot;,
+&quot;uctop&quot; =&gt; &quot; (jako ostatnia)&quot;,
+
+# What links here
+#
+&quot;whatlinkshere&quot; =&gt; &quot;Linkujące&quot;,
+&quot;notargettitle&quot; =&gt; &quot;Wskazywana strona nie istnieje&quot;,
+&quot;notargettext&quot; =&gt; &quot;Nie podano strony albo użytkownika, dla których
+ta operacja ma być wykonana.&quot;,
+&quot;linklistsub&quot; =&gt; &quot;(Lista linków)&quot;,
+&quot;linkshere&quot; =&gt; &quot;Do tej strony odwołują się następujące inne strony:&quot;,
+&quot;nolinkshere&quot; =&gt; &quot;Do tej strony nie odwołuje się żadna inna.&quot;,
+&quot;isredirect&quot; =&gt; &quot;strona przekierowująca&quot;,
+
+# Block/unblock IP
+#
+&quot;blockip&quot; =&gt; &quot;Zablokuj adres IP&quot;,
+&quot;blockiptext&quot; =&gt; &quot;Użyj poniższego formularza aby zablokować prawo
+zapisu spod określonego adresu IP.
+Powinno się to robić jedynie by zapobiec wandalizmowi, a zarazem
+w zgodzie z [[Wikipedia:Zasady i wskazówki|zasadami Wikipedii]].
+Podaj powód (np. umieszczając nazwy stron, na których dopuszczono
+się wandalizmu).&quot;,
+&quot;ipaddress&quot; =&gt; &quot;Adres IP&quot;,
+&quot;ipbreason&quot; =&gt; &quot;Powód&quot;,
+&quot;ipbsubmit&quot; =&gt; &quot;Zablokuj ten adres&quot;,
+&quot;badipaddress&quot; =&gt; &quot;Adres IP jest źle utworzony.&quot;,
+&quot;noblockreason&quot; =&gt; &quot;Musisz podać powód blokady.&quot;,
+&quot;blockipsuccesssub&quot; =&gt; &quot;Zablokowanie powiodło się&quot;,
+&quot;blockipsuccesstext&quot; =&gt; &quot;Adres IP \&quot;$1\&quot; został zablokowany.
+&lt;br&gt;Przejdź do [[Specjalna:Ipblocklist|Listy zablokowanych adresów IP]] by przejrzeć blokady.&quot;,
+&quot;unblockip&quot; =&gt; &quot;Odblokuj adres IP&quot;,
+&quot;unblockiptext&quot; =&gt; &quot;Użyj poniższego formularza by przywrócić prawa zapisu
+dla poprzednio zablokowanego adresu IP.&quot;,
+&quot;ipusubmit&quot; =&gt; &quot;Odblokuj ten adres&quot;,
+&quot;ipusuccess&quot; =&gt; &quot;Adress IP \&quot;$1\&quot; został odblokowany&quot;,
+&quot;ipblocklist&quot; =&gt; &quot;Lista zablokowanych adresów IP&quot;,
+&quot;blocklistline&quot; =&gt; &quot;$1, $2 zablokował $3&quot;,
+&quot;blocklink&quot; =&gt; &quot;zablokuj&quot;,
+&quot;unblocklink&quot; =&gt; &quot;odblokuj&quot;,
+&quot;contribslink&quot; =&gt; &quot;wkład&quot;,
+
+# Developer tools
+#
+&quot;lockdb&quot; =&gt; &quot;Zablokuj bazę danych&quot;,
+&quot;unlockdb&quot; =&gt; &quot;Odblokuj bazę danych&quot;,
+&quot;lockdbtext&quot; =&gt; &quot;Zablokowanie bazy danych uniemożliwi wszystkim użytkownikom
+edycję stron, zmianę preferencji, edycję list obserwowanych artykułów oraz inne
+czynności wymagające dostępu do bazy danych.
+Potwierdź, proszę, że to jest zgodne z Twoimi zamiarami, i że odblokujesz
+bazę danych, gdy tylko zakończysz zadania administracyjne.&quot;,
+&quot;unlockdbtext&quot; =&gt; &quot;Odblokowanie bazy danych umożliwi wszystkim użytkownikom
+edycję stron, zmianę preferencji, edycję list
+obserwowanych artykułów oraz inne czynności związane ze zmianami w bazie danych.
+Potwierdź, proszę, że to jest zgodne z Twoimi zamiarami.&quot;,
+&quot;lockconfirm&quot; =&gt; &quot;Tak, naprawdę chcę zablokować bazę danych.&quot;,
+&quot;unlockconfirm&quot; =&gt; &quot;Tak, naprawdę chcę odblokować bazę danych.&quot;,
+&quot;lockbtn&quot; =&gt; &quot;Zablokuj bazę danych&quot;,
+&quot;unlockbtn&quot; =&gt; &quot;Odblokuj bazę danych&quot;,
+&quot;locknoconfirm&quot; =&gt; &quot;Nie zaznaczyłeś pola potwierdzenia.&quot;,
+&quot;lockdbsuccesssub&quot; =&gt; &quot;Baza danych została pomyślnie zablokowana&quot;,
+&quot;unlockdbsuccesssub&quot; =&gt; &quot;Blokada bazy danych usunięta&quot;,
+&quot;lockdbsuccesstext&quot; =&gt; &quot;Baza danych Wikipedii została zablokowana.
+&lt;br&gt;Pamiętaj usunąć blokadę po zakończeniu spraw administracyjnych.&quot;,
+&quot;unlockdbsuccesstext&quot; =&gt; &quot;Baza danych Wikipedii została odblokowana.&quot;,
+
+# SQL query
+#
+&quot;asksql&quot; =&gt; &quot;Zapytanie SQL&quot;,
+&quot;asksqltext&quot; =&gt; &quot;Użyj poniższego formularza by wysłać bezpośrednie zapytanie
+do bazy danych Wikipedii.
+Do ograniczania literałów łańcuchowych używaj pojedynczych cudzysłowów ('tak jak tu').
+Twoje zapytanie może poważnie obciążyć serwer, więc używaj tej możliwości
+z rozwagą.&quot;,
+&quot;sqlislogged&quot; =&gt; &quot;Przypominamy, że wszystkie zapytania są logowane!&quot;,
+&quot;sqlquery&quot; =&gt; &quot;Podaj zapytanie&quot;,
+&quot;querybtn&quot; =&gt; &quot;Wyślij zapytanie&quot;,
+&quot;selectonly&quot; =&gt; &quot;Zapytania inne niż \&quot;SELECT\&quot; są zastrzeżone tylko dla
+użytkowników o statusie Programisty.&quot;,
+&quot;querysuccessful&quot; =&gt; &quot;Zapytanie zakończone sukcesem&quot;,
+
+# Move page
+#
+&quot;movepage&quot; =&gt; &quot;Przenieś stronę&quot;,
+&quot;movepagetext&quot; =&gt; &quot;Za pomocą poniższego formularza zmienisz nazwę strony,
+przenosząc jednocześnie jej historę.
+Pod starym tytułem zostanie umieszczona strona przekierowująca.
+Linki do starego tytułu pozostaną niezmienione.
+[[Specjalna:Maintenance|Upewnij się]], że uwzględniasz podwójne
+lub zerwane przekierowania. Odpowiadasz za to, żeby linki odnosiły
+się do właściwych artykułów!
+
+Strona '''nie''' będzie przeniesiona jeśli:
+*jest pusta i nigdy nie była edytowana
+*jest stroną przekierowującą
+*strona o nowej nazwie już istnieje
+
+&lt;b&gt;UWAGA!&lt;/b&gt;
+Może to być drastyczna lub nieprzewidywalna zmiana w przypadku popularnych stron;
+upewnij się co do konsekwencji tej operacji zanim się na nią zdecydujesz.&quot;,
+&quot;movepagetalktext&quot; =&gt; &quot;Odpowiednia strona dyskusji, jeśli istnieje, będzie
+przeniesiona automatycznie, pod warunkiem, że:
+*nie przenosisz strony do innej przestrzeni nazw
+*nie istnieje strona dyskusji o nowej nazwie
+W takich przypadkach tekst dyskusji trzeba przenieść, i ewentualnie połączyć
+z istniejącym, ręcznie.
+Możesz też zrezygnować z przeniesienia dyskusji (poniższy &lt;i&gt;checkbox&lt;/i&gt;).&quot;,
+&quot;movearticle&quot; =&gt; &quot;Przenieś stronę&quot;,
+&quot;movenologin&quot; =&gt; &quot;Brak logowania&quot;,
+&quot;movenologintext&quot; =&gt; &quot;Musisz być zarejestrowanym i &lt;a href=\&quot;&quot; .
+  wfLocalUrl( &quot;Specjalna:Userlogin&quot; ) . &quot;\&quot;&gt;zalogowanym&lt;/a&gt;
+użytkownikiem aby móc przenieść stronę.&quot;,
+&quot;newtitle&quot; =&gt; &quot;Nowy tytuł&quot;,
+&quot;movepagebtn&quot; =&gt; &quot;Przenieś stronę&quot;,
+&quot;pagemovedsub&quot; =&gt; &quot;Przeniesienie powiodło się&quot;,
+&quot;pagemovedtext&quot; =&gt; &quot;Strona \&quot;[[$1]]\&quot; została przeniesiona do \&quot;[[$2]]\&quot;.&quot;,
+&quot;articleexists&quot; =&gt; &quot;Strona o podanej nazwie już istnieje albo
+wybrana przez Ciebie nazwa nie jest poprawna.
+Wybierz, proszę, nową nazwę.&quot;,
+&quot;movedto&quot; =&gt; &quot;przeniesiono do&quot;,
+&quot;movetalk&quot; =&gt; &quot;Przenieś także stronę &lt;i&gt;Dyskusji&lt;/i&gt;, jeśli to możliwe.&quot;,
+&quot;talkpagemoved&quot; =&gt; &quot;Odpowiednia strona z &lt;i&gt;Dyskusją&lt;/i&gt; także została przeniesiona.&quot;,
+&quot;talkpagenotmoved&quot; =&gt; &quot;Odpowiednia strona z &lt;i&gt;Dyskusją&lt;/i&gt; &lt;strong&gt;nie&lt;/strong&gt; została przeniesiona.&quot;,
+
+);
+
+class LanguagePl extends LanguageUtf8 {
+
+        function getNamespaces() {
+                global $wgNamespaceNamesPl;
+                return $wgNamespaceNamesPl;
+        }
+
+        function getNsText( $index ) {
+                global $wgNamespaceNamesPl;
+                return $wgNamespaceNamesPl[$index];
+        }
+
+        function getNsIndex( $text ) {
+                global $wgNamespaceNamesPl;
+
+                foreach ( $wgNamespaceNamesPl as $i =&gt; $n ) {
+                        if ( 0 == strcasecmp( $n, $text ) ) { return $i; }
+                }
+                return false;
+        }
+
+        function getQuickbarSettings() {
+                global $wgQuickbarSettingsPl;
+                return $wgQuickbarSettingsPl;
+        }
+
+        function getSkinNames() {
+                global $wgSkinNamesPl;
+                return $wgSkinNamesPl;
+        }
+
+        function getMathNames() { 
+                global $wgMathNamesPl; 
+                return $wgMathNamesPl; 
+    }
+
+        function getUserToggles() {
+                global $wgUserTogglesPl;
+                return $wgUserTogglesPl;
+        }
+
+        function getLanguageName( $code ) {
+                global $wgLanguageNamesPl;
+                if ( ! array_key_exists( $code, $wgLanguageNamesPl ) ) {
+                        return &quot;&quot;;
+                }
+                return $wgLanguageNamesPl[$code];
+        }
+
+        function getMonthName( $key )
+        {
+                global $wgMonthNamesPl;
+                return $wgMonthNamesPl[$key-1];
+        }
+
+        function getMonthNameGen( $key )
+        {
+                global $wgMonthNamesGenPl;
+                return $wgMonthNamesGenPl[$key-1];
+        }
+
+        function getMonthAbbreviation( $key )
+        {
+                global $wgMonthAbbreviationsPl;
+                return $wgMonthAbbreviationsPl[$key-1];
+        }
+
+        function getWeekdayName( $key )
+        {
+                global $wgWeekdayNamesPl;
+                return $wgWeekdayNamesPl[$key-1];
+        }
+
+        function userAdjust( $ts )
+        {
+                global $wgUser;
+
+                $diff = $wgUser-&gt;getOption( &quot;timecorrection&quot; );
+                if ( ! $diff ) { $diff = 0; }
+                if ( 0 == $diff ) { return $ts; }
+
+                $t = mktime( ( (int)substr( $ts, 8, 2) ) + $diff,
+                  (int)substr( $ts, 10, 2 ), (int)substr( $ts, 12, 2 ),
+                  (int)substr( $ts, 4, 2 ), (int)substr( $ts, 6, 2 ),
+                  (int)substr( $ts, 0, 4 ) );
+                return date( &quot;YmdHis&quot;, $t );
+
+        }
+
+        function date( $ts, $adj = false )
+        {
+                if ( $adj ) { $ts = $this-&gt;userAdjust( $ts ); }
+
+                $d = (0 + substr( $ts, 6, 2 )) . 
+                  &quot; &quot; . $this-&gt;getMonthAbbreviation( substr( $ts, 4, 2 ) ) .
+                  &quot; &quot; . substr( $ts, 0, 4 );
+                return $d;
+        }
+
+        function time( $ts, $adj = false )
+        {
+                if ( $adj ) { $ts = $this-&gt;userAdjust( $ts ); }
+
+                $t = substr( $ts, 8, 2 ) . &quot;:&quot; . substr( $ts, 10, 2 );
+                return $t;
+        }
+
+        function timeanddate( $ts, $adj = false )
+        {
+                return $this-&gt;time( $ts, $adj ) . &quot;, &quot; . $this-&gt;date( $ts, $adj );
+        }
+
+        function rfc1123( $ts )
+        {
+                return date( &quot;D, d M Y H:i:s T&quot;, $ts );
+        }
+
+        function getValidSpecialPages()
+        {
+                global $wgValidSpecialPagesPl;
+                return $wgValidSpecialPagesPl;
+        }
+
+        function getSysopSpecialPages()
+        {
+                global $wgSysopSpecialPagesPl;
+                return $wgSysopSpecialPagesPl;
+        }
+
+        function getDeveloperSpecialPages()
+        {
+                global $wgDeveloperSpecialPagesPl;
+                return $wgDeveloperSpecialPagesPl;
+        }
+
+        function getMessage( $key )
+        {
+                global $wgAllMessagesPl;
+        if(array_key_exists($key, $wgAllMessagesPl))
+                        return $wgAllMessagesPl[$key];
+                else
+                        return Language::getMessage($key);
+        }
+
+        # Inherit ucfirst() and stripForSearch() from LanguageUtf8
+
+        function checkTitleEncoding( $s ) {
+        # Check for Latin-2 backwards-compatibility URLs
+                $ishigh = preg_match( '/[\x80-\xff]/', $s);
+                $isutf = preg_match( '/^([\x00-\x7f]|[\xc0-\xdf][\x80-\xbf]|' .
+                '[\xe0-\xef][\x80-\xbf]{2}|[\xf0-\xf7][\x80-\xbf]{3})+$/', $s );
+        
+        if($ishigh and !$isutf)
+                return iconv( &quot;ISO-8859-2&quot;, &quot;UTF-8&quot;, $s );
+        
+        return $s;
+        }
+
+}
+
+?&gt;
+&lt;/nowiki&gt;&lt;/pre&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Wikipedia:Stopwords</title>
+    <id>8461</id>
+    <revision>
+      <id>2478644</id>
+      <timestamp>2006-02-04T16:00:54Z</timestamp>
+      <contributor>
+        <username>Paradox</username>
+        <id>31170</id>
+      </contributor>
+      <comment>+ ile</comment>
+      <text xml:space="preserve">'''Stopwords''' to w [[Wikipedia:Terminologia|terminologii]] Wikipedii najczęściej występujące słowa języka. Na ogół nie niosą ze sobą żadnych istotnych treści, więc Wikipedia powinna ignorować próbę ich wyszukiwania, m.in. aby nie obciążać serwera. Ta możliwość nie jest na razie zaimplementowana w Polskiej Wikipedii. Poniżej znajduje się proponowana lista słów z tej kategorii (jeśli uważasz, że czegoś brakuje dodaj):
+* aby
+* aż
+* ale
+* ależ
+* bardzo
+* bardziej
+* bez
+* będą
+* będzie
+* bo
+* by
+* być
+* byli
+* był
+* była
+* było
+* były
+* cali
+* cała
+* cały
+* co
+* coś
+* czy
+* dla
+* dlaczego
+* do
+* gdy
+* gdzie
+* gdziekolwiek
+* gdzieś
+* go
+* i
+* ile
+* ich
+* inna
+* inny
+* iż
+* ja
+* jak
+* jakaś
+* jakichś
+* jakiś
+* jako
+* jakoś
+* ją
+* jednak
+* jego
+* jej
+* jest
+* jeszcze
+* już
+* kiedy
+* kimś
+* kto
+* ktokolwiek
+* ktoś
+* która
+* które
+* który
+* których
+* lat
+* lecz
+* lub
+* ma
+* mi
+* mnie
+* moim
+* może
+* można
+* mu
+* na
+* nad
+* nas
+* nawet
+* nic
+* nich
+* nie
+* nigdy
+* niż
+* no
+* obok
+* od
+* około
+* on
+* ona
+* oraz
+* pan
+* pana
+* pani
+* po
+* pod
+* podczas
+* ponad
+* pracy
+* prawie
+* przed
+* przez
+* przy
+* roku
+* również
+* są
+* się
+* sobie
+* sposób
+* ta
+* tak
+* taka
+* taki
+* takie
+* także
+* tam
+* te
+* tego
+* tej
+* ten
+* teraz
+* też
+* trzeba
+* to
+* toteż
+* tu
+* twoim
+* twoja
+* twoje
+* twój
+* twym
+* tych
+* tylko
+* tym
+* według
+* więc
+* właśnie
+* wszyscy
+* wszystko
+* wszystkie
+* za
+* zapewne
+* zawsze
+* ze
+* znowu
+* znów
+* że
+* żeby
+[[kategoria:Pomoc|S]]</text>
+    </revision>
+  </page>
+</mediawiki>  

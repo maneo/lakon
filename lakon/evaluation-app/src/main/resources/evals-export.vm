@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluations>
+#foreach($eval in $evals)
+  <evaluation id="${eval.Id}">
+	 <user>${eval.User.Login}</user>
+	 <artId>${eval.Text.Id}</artId>
+	 <sentences>${eval.SelectedIds}</sentences>
+  </evaluation>	
+#end	
+</evaluations>

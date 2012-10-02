@@ -1,0 +1,171 @@
+----------------------------
+ relevant set with sentences 
+-------------------------------
+
+First column -- number of times experiment participants chose this sentence
+second column -- position in paragraph for this sentence
+
+Only sentences top "summary lenght" number are listed here. 
+
+
+id:	1
+Relevant sentences set size :	19
+(Filtered by average score):	6
+Number of sentence in article:	22
+Summary length:	5
+
+19	1
+18	1
+15	1
+12	2
+12	1
+
+
+
+id:	2
+Relevant sentences set size :	13
+(Filtered by average score):	6
+Number of sentence in article:	16
+Summary length:	4
+
+28	1
+19	1
+15	2
+11	8
+
+
+
+id:	3
+Relevant sentences set size :	14
+(Filtered by average score):	7
+Number of sentence in article:	16
+Summary length:	4
+
+26	1
+15	1
+14	2
+10	2
+
+
+
+id:	4
+Relevant sentences set size :	17
+(Filtered by average score):	5
+Number of sentence in article:	20
+Summary length:	5
+
+27	1
+21	1
+19	1
+17	1
+16	2
+
+
+
+id:	5
+Relevant sentences set size :	37
+(Filtered by average score):	14
+Number of sentence in article:	44
+Summary length:	10
+
+21	2
+21	1
+19	1
+18	1
+17	1
+16	1
+15	1
+15	3
+11	1
+11	1
+
+
+
+id:	6
+Relevant sentences set size :	25
+(Filtered by average score):	9
+Number of sentence in article:	29
+Summary length:	7
+
+28	1
+24	1
+20	2
+20	3
+19	1
+14	1
+13	1
+
+
+
+id:	7
+Relevant sentences set size :	42
+(Filtered by average score):	19
+Number of sentence in article:	49
+Summary length:	11
+
+18	1
+17	1
+17	1
+16	1
+16	3
+13	5
+12	1
+12	1
+12	8
+10	3
+10	1
+
+
+
+id:	8
+Relevant sentences set size :	10
+(Filtered by average score):	4
+Number of sentence in article:	14
+Summary length:	3
+
+24	1
+23	1
+11	1
+
+
+
+id:	9
+Relevant sentences set size :	42
+(Filtered by average score):	18
+Number of sentence in article:	54
+Summary length:	11
+
+29	1
+23	1
+19	1
+19	1
+19	1
+18	2
+18	3
+15	1
+13	2
+12	1
+11	1
+
+
+
+id:	10
+Relevant sentences set size :	41
+(Filtered by average score):	17
+Number of sentence in article:	56
+Summary length:	12
+
+26	1
+26	3
+25	3
+21	1
+21	1
+18	1
+18	2
+17	1
+16	3
+13	4
+12	2
+12	5
+
+

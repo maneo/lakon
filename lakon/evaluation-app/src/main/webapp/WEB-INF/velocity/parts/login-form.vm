@@ -1,0 +1,27 @@
+<form action="" method="post" id="login">
+	 <fieldset>
+		<div> 
+		  <label for="login">#springMessage("label.login") :</label>
+		  #springBind("user.login")
+		  <input type="text" id="login" name="login" value="$!{status.value}" class="text" />
+		  <span class="error">${status.errorMessage}</span>
+		</div> 
+		 
+		<div>
+		  <label for="pass">#springMessage("label.password") :</label>
+		  #springBind("user.pass")
+		  <input type="password" id="pass" name="pass" value="$!{status.value}" class="text" />
+		  <span class="error">${status.errorMessage}</span>
+		</div>  
+		
+	   <div>	  
+		  #springBind("user.*")
+		  #if ( $loginForm )
+			<input type="submit" id="submit" name="submit" value="#springMessage("label.login.submit")" class="button" />
+		  #else
+			<input type="submit" id="submit" name="submit" value="#springMessage("label.register")" class="button" />
+		  #end	
+		</div>
+		 
+	 </fieldset>
+</form>

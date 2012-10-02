@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="test.random.summarizer">
+Ciało płk Bożydara Dojczewa w środę wieczorem znalazła rodzina, która zaniepokoiła się, że długo nie wracał do domu. Informacja o jego śmierci przedostała się do mediów jednak dopiero dzień później.
+Dojczew jako szef archiwów wywiadu krajowego był jedną z nielicznych osób, które miały dostęp do największych szpiegowskich tajemnic kraju z przeszłości. Część dokumentów, które ich dotyczą, decyzją władz Bułgarii właśnie jest odtajniana. Archiwa kryją prawdopodobnie ważne materiały dotyczące zamachu na Jana Pawła II, a także m.in. działalności słynnego terrorysty Carlosa.
+Do gabinetu, w którym znaleziono martwego Dojczewa, natychmiast wezwano prokuratora generalnego, a śledztwo wszczęła prokuratura wojskowa. Według nieoficjalnych informacji podawanych przez bułgarskie media pułkownik popełnił samobójstwo z powodów osobistych.
+Część źródeł twierdzi jednak, że wojskowy był zamieszany w ukrywanie części niewygodnych informacji, które zawierają ujawniane akta komunistycznego wywiadu i bezpieki. Władze Bułgarii na razie oficjalnie nie potwierdziły śmierci szefa archiwów wywiadu, który zajmował się tajnymi aktami od 25 lat.
+	</entry>
+	<entry key="test.location.first.3">Ciało płk Bożydara Dojczewa w środę wieczorem znalazła rodzina, która zaniepokoiła się, że długo nie wracał do domu. Informacja o jego śmierci przedostała się do mediów jednak dopiero dzień później. Dojczew jako szef archiwów wywiadu krajowego był jedną z nielicznych osób, które miały dostęp do największych szpiegowskich tajemnic kraju z przeszłości.</entry>
+	<entry key="test.location.text">
+To jest zdanie numer jeden. Chodzi o sprawdzenie układu zdań w akapitach.
+Gdzie w ostatnim akapicie jest tylko jedno zdanie. Chodzi o sprawdzenie układu zdań w akapitach.
+Czy rozkład będzie równomierny?
+	</entry>
+	<entry key="test.location.result.1">To jest zdanie numer jeden.</entry>
+	<entry key="test.location.result.2">To jest zdanie numer jeden. Gdzie w ostatnim akapicie jest tylko jedno zdanie.</entry>
+	<entry key="test.location.result.3">To jest zdanie numer jeden. Gdzie w ostatnim akapicie jest tylko jedno zdanie. Czy rozkład będzie równomierny?</entry>
+<entry key="test.interpretation.thesaurus">ISO-8859-2
+zamek|3
+-|cytadela|forteca|grodzisko|gród|kasztel|twierdza|warownia
+-|zamek|cyngiel (pojęcie podrzędne)|język spustowy (specjalist.) (pojęcie podrzędne)|kurek (pojęcie podrzędne)|spust (pojęcie podrzędne)
+-|zamknięcie|zasuwa|zatrzask
+maszyneria|1
+-|mechanizm|zamek (pojęcie podrzędne)
+60 minut|1
+-|godzina|jednostka czasu (pojęcie nadrzędne)
+abderyta|2
+-|głupek|nielot (pojęcie podrzędne)
+-|abnegat (książk.)
+godzina|1
+-|60 minut|jednostka czasu (pojęcie nadrzędne)
+abnegat|1
+-|abderyta
+</entry>
+<entry key="test.interpretation.text"></entry>
+<entry key="test.lexicalchain">Zamek króla Korybuta był ogromny. Sława tej twierdzy sięgała najdalszych zakątków Europy. Zamek wydawał się sięgać nieba. 
+Forteca widziana z bliska przyprawiała o zawrót głowy. Mury zamku z pewnością oparły by się tureckiej nawałnicy.
+Zamek miał cztery bramy. Wrota broniące fortecy, zamykano na potężną zasuwę. Dodatkowe zdanie jest zupełnie bez sensu.
+</entry>
+<entry key="test.lexicalchain.result.1">Zamek króla Korybuta był ogromny.</entry>
+<entry key="test.lexicalchain.result.2">Zamek wydawał się sięgać nieba.</entry>
+<entry key="test.lexicalchain.result.3">Mury zamku z pewnością oparły by się tureckiej nawałnicy.</entry>
+</properties>	

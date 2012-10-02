@@ -1,0 +1,13 @@
+TODO
+- zmiana metody powoduje jej dwukrotne wywolanie 
+- stworzyc maly indeks referencyjny (tak kolo 10mb, moze na podstawie tekstow z wyborczej) i go dolaczac
+
+
+
+TODO HISTORY
+0.5-----------------------
+
+0.4-----------------------
+- lepsza prezentacja wyników sumaryzacji 
+- edytowalne ustawienia
+- posprzatac menu 

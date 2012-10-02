@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--
+	- Application context definition for "springapp" DispatcherServlet.
+-->
+<beans>
+
+	<!-- Content bean -->
+	<bean id="contentBean"
+		class="org.grejpfrut.evaluation.utils.ContentBean" />
+
+
+	<!-- Tiller -->
+	<bean id="tillerConfig"
+		class="org.grejpfrut.tiller.utils.TillerConfiguration" />
+
+	<bean id="articleFactory"
+		class="org.grejpfrut.tiller.builders.ArticleBuilder">
+		<constructor-arg>
+			<ref bean="tillerConfig" />
+		</constructor-arg>
+	</bean>
+
+	<!--  Controllers  -->
+
+	<bean id="registrationFormController"
+		class="org.grejpfrut.evaluation.controllers.RegistrationFormController">
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="commandName">
+			<value>register</value>
+		</property>
+		<property name="commandClass">
+			<value>
+				org.grejpfrut.evaluation.controllers.cmds.Register
+			</value>
+		</property>
+		<property name="validator">
+			<ref bean="registrationFormValidator" />
+		</property>
+		<property name="formView">
+			<value>register</value>
+		</property>
+		<property name="successView">
+			<value>index.html</value>
+		</property>
+		<property name="activationMailSender">
+			<ref bean="activationMailSender" />
+		</property>
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<bean id="evaluationController"
+		class="org.grejpfrut.evaluation.controllers.EvaluationController">
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="commandName">
+			<value>evaluation</value>
+		</property>
+		<property name="commandClass">
+			<value>
+				org.grejpfrut.evaluation.controllers.cmds.EvaluationCommand
+			</value>
+		</property>
+		<property name="formView">
+			<value>evaluation</value>
+		</property>
+		<property name="successView">
+			<value>submited.html</value>
+		</property>
+		<property name="articleFactory">
+			<ref bean="articleFactory" />
+		</property>
+		<property name="evaluationsManager">
+			<ref bean="evaluationsManager" />
+		</property>
+		<property name="textsManager">
+			<ref bean="textsManager" />
+		</property>
+	</bean>
+
+
+	<bean id="loginController"
+		class="org.grejpfrut.evaluation.controllers.LoginController">
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="commandName">
+			<value>user</value>
+		</property>
+		<property name="validator">
+			<ref bean="loginFormValidator" />
+		</property>
+		<property name="commandClass">
+			<value>org.grejpfrut.evaluation.domain.User</value>
+		</property>
+		<property name="formView">
+			<value>index</value>
+		</property>
+		<property name="successView">
+			<value>index.html</value>
+		</property>
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+		<property name="contentBean">
+			<ref bean="contentBean" />
+		</property>
+	</bean>
+
+	<bean id="addUserController"
+		class="org.grejpfrut.evaluation.controllers.AddUserFormController">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="commandName">
+			<value>user</value>
+		</property>
+		<property name="validator">
+			<ref bean="addUserFormValidator" />
+		</property>
+		<property name="commandClass">
+			<value>org.grejpfrut.evaluation.domain.User</value>
+		</property>
+		<property name="formView">
+			<value>add-user-form</value>
+		</property>
+		<property name="bindOnNewForm">
+			<value>true</value>
+		</property>
+		<property name="successView">
+			<value>users.html</value>
+		</property>
+		<property name="activationMailSender">
+			<ref bean="activationMailSender" />
+		</property>
+	</bean>
+
+	<bean id="addTextController"
+		class="org.grejpfrut.evaluation.controllers.AddTextFormController">
+		<property name="textsManager">
+			<ref bean="textsManager" />
+		</property>
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="commandName">
+			<value>text</value>
+		</property>
+		<property name="validator">
+			<ref bean="addTextFormValidator" />
+		</property>
+		<property name="bindOnNewForm">
+			<value>true</value>
+		</property>
+		<property name="commandClass">
+			<value>org.grejpfrut.evaluation.domain.Text</value>
+		</property>
+		<property name="formView">
+			<value>add-text-form</value>
+		</property>
+		<property name="successView">
+			<value>texts.html</value>
+		</property>
+	</bean>
+
+	<bean id="activateController"
+		class="org.grejpfrut.evaluation.controllers.ActivateController">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<bean id="usersListController"
+		class="org.grejpfrut.evaluation.controllers.UsersListController">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<bean id="textsListController"
+		class="org.grejpfrut.evaluation.controllers.TextsListController">
+		<property name="textsManager">
+			<ref bean="textsManager" />
+		</property>
+	</bean>
+
+	<bean id="evaluationsListController"
+		class="org.grejpfrut.evaluation.controllers.EvaluationsListController">
+		<property name="evaluationsManager">
+			<ref bean="evaluationsManager" />
+		</property>
+		<property name="velocityEngine">
+			<ref bean="velocityEngine" />
+		</property>
+	</bean>
+
+	<bean id="submitEvaluationController"
+		class="org.grejpfrut.evaluation.controllers.SubmitEvaluationController">
+		<property name="evaluationsManager">
+			<ref bean="evaluationsManager" />
+		</property>
+		<property name="textsManager">
+			<ref bean="textsManager" />
+		</property>
+	</bean>
+
+	<bean id="logoutController"
+		class="org.grejpfrut.evaluation.controllers.LogoutController" />
+
+	<bean id="projectInfoController"
+		class="org.grejpfrut.evaluation.controllers.ProjectInfoController">
+		<property name="contentBean">
+			<ref bean="contentBean" />
+		</property>
+	</bean>
+
+	<bean id="errorController"
+		class="org.grejpfrut.evaluation.controllers.ErrorController" />
+
+	<!--  Validators  -->
+
+	<bean id="addTextFormValidator"
+		class="org.grejpfrut.evaluation.validators.AddTextFormValidator" />
+
+	<bean id="addUserFormValidator"
+		class="org.grejpfrut.evaluation.validators.AddUserFormValidator">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<bean id="loginFormValidator"
+		class="org.grejpfrut.evaluation.validators.LoginFormValidator">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<bean id="registrationFormValidator"
+		class="org.grejpfrut.evaluation.validators.RegistrationFormValidator">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+
+	<!--  View layer configuration  -->
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename">
+			<value>messages</value>
+		</property>
+	</bean>
+
+	<bean id="velocityConfig"
+		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+		<property name="resourceLoaderPath">
+			<value>/</value>
+		</property>
+		<property name="velocityProperties">
+			<props>
+				<prop key="output.encoding">
+					${velocity.output.encoding}
+				</prop>
+				<prop key="input.encoding">
+					${velocity.input.encoding}
+				</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/velocity/</value>
+		</property>
+		<property name="suffix">
+			<value>.vm</value>
+		</property>
+		<property name="exposeSpringMacroHelpers">
+			<value>true</value>
+		</property>
+		<property name="contentType">
+			<value>text/html;charset=UTF-8</value>
+		</property>
+	</bean>
+
+	<bean id="urlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/index.html">loginController</prop>
+				<prop key="/registration.html">
+					registrationFormController
+				</prop>
+				<prop key="/activate.html">activateController</prop>
+				<prop key="/project-info.html">
+					projectInfoController
+				</prop>
+				<prop key="/text.html">addTextController</prop>
+				<prop key="/user.html">addUserController</prop>
+				<prop key="/users.html">usersListController</prop>
+				<prop key="/texts.html">textsListController</prop>
+				<prop key="/evaluations.html">
+					evaluationsListController
+				</prop>
+				<prop key="/evaluation.html">evaluationController</prop>
+				<prop key="/submited.html">
+					submitEvaluationController
+				</prop>
+				<prop key="/error.html">errorController</prop>
+				<prop key="/logout.html">logoutController</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!--  Email manager  -->
+
+	<bean id="activationMailSender"
+		class="org.grejpfrut.evaluation.utils.ActivationMailSender">
+		<property name="from">
+			<value>${mail.from}</value>
+		</property>
+		<property name="hostAddress">
+			<value>${page.address}</value>
+		</property>
+		<property name="subject">
+			<value>${mail.subject}</value>
+		</property>
+		<property name="mailSender" ref="mailSender" />
+		<property name="velocityEngine" ref="velocityEngine" />
+	</bean>
+
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="${mail.host}" />
+		<property name="username" value="${mail.username}" />
+		<property name="password" value="${mail.password}" />
+		<property name="port" value="${mail.port}" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">${mail.smtp.auth}</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="velocityEngine"
+		class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+		<property name="configLocation">
+			<value>WEB-INF/classes/velocity.properties</value>
+		</property>
+	</bean>
+
+	<!--  Configuration properties  -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<value>WEB-INF/classes/conf.properties</value>
+		</property>
+	</bean>
+
+	<!-- Hibernate -->
+
+	<bean id="usersManager"
+		class="org.grejpfrut.evaluation.dao.UsersManagerImpl">
+		<property name="hibernateTemplate">
+			<ref bean="hibernateTemplate" />
+		</property>
+	</bean>
+
+	<bean id="textsManager"
+		class="org.grejpfrut.evaluation.dao.TextsManagerImpl">
+		<property name="hibernateTemplate">
+			<ref bean="hibernateTemplate" />
+		</property>
+	</bean>
+
+	<bean id="evaluationsManager"
+		class="org.grejpfrut.evaluation.dao.EvaluationsManagerImpl">
+		<property name="hibernateTemplate">
+			<ref bean="hibernateTemplate" />
+		</property>
+		<property name="textsManager">
+			<ref bean="textsManager" />
+		</property>
+	</bean>
+
+	<bean id="hibernateTemplate"
+		class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<!-- DataSource Property -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">
+			<value>${db.driverClassName}</value>
+		</property>
+		<property name="url">
+			<value>${db.url}</value>
+		</property>
+		<property name="username">
+			<value>${db.username}</value>
+		</property>
+		<property name="password">
+			<value>${db.password}</value>
+		</property>
+	</bean>
+
+	<!-- Database Property -->
+	<bean id="hibernateProperties"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="properties">
+			<props>
+				<prop key="hibernate.hbm2ddl.auto">
+					${hibernate.hbm2ddl.auto}
+				</prop>
+				<prop key="hibernate.dialect">
+					${hibernate.dialect}
+				</prop>
+				<prop key="cache.provider_class">
+					${cache.provider_class}
+				</prop>
+				<prop key="hibernate.show_sql">
+					${hibernate.show_sql}
+				</prop>
+				<prop key="hibernate.cglib.use_reflection_optimizer">
+					${hibernate.cglib.use_reflection_optimizer}
+				</prop>
+				<prop key="hibernate.connection.pool_size">
+					${hibernate.connection.pool_size}
+				</prop>
+				<prop key="hibernate.connection.shutdown">
+					${hibernate.connection.shutdown}
+				</prop>
+				<prop key="hibernate.jdbc.batch_size">
+					${hibernate.jdbc.batch_size}
+				</prop>
+			</props>
+		</property>
+	</bean>
+
+
+
+	<!-- Hibernate SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<ref bean="hibernateProperties" />
+		</property>
+		<!--  OR mapping files. -->
+		<property name="mappingDirectoryLocations">
+			<list>
+				<value>${hibernate.mappingDirectoryLocations}</value>
+			</list>
+		</property>
+	</bean>
+
+	<!--  periodic tasks 
+	<bean id="usersCleaningTask"
+		class="org.grejpfrut.evaluation.utils.UserCleaningTask">
+		<property name="usersManager">
+			<ref bean="usersManager" />
+		</property>
+	</bean>
+	
+	<bean id="evaluationMailSenderTask"
+		class="org.grejpfrut.evaluation.utils.EvaluationMailSenderTask">
+		<property name="mailAccount">
+			<value>${mail.from}</value>
+		</property>
+		<property name="mailSender" ref="mailSender" />
+		<property name="velocityEngine" ref="velocityEngine" />
+		<property name="evaluationsManager">
+			<ref bean="evaluationsManager" />
+		</property>
+	</bean>
+
+	<bean id="scheduledEvaluationBackup"
+		class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="timerTask">
+			<ref bean="evaluationMailSenderTask" />
+		</property>
+		<property name="period">
+			<value>86400000</value>
+		</property>
+	</bean>
+
+
+	<bean id="scheduledCleaingTask"
+		class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="timerTask">
+			<ref bean="usersCleaningTask" />
+		</property>
+		<property name="period">
+			<value>86400000</value>
+		</property>
+	</bean>
+
+	<bean
+		class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<ref bean="scheduledCleaingTask" />
+				<ref bean="scheduledEvaluationBackup" />
+			</list>
+		</property>
+	</bean>
+
+	-->
+  <!-- Exception resolver -->
+
+	<bean id="exceptionResolver"
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+
+		<property name="exceptionMappings">
+			<props>
+				<prop key="org.springframework.mail.MailSendException">error</prop>
+				<prop key="org.springframework.jdbc.UncategorizedSQLException">erorr</prop>
+				<prop key="org.springframework.dao.DataIntegrityViolationException">error</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>

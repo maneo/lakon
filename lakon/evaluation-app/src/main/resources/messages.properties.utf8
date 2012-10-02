@@ -1,0 +1,128 @@
+index.page.title 		    = Automatyczne generowanie streszczeń : praca magisterska : Adam Dudczak
+index.page.meta.author		= Adam Dudczak
+index.page.meta.keywords    = Automatic text summarization, evaluation, master thesis
+index.page.meta.description = Automatic text summarization for Polish language evaluation project.
+index.introduction.title    = Lakon
+index.introduction.subtitle = Automatyczne generowanie streszczeń  
+index.introduction.text     = Strona na której się obecnie znajdujesz to część mojego pracy magisterskiej. Zajmuję się automatycznym tworzeniem streszczeń tekstów napisanych w języku polskim, aby ocenić jakość streszczeń tworzonych przez mój program chciałbym prosić Cię o pomoc. Chciałbym abyś poświęcił mi 20 min. Twojego cennego czasu. Zadanie jest bardzo proste.
+index.registration.link		= rejestracji...
+index.registration			= Jeżeli nie masz konta, przejdź do 
+index.logout.text			= Witaj 
+index.logout.text.postifx	= !
+
+menu.item.login 			= Strona główna
+menu.item.logout			= Wyloguj
+menu.item.admin			 	= Administracja
+menu.item.about 			= Informacje o projekcie
+menu.item.evaluation		= Ocena jakości
+
+submenu.title				= Panel 
+submenu.title.post			= administracyjny
+submenu.item.evals			= Lista ewaluacji
+submenu.item.users			= Lista użytkowników
+submenu.item.articles		= Lista artykułów
+submenu.item.add.user		= Dodaj użytkownika
+submenu.item.add.article 	= Dodaj artykuł
+submenu.item.evals.xml		= Eksport ewaluacji (xml)
+
+label.login					= Email
+label.password				= Hasło
+label.login.submit			= Zaloguj
+label.add					= Dodaj
+label.cancel				= Zrezygnuj
+label.user.type 			= Typ użytkownika
+label.user.id				= Identyfikator uzytkownika
+label.art.title				= Tytuł
+label.art.text				= Tekst
+label.id					= Id
+label.user.admin			= Administrator
+label.user.normal			= Normalny
+label.user.inactive			= Nieaktywny
+label.actions				= Akcje
+label.modify				= Zmień
+label.delete				= Usuń
+label.submit.login			= Zaloguj
+label.register				= Stwórz konto
+label.login.title			= Logowanie
+label.logout				= Wyloguj...
+label.repassword			= Powtórz hasło
+label.art.extractLength		= Długość ekstraktu
+label.user.type				= Typ użytkownika
+
+
+project.info.title 			= Informacje o projekcie
+project.info.text 			= Praca dotyczy czegoś tam, pewnie kilku innych rzeczy też. 
+
+register.title				= Rejestracja nowego użytkownika
+register.text				= Po wypełnieniu formularza na podany adres zostanie wysłany email, proszę kliknąć w zawarty w nim link.
+
+activation.title			= Aktywacja konta
+activation.success			= Aktywacja konta zakończona powodzeniem. Przejdź do  strony 
+activation.success.link		= logowania
+activation.failed 			= Aktywacja konta nie powiodła się.
+
+pass.incorrect				= Złe hasło lub login
+login.required				= Email jest wymagany
+login.incorrect.format		= Niepoprawny email!
+pass.required				= Wprowadź hasło
+login.user.exists			= Użytkownik o podanym adresie email już istnieje w systemie
+field.required				= Pole jest wymagane
+text.to.long				= Wprowadzony tekst jest za długi
+length.below.zero			= Długość musi być większa od zera
+repass.incorrect			= Inne hasło
+privs.warning				= Nie dysponujesz odpowiednimi uprawnieniami aby wejść na tą stronę.
+repass.required				= Konieczne jest ponowne wprowadzenie hasła
+login.inactive.account		= Aktywuj konto!
+
+add.user.form.title			= Dodawanie/modyfikacja użytkownika
+add.user.form.text 			= Stworzenie użytkownika niekaktywnego spowoduje wysłanie na podany adres email wiadomości aktywacyjnej.
+
+eval.list.title				= Lista przeprowadzonych ewaluacji
+eval.list.text 				= 		
+
+article.list.title			= Lista artykułów
+article.list.text 			= 
+
+users.list.title			= Lista użytkowników
+users.list.text 			=
+
+add.article.form.title		= Dodawanie artykułu
+add.article.form.text 		= 
+
+error.title					= Błąd
+error.text					= Wystąpił nieoczekiwany błąd proszę powrócić do strony głównej. Jeżeli sytuacja się powtórzy proszę o kontakt z 
+error.admin.link		 	= lakon_eval@tlen.pl
+error.admin.link.text		= administratorem 
+error.404					= Strona nie została znaleziona
+label.error.url				= URL
+label.error.code			= Kod błędu
+label.error.exception		= Wyjątek
+label.error.show.details	= Pokaż szczegóły
+
+eval.title					= Tworzenie streszczenia
+eval.text					= 
+eval.menu.title				= Tworzenie
+eval.menu.title.postfix		= streszczenia		
+eval.menu.edit				= Edycja streszczenia
+eval.menu.preview			= Podgląd
+eval.no.article				= W systemie nie został zdefioniowany żaden artykuł
+eval.not.enough.sentences	= Wybierz brakujące zdania 
+eval.choose.something		= Podgląd jest pusty - wybierz zdania!
+
+eval.max.sentences.warning  = Nie możesz wybrać więcej zdań niż
+eval.sentences.left 		= Wybrane zdania
+eval.submit					= Zatwierdź streszczenie
+
+submit.eval.title			= Co dalej?
+submit.eval.text			= Jeżeli czujesz się na siłach 
+submit.eval.link			= przejdź do kolejnego tekstu.
+submit.eval.nomore			= To już wszystkie teksty które przygotowałem, jeszcze raz bardzo dziękuję.
+
+project.info.links.title			=materiały
+project.info.links.title.postfix	=dodatkowe
+project.info.jak.zaoszczedzic		="Jak zaoszczędzić na czytaniu?"
+project.info.lc						="Using Lexical Chains for Text Summarization"
+project.info.polsum					= Artykuł o systemie Polsum2
+project.info.howto					="How to write summaries"
+project.info.luhn					="The Automatic Creation Literature Abstracts"
+project.info.kupiec					="A Trainable Document Summarizer"

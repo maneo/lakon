@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>#springMessage("index.page.title")</title>
+	
+	<meta name="author" content="#springMessage("index.page.meta.author")" />
+	<meta name="keywords" content="#springMessage("index.page.meta.keywords")" />
+	<meta name="description" content="#springMessage("index.page.meta.description")" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+
+<div id="header">
+	
+		<div id="header_inner" class="fixed">
+
+		<div id="logo">
+			<h1><span>#springMessage("index.introduction.title")</span></h1>
+			<h2>#springMessage("index.introduction.subtitle")</h2>
+		</div>
+		
+        #parse("/WEB-INF/velocity/parts/menu.vm")
+		
+	</div>
+</div>
+
+<div id="main">
+
+	<div id="main_inner" class="fixed">
+
+		
+

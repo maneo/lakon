@@ -1,0 +1,970 @@
+fraction of keywords :0.05
+artId :Dziecko i potwór lenght:12
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:20
+artId :Zapomniany ojciec kina lenght:43
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:14
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:23
+artId :Dobre regulacje, mało spółek lenght:21
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:12
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:53
+artId :Albo młodość, albo rak lenght:37
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:32
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,4 	
+5	0,4 	0,3 	
+6	0,43 	0,43 	
+7	0,55 	0 	
+8	0,67 	0,67 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,17 	0,33 	
+2	0,33 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,4 	
+5	0,36 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,75 	0,75 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,2 	0,4 	
+2	0,5 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,4 	
+5	0,5 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	1 	1 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+fraction of keywords :0.1
+artId :Dziecko i potwór lenght:25
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:40
+artId :Zapomniany ojciec kina lenght:86
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:28
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:47
+artId :Dobre regulacje, mało spółek lenght:42
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:24
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:106
+artId :Albo młodość, albo rak lenght:73
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:63
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,4 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0,45 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,5 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,33 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,4 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,37 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,41 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,4 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,4 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,64 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,58 	0,33 	
+
+fraction of keywords :0.15000000000000002
+artId :Dziecko i potwór lenght:37
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:60
+artId :Zapomniany ojciec kina lenght:129
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:41
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:70
+artId :Dobre regulacje, mało spółek lenght:63
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:35
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:159
+artId :Albo młodość, albo rak lenght:110
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:95
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.2
+artId :Dziecko i potwór lenght:49
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:79
+artId :Zapomniany ojciec kina lenght:172
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:55
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:93
+artId :Dobre regulacje, mało spółek lenght:84
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:47
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:212
+artId :Albo młodość, albo rak lenght:146
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:126
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.25
+artId :Dziecko i potwór lenght:62
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:99
+artId :Zapomniany ojciec kina lenght:215
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:69
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:117
+artId :Dobre regulacje, mało spółek lenght:105
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:59
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:265
+artId :Albo młodość, albo rak lenght:183
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:158
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.3
+artId :Dziecko i potwór lenght:74
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:119
+artId :Zapomniany ojciec kina lenght:258
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:83
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:140
+artId :Dobre regulacje, mało spółek lenght:126
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:71
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:318
+artId :Albo młodość, albo rak lenght:220
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:190
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.35
+artId :Dziecko i potwór lenght:86
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:139
+artId :Zapomniany ojciec kina lenght:301
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:97
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:163
+artId :Dobre regulacje, mało spółek lenght:147
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:83
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:371
+artId :Albo młodość, albo rak lenght:256
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:221
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.39999999999999997
+artId :Dziecko i potwór lenght:98
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:159
+artId :Zapomniany ojciec kina lenght:344
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:110
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:187
+artId :Dobre regulacje, mało spółek lenght:168
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:94
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:424
+artId :Albo młodość, albo rak lenght:293
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:253
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.44999999999999996
+artId :Dziecko i potwór lenght:111
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:179
+artId :Zapomniany ojciec kina lenght:387
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:124
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:210
+artId :Dobre regulacje, mało spółek lenght:189
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:106
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:477
+artId :Albo młodość, albo rak lenght:329
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:284
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.49999999999999994
+artId :Dziecko i potwór lenght:123
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:198
+artId :Zapomniany ojciec kina lenght:429
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:138
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:233
+artId :Dobre regulacje, mało spółek lenght:209
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:118
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:530
+artId :Albo młodość, albo rak lenght:366
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:316
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.5499999999999999
+artId :Dziecko i potwór lenght:135
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:218
+artId :Zapomniany ojciec kina lenght:472
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:152
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:257
+artId :Dobre regulacje, mało spółek lenght:230
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:130
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:584
+artId :Albo młodość, albo rak lenght:403
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:348
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.6
+artId :Dziecko i potwór lenght:148
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:238
+artId :Zapomniany ojciec kina lenght:515
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:166
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:280
+artId :Dobre regulacje, mało spółek lenght:251
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:142
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:637
+artId :Albo młodość, albo rak lenght:439
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:379
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.65
+artId :Dziecko i potwór lenght:160
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:258
+artId :Zapomniany ojciec kina lenght:558
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:179
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:304
+artId :Dobre regulacje, mało spółek lenght:272
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:153
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:690
+artId :Albo młodość, albo rak lenght:476
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:411
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.7000000000000001
+artId :Dziecko i potwór lenght:172
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:278
+artId :Zapomniany ojciec kina lenght:601
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:193
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:327
+artId :Dobre regulacje, mało spółek lenght:293
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:165
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:743
+artId :Albo młodość, albo rak lenght:512
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:442
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.7500000000000001
+artId :Dziecko i potwór lenght:185
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:298
+artId :Zapomniany ojciec kina lenght:644
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:207
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:350
+artId :Dobre regulacje, mało spółek lenght:314
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:177
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:796
+artId :Albo młodość, albo rak lenght:549
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:474
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.8000000000000002
+artId :Dziecko i potwór lenght:197
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:318
+artId :Zapomniany ojciec kina lenght:687
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:221
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:374
+artId :Dobre regulacje, mało spółek lenght:335
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:189
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:849
+artId :Albo młodość, albo rak lenght:586
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:506
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.8500000000000002
+artId :Dziecko i potwór lenght:209
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:337
+artId :Zapomniany ojciec kina lenght:730
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:235
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:397
+artId :Dobre regulacje, mało spółek lenght:356
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:201
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:902
+artId :Albo młodość, albo rak lenght:622
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:537
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.9000000000000002
+artId :Dziecko i potwór lenght:221
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:357
+artId :Zapomniany ojciec kina lenght:773
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:248
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:420
+artId :Dobre regulacje, mało spółek lenght:377
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:212
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:955
+artId :Albo młodość, albo rak lenght:659
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:569
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+fraction of keywords :0.9500000000000003
+artId :Dziecko i potwór lenght:234
+artId :Rząd Ukrainy bez "pomarańczowych" lenght:377
+artId :Zapomniany ojciec kina lenght:816
+artId :Włoska telewizja wykryła narkotyki u deputowanych lenght:262
+artId :Były dyktator Urugwaju Juan Maria Bordaberry poszedł za kraty lenght:444
+artId :Dobre regulacje, mało spółek lenght:398
+artId :Zjazd "S" rolników indywidualnych w Zgierzu lenght:224
+artId :Internauci budują samochód zgodnie z filozofią open-source lenght:1008
+artId :Albo młodość, albo rak lenght:695
+artId :Ségolene Royal kandydatem socjalistów w wyborach prezydenckich lenght:600
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+
+mesaure :COVERAGE
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,5 	0,5 	
+4	0,6 	0,6 	
+5	0,3 	0,3 	
+6	0,43 	0,43 	
+7	0 	0 	
+8	0,33 	0,33 	
+9	0,45 	0,45 	
+10	0,33 	0,33 	
+mesaure :RECALL
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,5 	0,5 	
+2	0,17 	0,17 	
+3	0,43 	0,43 	
+4	0,6 	0,6 	
+5	0,29 	0,29 	
+6	0,44 	0,44 	
+7	0,32 	0,32 	
+8	0,5 	0,5 	
+9	0,39 	0,39 	
+10	0,24 	0,24 	
+mesaure :PRECISION
+id	WeightsBasedSummarizer-TFIDF	WeightsBasedSummarizer-BM_25	
+1	0,6 	0,6 	
+2	0,25 	0,25 	
+3	0,75 	0,75 	
+4	0,6 	0,6 	
+5	0,4 	0,4 	
+6	0,57 	0,57 	
+7	0,55 	0,55 	
+8	0,67 	0,67 	
+9	0,64 	0,64 	
+10	0,33 	0,33 	
+
+

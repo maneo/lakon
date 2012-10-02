@@ -1,0 +1,411 @@
+  <page>
+    <title>ASCII</title>
+    <id>6</id>
+    <revision>
+      <id>2493043</id>
+      <timestamp>2006-02-06T02:58:57Z</timestamp>
+      <contributor>
+        <username>Marcin f</username>
+        <id>26396</id>
+      </contributor>
+      <minor />
+      <comment>+ISO/IEC 646</comment>
+      <text xml:space="preserve">'''ASCII''' (skrĂłt od ang. ''American Standard Code for Information Interchange'') to [[kod]] przyporzÄ…dkowujÄ…cy liczby z zakresu 0-127 literom (alfabetu angielskiego), cyfrom, znakom przestankowym i innym symbolom, oraz poleceniom sterujÄ…cym. PrzykĹ‚adowo litera &quot;a&quot; jest zakodowana liczbÄ… 97, a polecenie &quot;powrĂłt karetki&quot; - liczbÄ… 13.
+
+Pierwsze 32 kody (0-31) oraz ostatni kod (127) to tzw. [[znak sterujÄ…cy|znaki sterujÄ…ce]], ktĂłre oryginalnie nie sĹ‚uĹĽyĹ‚y do przenoszenia informacji, tylko do sterowania urzÄ…dzeniem (np. [[drukarka|drukarkÄ…]]).
+
+PoniewaĹĽ kod ASCII jest 7-[[bit]]owy, a wiÄ™kszoĹ›Ä‡ komputerĂłw operuje na 8-bitowych [[bajt_(informatyka)|bajtach]], powstaĹ‚o wiele rĂłĹĽnych rozszerzeĹ„ ASCII zagospodarowujÄ…cych Ăłsmy bit (np. norma [[ISO 8859]]).
+
+&lt;table border=1&gt;
+&lt;tr align=center&gt;
+&lt;th&gt;Dec&lt;th&gt;Hex&lt;th&gt;Znak
+&lt;th&gt;Dec&lt;th&gt;Hex&lt;th&gt;Znak
+&lt;th&gt;Dec&lt;th&gt;Hex&lt;th&gt;Znak
+&lt;th&gt;Dec&lt;th&gt;Hex&lt;th&gt;Znak
+&lt;tr align=center&gt;
+&lt;td&gt;0&lt;td&gt;00&lt;td&gt;Null
+&lt;td&gt;1&lt;td&gt;01&lt;td&gt;Start Of Heading
+&lt;td&gt;2&lt;td&gt;02&lt;td&gt;Start of Text
+&lt;td&gt;3&lt;td&gt;03&lt;td&gt;End of Text
+&lt;tr align=center&gt;
+&lt;td&gt;4&lt;td&gt;04&lt;td&gt;End Of Transmission
+&lt;td&gt;5&lt;td&gt;05&lt;td&gt;Enquiry
+&lt;td&gt;6&lt;td&gt;06&lt;td&gt;Acknowledge
+&lt;td&gt;7&lt;td&gt;07&lt;td&gt;Bell
+&lt;tr align=center&gt;
+&lt;td&gt;8&lt;td&gt;08&lt;td&gt;Backspace
+&lt;td&gt;9&lt;td&gt;09&lt;td&gt;Horizontal Tab
+&lt;td&gt;10&lt;td&gt;0a&lt;td&gt;Line Feed
+&lt;td&gt;11&lt;td&gt;0b&lt;td&gt;Vertical Tab
+&lt;tr align=center&gt;
+&lt;td&gt;12&lt;td&gt;0c&lt;td&gt;Form Feed
+&lt;td&gt;13&lt;td&gt;0d&lt;td&gt;Carriage Return
+&lt;td&gt;14&lt;td&gt;0e&lt;td&gt;Shift Out
+&lt;td&gt;15&lt;td&gt;0f&lt;td&gt;Shift In
+&lt;tr align=center&gt;
+&lt;td&gt;16&lt;td&gt;10&lt;td&gt;Data Link Escape
+&lt;td&gt;17&lt;td&gt;11&lt;td&gt;Device Control 1 (XON)
+&lt;td&gt;18&lt;td&gt;12&lt;td&gt;Device Control 2
+&lt;td&gt;19&lt;td&gt;13&lt;td&gt;Device Control 3 (XOFF)
+&lt;tr align=center&gt;
+&lt;td&gt;20&lt;td&gt;14&lt;td&gt;Device Control 4
+&lt;td&gt;21&lt;td&gt;15&lt;td&gt;Negative Acknowledge
+&lt;td&gt;22&lt;td&gt;16&lt;td&gt;Synchronous Idle
+&lt;td&gt;23&lt;td&gt;17&lt;td&gt;End of Transmission Block
+&lt;tr align=center&gt;
+&lt;td&gt;24&lt;td&gt;18&lt;td&gt;Cancel
+&lt;td&gt;25&lt;td&gt;19&lt;td&gt;End of Medium
+&lt;td&gt;26&lt;td&gt;1a&lt;td&gt;Substitute
+&lt;td&gt;27&lt;td&gt;1b&lt;td&gt;Escape
+&lt;tr align=center&gt;
+&lt;td&gt;28&lt;td&gt;1c&lt;td&gt;File Separator
+&lt;td&gt;29&lt;td&gt;1d&lt;td&gt;Group Separator
+&lt;td&gt;30&lt;td&gt;1e&lt;td&gt;Record Separator
+&lt;td&gt;31&lt;td&gt;1f&lt;td&gt;Unit Separator
+&lt;tr align=center&gt;
+&lt;td&gt;32&lt;td&gt;20&lt;td&gt;Spacja
+&lt;td&gt;33&lt;td&gt;21&lt;td&gt;!
+&lt;td&gt;34&lt;td&gt;22&lt;td&gt;&quot;
+&lt;td&gt;35&lt;td&gt;23&lt;td&gt;#
+&lt;tr align=center&gt;
+&lt;td&gt;36&lt;td&gt;24&lt;td&gt;$
+&lt;td&gt;37&lt;td&gt;25&lt;td&gt;%
+&lt;td&gt;38&lt;td&gt;26&lt;td&gt;&amp;
+&lt;td&gt;39&lt;td&gt;27&lt;td&gt;'
+&lt;tr align=center&gt;
+&lt;td&gt;40&lt;td&gt;28&lt;td&gt;(
+&lt;td&gt;41&lt;td&gt;29&lt;td&gt;)
+&lt;td&gt;42&lt;td&gt;2a&lt;td&gt;*
+&lt;td&gt;43&lt;td&gt;2b&lt;td&gt;+
+&lt;tr align=center&gt;
+&lt;td&gt;44&lt;td&gt;2c&lt;td&gt;,
+&lt;td&gt;45&lt;td&gt;2d&lt;td&gt;-
+&lt;td&gt;46&lt;td&gt;2e&lt;td&gt;.
+&lt;td&gt;47&lt;td&gt;2f&lt;td&gt;/
+&lt;tr align=center&gt;
+&lt;td&gt;48&lt;td&gt;30&lt;td&gt;0
+&lt;td&gt;49&lt;td&gt;31&lt;td&gt;1
+&lt;td&gt;50&lt;td&gt;32&lt;td&gt;2
+&lt;td&gt;51&lt;td&gt;33&lt;td&gt;3
+&lt;tr align=center&gt;
+&lt;td&gt;52&lt;td&gt;34&lt;td&gt;4
+&lt;td&gt;53&lt;td&gt;35&lt;td&gt;5
+&lt;td&gt;54&lt;td&gt;36&lt;td&gt;6
+&lt;td&gt;55&lt;td&gt;37&lt;td&gt;7
+&lt;tr align=center&gt;
+&lt;td&gt;56&lt;td&gt;38&lt;td&gt;8
+&lt;td&gt;57&lt;td&gt;39&lt;td&gt;9
+&lt;td&gt;58&lt;td&gt;3a&lt;td&gt;:
+&lt;td&gt;59&lt;td&gt;3b&lt;td&gt;;
+&lt;tr align=center&gt;
+&lt;td&gt;60&lt;td&gt;3c&lt;td&gt;&lt;
+&lt;td&gt;61&lt;td&gt;3d&lt;td&gt;=
+&lt;td&gt;62&lt;td&gt;3e&lt;td&gt;&gt;
+&lt;td&gt;63&lt;td&gt;3f&lt;td&gt;?
+&lt;tr align=center&gt;
+&lt;td&gt;64&lt;td&gt;40&lt;td&gt;@
+&lt;td&gt;65&lt;td&gt;41&lt;td&gt;A
+&lt;td&gt;66&lt;td&gt;42&lt;td&gt;B
+&lt;td&gt;67&lt;td&gt;43&lt;td&gt;C
+&lt;tr align=center&gt;
+&lt;td&gt;68&lt;td&gt;44&lt;td&gt;D
+&lt;td&gt;69&lt;td&gt;45&lt;td&gt;E
+&lt;td&gt;70&lt;td&gt;46&lt;td&gt;F
+&lt;td&gt;71&lt;td&gt;47&lt;td&gt;G
+&lt;tr align=center&gt;
+&lt;td&gt;72&lt;td&gt;48&lt;td&gt;H
+&lt;td&gt;73&lt;td&gt;49&lt;td&gt;I
+&lt;td&gt;74&lt;td&gt;4a&lt;td&gt;J
+&lt;td&gt;75&lt;td&gt;4b&lt;td&gt;K
+&lt;tr align=center&gt;
+&lt;td&gt;76&lt;td&gt;4c&lt;td&gt;L
+&lt;td&gt;77&lt;td&gt;4d&lt;td&gt;M
+&lt;td&gt;78&lt;td&gt;4e&lt;td&gt;N
+&lt;td&gt;79&lt;td&gt;4f&lt;td&gt;O
+&lt;tr align=center&gt;
+&lt;td&gt;80&lt;td&gt;50&lt;td&gt;P
+&lt;td&gt;81&lt;td&gt;51&lt;td&gt;Q
+&lt;td&gt;82&lt;td&gt;52&lt;td&gt;R
+&lt;td&gt;83&lt;td&gt;53&lt;td&gt;S
+&lt;tr align=center&gt;
+&lt;td&gt;84&lt;td&gt;54&lt;td&gt;T
+&lt;td&gt;85&lt;td&gt;55&lt;td&gt;U
+&lt;td&gt;86&lt;td&gt;56&lt;td&gt;V
+&lt;td&gt;87&lt;td&gt;57&lt;td&gt;W
+&lt;tr align=center&gt;
+&lt;td&gt;88&lt;td&gt;58&lt;td&gt;X
+&lt;td&gt;89&lt;td&gt;59&lt;td&gt;Y
+&lt;td&gt;90&lt;td&gt;5a&lt;td&gt;Z
+&lt;td&gt;91&lt;td&gt;5b&lt;td&gt;[
+&lt;tr align=center&gt;
+&lt;td&gt;92&lt;td&gt;5c&lt;td&gt;\
+&lt;td&gt;93&lt;td&gt;5d&lt;td&gt;]
+&lt;td&gt;94&lt;td&gt;5e&lt;td&gt;^
+&lt;td&gt;95&lt;td&gt;5f&lt;td&gt;_
+&lt;tr align=center&gt;
+&lt;td&gt;96&lt;td&gt;60&lt;td&gt;`
+&lt;td&gt;97&lt;td&gt;61&lt;td&gt;a
+&lt;td&gt;98&lt;td&gt;62&lt;td&gt;b
+&lt;td&gt;99&lt;td&gt;63&lt;td&gt;c
+&lt;tr align=center&gt;
+&lt;td&gt;100&lt;td&gt;64&lt;td&gt;d
+&lt;td&gt;101&lt;td&gt;65&lt;td&gt;e
+&lt;td&gt;102&lt;td&gt;66&lt;td&gt;f
+&lt;td&gt;103&lt;td&gt;67&lt;td&gt;g
+&lt;tr align=center&gt;
+&lt;td&gt;104&lt;td&gt;68&lt;td&gt;h
+&lt;td&gt;105&lt;td&gt;69&lt;td&gt;i
+&lt;td&gt;106&lt;td&gt;6a&lt;td&gt;j
+&lt;td&gt;107&lt;td&gt;6b&lt;td&gt;k
+&lt;tr align=center&gt;
+&lt;td&gt;108&lt;td&gt;6c&lt;td&gt;l
+&lt;td&gt;109&lt;td&gt;6d&lt;td&gt;m
+&lt;td&gt;110&lt;td&gt;6e&lt;td&gt;n
+&lt;td&gt;111&lt;td&gt;6f&lt;td&gt;o
+&lt;tr align=center&gt;
+&lt;td&gt;112&lt;td&gt;70&lt;td&gt;p
+&lt;td&gt;113&lt;td&gt;71&lt;td&gt;q
+&lt;td&gt;114&lt;td&gt;72&lt;td&gt;r
+&lt;td&gt;115&lt;td&gt;73&lt;td&gt;s
+&lt;tr align=center&gt;
+&lt;td&gt;116&lt;td&gt;74&lt;td&gt;t
+&lt;td&gt;117&lt;td&gt;75&lt;td&gt;u
+&lt;td&gt;118&lt;td&gt;76&lt;td&gt;v
+&lt;td&gt;119&lt;td&gt;77&lt;td&gt;w
+&lt;tr align=center&gt;
+&lt;td&gt;120&lt;td&gt;78&lt;td&gt;x
+&lt;td&gt;121&lt;td&gt;79&lt;td&gt;y
+&lt;td&gt;122&lt;td&gt;7a&lt;td&gt;z
+&lt;td&gt;123&lt;td&gt;7b&lt;td&gt;{
+&lt;tr align=center&gt;
+&lt;td&gt;124&lt;td&gt;7c&lt;td&gt;|
+&lt;td&gt;125&lt;td&gt;7d&lt;td&gt;}
+&lt;td&gt;126&lt;td&gt;7e&lt;td&gt;~
+&lt;td&gt;127&lt;td&gt;7f&lt;td&gt;Delete
+&lt;/table&gt;
+
+Zobacz teĹĽ: [[ISO/IEC 646]], [[ISO 8859]], [[Unicode]], [[Kod EBCDIC|EBCDIC]]
+
+[[Kategoria:Formaty]]
+[[kategoria:Kodowania znakĂłw]]
+[[Kategoria:Normalizacja]]
+
+{{Link FA|en}}
+
+[[als:ASCII]]
+[[ar:ASCII]]
+[[ast:ASCII]]
+[[bg:ASCII]]
+[[zh-min-nan:ASCII]]
+[[ca:ASCII]]
+[[cs:ASCII]]
+[[da:ASCII]]
+[[de:ASCII]]
+[[el:ASCII]]
+[[en:ASCII]]
+[[es:ASCII]]
+[[eo:Askio]]
+[[fr:American Standard Code for Information Interchange]]
+[[gl:ASCII]]
+[[ko:ASCII]]
+[[id:ASCII]]
+[[ia:ASCII]]
+[[it:ASCII]]
+[[he:ASCII]]
+[[ku:ASCII]]
+[[lv:ASCII]]
+[[hu:ASCII]]
+[[ms:ASCII]]
+[[nl:ASCII (tekenset)]]
+[[ja:American Standard Code for Information Interchange]]
+[[no:ASCII]]
+[[nn:ASCII]]
+[[pt:ASCII]]
+[[ro:ASCII]]
+[[ru:ASCII]]
+[[sq:ASCII]]
+[[sk:ASCII]]
+[[sl:ASCII]]
+[[sr:ASCII]]
+[[fi:ASCII]]
+[[sv:ASCII]]
+[[vi:ASCII]]
+[[tr:ASCII]]
+[[uk:ASCII]]
+[[zh:ASCII]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Astronomia</title>
+    <id>1</id>
+    <revision>
+      <id>2639265</id>
+      <timestamp>2006-02-26T00:24:46Z</timestamp>
+      <contributor>
+        <username>Bansp</username>
+        <id>23260</id>
+      </contributor>
+      <comment>Przywrócenie wersji 2577418 przy pomocy [[:pl:Wikipedia:Tools/Navigation popups|Popups]] (- link do nowopowstałego portalu z niewielką zawartością)</comment>
+      <text xml:space="preserve">{{Portal}}
+'''Astronomia''' – nauka o [[ciało niebieskie|ciałach niebieskich]], ich budowie, ruchach, pochodzeniu i ewolucji oraz o materii rozproszonej w przestrzeni kosmicznej (zwanej też [[kosmos]]em). Astronomia, a ściślej jej dział zwany [[kosmologia|kosmologią]], zajmuje się także [[wszechświat|Wszechświatem]] jako całością. Nazwa astronomia pochodzi z greki: ''astron'' (gwiazda) + ''nomos'' (prawo).
+
+Astronomię można inaczej określić jako naukę o wszelkich obiektach i zjawiskach znajdujących się poza [[Ziemia|Ziemią]].
+
+Dzisiejsza astronomia jest ściśle związana z '''[[astrofizyka|astrofizyką]]''', która jest zastosowaniem praw [[fizyka|fizyki]] do interpretacji wyników obserwacji astronomicznych. Związek ten jest tak głęboki, że dziś obie dziedziny są właściwie jednością. Mógł on powstać dzięki odkryciu, że ciała niebieskie składają się z takiej samej [[materia|materii]], jak wszystkie inne otaczające nas obiekty.
+
+Obiekty, którymi zajmuje się astronomia, to ogół ciał niebieskich: [[planeta|planety]], [[księżyc]]e, [[planetoida|planetoidy]], [[gwiazda|gwiazdy]], [[Gwiazdozbiór|gwiazdozbiory]], [[Asocjacje gwiazdowe|asocjacje gwiazd]], [[gromady gwiazd]], [[galaktyka|galaktyki]], [[mgławica|mgławice]], [[gromada galaktyk|gromady galaktyk]], [[materia międzygwiazdowa]], [[gaz międzygalaktyczny]], [[materia egzotyczna]], [[antymateria]], [[materia ciemna]], [[kwazar]]y, [[czarna dziura|czarne dziury]] i wiele innych. Astronomia zajmuje się badaniem procesów dotyczących tych ciał.
+
+[[Muza|Muzą]] astronomii jest [[Urania]].
+
+===Działy astronomii===
+*[[Układ Słoneczny]]
+**[[planeta|planety]]
+*[[układ planetarny|układy planetarne]]
+**[[lista gwiazd posiadających planety]]
+*[[mechanika nieba]]
+**[[prawa Keplera]]
+*[[astronomia obserwacyjna]]
+**[[Gwiazdozbiór|gwiazdozbiory]]
+**[[gwiazda zmienna|gwiazdy zmienne]]
+*[[fizyka gwiazd]]
+**[[powstawanie gwiazd]]
+**[[ewolucja gwiazd]]
+*[[ośrodek międzygwiazdowy]]
+**[[materia międzygwiazdowa]]
+*[[fizyka galaktyk]]
+**[[powstawanie galaktyk]]
+*[[astrochemia]]
+*[[kosmologia obserwacyjna]]
+
+===Metody obserwacyjne===
+*[[astrometria]]
+*[[radioastronomia]]
+*[[astronomia optyczna]]
+*[[astronomia promieniowania X]]
+*[[astronomia promieniowania gamma]]
+
+===Znani astronomowie===
+Przełomowych odkryć dokonali:
+*[[Ptolemeusz]]
+*[[Hipparchos z Nikei|Hipparch]]
+*[[Arystarch z Samos]]
+*[[Mikołaj Kopernik]]
+*[[Galileusz]]
+*[[Jan Kepler]]
+*[[Isaac Newton|Izaak Newton]]
+*[[Edwin Hubble]]
+Spis astronomów znajduje się w kategorii [[:kategoria:astronomowie|astronomowie]].
+===Bibliografia===
+*[[Jadwiga Waniakowa]] &quot;Polska naukowa terminologia astronomiczna&quot; [[2003]], Wyd.IJP PAN, [[Kraków]] ISBN 83-87623-67-0
+===Zobacz też===
+*[[Przegląd zagadnień z zakresu astronomii i astronautyki|przegląd zagadnień z zakresu astronomii]]
+*[[Apollo 11|Apollo 11]]
+*[[najjaśniejsze gwiazdy]]
+*[[paradoks Algola]]
+*[[promieniowanie tła]]
+*[[diagram Hertzsprunga-Russella]]
+
+===Linki zewnętrzne===
+*[http://www.astrovision.pl/ AstroVisioN - Polski Portal Astronomiczny]
+*[http://news.astronet.pl/ AstroNET – Polski Portal Astronomiczny]
+*[http://www.astronomia.pl/ Astronomia.pl – Polski Portal Astronomiczny]
+*[http://astronom.pl/ Astronomia Popularna]
+*[http://www.kz.only.pl/ Kosmos.zone - Materiały edukacyjne dla początkuących]
+*[http://ptma.astronomia.pl/ Polskie Towarzystwo Miłośników Astronomii]
+*[http://www.pkim.org/ Pracownia Komet i Meteorów]
+*[http://serwisy.gazeta.pl/nauka/0,34136.html Gazeta.pl – Nauka – Kosmos]
+*[http://astronomia.gery.pl/ Gery.pl – Astronomia i Wszechświat]
+
+[[Kategoria:Astronomia|*]]
+
+[[af:Sterrekunde]]
+[[am:ሥነ ፈለክ]]
+[[ar:فلك]]
+[[an:Astronomía]]
+[[ast:Astronomía]]
+[[bg:Астрономия]]
+[[bn:জ্যোতির্বিদ্যা]]
+[[bs:Astronomija]]
+[[br:Astronomi]]
+[[ca:Astronomia]]
+[[cv:Астрономи]]
+[[co:Astronomia]]
+[[cs:Astronomie]]
+[[cy:Seryddiaeth]]
+[[da:Astronomi]]
+[[de:Astronomie]]
+[[et:Astronoomia]]
+[[el:Αστρονομία]]
+[[en:Astronomy]]
+[[es:Astronomía]]
+[[eo:Astronomio]]
+[[eu:Astronomia]]
+[[fa:ستاره‌شناسی]]
+[[fr:Astronomie]]
+[[fy:Stjerrekunde]]
+[[ga:Réalteolaíocht]]
+[[gl:Astronomía]]
+[[gu:ખગોળશાસ્ત્ર]]
+[[ko:천문학]]
+[[ht:Astwonomi]]
+[[hi:खगोल शास्त्र]]
+[[hr:Astronomija]]
+[[io:Astronomio]]
+[[id:Astronomi dan Astrofisika]]
+[[ia:Astronomia]]
+[[ie:Astronomie]]
+[[iu:ᓯᓚᓯᐅᕐᓂᖅ]]
+[[is:Stjörnufræði]]
+[[it:Astronomia]]
+[[he:אסטרונומיה]]
+[[jv:Astronomi]]
+[[ka:ასტრონომია]]
+[[csb:Astronomijô]]
+[[kw:Astronymyl]]
+[[ku:Astronomî]]
+[[lad:Astronomiya]]
+[[la:Astronomia]]
+[[lv:Astronomija]]
+[[lt:Astronomija]]
+[[lb:Astronomie]]
+[[li:Sjtarrekónde]]
+[[hu:Csillagászat]]
+[[mt:Astronomija]]
+[[ms:Astronomi]]
+[[mo:Астрономие ши астрофизикэ]]
+[[nap:Astronomia]]
+[[nl:Astronomie]]
+[[ne:ज्योतिष]]
+[[nds:Astronomie]]
+[[ja:天文学]]
+[[no:Astronomi]]
+[[nn:Astronomi]]
+[[oc:Astronomia]]
+[[pt:Astronomia]]
+[[pa:ਤਾਰਾ ਵਿਗਿਆਨ]]
+[[ro:Astronomie]]
+[[rm:Astronomia]]
+[[ru:Астрономия]]
+[[sco:Astronomie]]
+[[sq:Astronomia]]
+[[scn:Astronumìa]]
+[[simple:Astronomy]]
+[[sk:Astronómia]]
+[[sl:Astronomija]]
+[[sr:Астрономија]]
+[[su:Astronomi]]
+[[fi:Tähtitiede]]
+[[sv:Astronomi]]
+[[tl:Astronomiya]]
+[[ta:வானியல்]]
+[[th:ดาราศาสตร์]]
+[[vi:Thiên văn học]]
+[[tr:Gökbilim]]
+[[uk:Астрономія]]
+[[vo:Stelav]]
+[[war:Astronomiya]]
+[[zh:天文学]]
+[[pam:Astronomia]]</text>
+    </revision>
+</page>
+

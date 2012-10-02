@@ -1,0 +1,160 @@
+Number of interpretations for lexical chains - only nouns.
+
+02:10:39 : number of interpretations is 10
+02:12:46 : 
+id	LexicalChainsSummarizer-OFF	
+1	0,8 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,5 	
+6	0,43 	
+7	0,64 	
+8	1 	
+9	0,36 	
+10	0,5 	
+02:12:46 : number of interpretations is 20
+02:15:02 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,64 	
+8	1 	
+9	0,36 	
+10	0,5 	
+02:15:02 : number of interpretations is 30
+02:17:34 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,73 	
+8	1 	
+9	0,36 	
+10	0,5 	
+02:17:34 : number of interpretations is 40
+02:20:19 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,73 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:20:19 : number of interpretations is 50
+02:23:09 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:23:09 : number of interpretations is 60
+02:26:12 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:26:12 : number of interpretations is 70
+02:29:20 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:29:20 : number of interpretations is 80
+02:32:34 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:32:34 : number of interpretations is 90
+02:36:06 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:36:06 : number of interpretations is 100
+02:39:26 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:39:26 : number of interpretations is 110
+02:42:44 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:42:44 : number of interpretations is 120
+02:46:04 : 
+id	LexicalChainsSummarizer-OFF	
+1	1 	
+2	0,75 	
+3	0,75 	
+4	0,8 	
+5	0,6 	
+6	0,43 	
+7	0,82 	
+8	1 	
+9	0,27 	
+10	0,5 	
+02:46:04 : number of interpretations is 130
+
